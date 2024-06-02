@@ -114,7 +114,6 @@ p,
 td {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  font-family: nunito, sans-serif;
 }
 body {
   font-size: 14px;
@@ -2521,7 +2520,6 @@ body {
   line-height: 0.8;
   color: #4d7cfe;
   transition: all 0.2s;
-  font-family: LineAwesome;
 }
 [type="checkbox"]:not(:checked) + .form-check-sign:after {
   opacity: 0;
@@ -2572,7 +2570,6 @@ body {
 [type="radio"]:not(:checked) + .form-radio-sign:before {
   content: "\f18a";
   font-size: 22px;
-  font-family: LineAwesome;
   position: absolute;
   left: 0;
   top: auto;
@@ -2582,7 +2579,6 @@ body {
 [type="radio"]:checked + .form-radio-sign:before {
   content: "\f18a";
   font-size: 22px;
-  font-family: LineAwesome;
   position: absolute;
   left: 0;
   top: auto;
@@ -2601,7 +2597,6 @@ body {
   color: #4d7cfe;
   transition: all 0.2s;
   line-height: 1;
-  font-family: LineAwesome;
 }
 .caret,
 .chart-pie:after,
