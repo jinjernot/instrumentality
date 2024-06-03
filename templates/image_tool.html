@@ -67,13 +67,16 @@
 									<div class="card-title">Product Only Report</div>
 								</div>
 								<div class="card-body">
-									<div class="form-group">
-										<label for="exampleFormControlFile1">Please upload XML file</label>
-										<input type="file" class="form-control-file" id="exampleFormControlFile1">
-									</div>
-								</div>
-								<div class="card-action">
-									<button class="btn btn-success">Submit</button>
+									<form action="/image_tool" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<label for="img_product_only">Please upload XML file</label>
+											<input type="file" class="form-control-file" id="img_product_only"
+												name="img_product_only">
+										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>
@@ -84,13 +87,16 @@
 									<div class="card-title">Annotated Image Report</div>
 								</div>
 								<div class="card-body">
-									<div class="form-group">
-										<label for="exampleFormControlFile1">Please upload XML file</label>
-										<input type="file" class="form-control-file" id="exampleFormControlFile1">
-									</div>
-								</div>
-								<div class="card-action">
-									<button class="btn btn-success">Submit</button>
+									<form action="/annotated_image_tool" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<label for="img_annotated">Please upload XML file</label>
+											<input type="file" class="form-control-file" id="img_annotated"
+												name="img_annotated">
+										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>

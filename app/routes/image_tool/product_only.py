@@ -1,27 +1,25 @@
-import os
 import xml.etree.ElementTree as ET
 import pandas as pd
+from zipfile import ZipFile
+from io import BytesIO
 
-# Route to grab the XML files
-xml_files = [file for file in os.listdir() if file.endswith(".xml")]
+def image_only(file):
+    # Image dimensions
+    image_width = 500
+    image_height = 500
 
-# Image dimensions
-image_width = 500
-image_height = 500
+    # Create an empty list
+    all_image_data = []
 
-# Create an empty list
-all_image_data = []
+    # Extract the filename without extension for naming HTML and Excel files
+    filename = file.filename.rsplit('.', 1)[0]
 
-# Loop through each XML file
-for xml_file_name in xml_files:
-    # Define the corresponding HTML file name based on the XML file name
-    html_file_name = os.path.splitext(xml_file_name)[0] + ".html"
     try:
-        tree = ET.parse(xml_file_name)
+        tree = ET.parse(file)
         root = tree.getroot()
     except ET.ParseError:
-        print(f"Error parsing the XML file '{xml_file_name}'. Skipping.")
-        continue
+        print(f"Error parsing the XML file '{file.filename}'. Skipping.")
+        return None
 
     # Create an empty list
     image_data = []
@@ -33,7 +31,6 @@ for xml_file_name in xml_files:
     # Loop through all the required elements
     for asset_element in root.findall(".//image"):
         asset_embed_code_element = asset_element.find("image_url_https")
-        asset_id_element = asset_element.find("file_name")
         orientation_element = asset_element.find("orientation")
         master_object_name_element = asset_element.find("master_object_name")
         pixel_height_element = asset_element.find("pixel_height")
@@ -86,35 +83,52 @@ for xml_file_name in xml_files:
                 })
 
     # Create the HTML
-    with open(html_file_name, 'w') as html_file:
-        html_file.write("<html>\n")
-        html_file.write("<body>\n")
+    html_content = "<html>\n<body>\n"
+    for data in image_data:
+        html_content += f"<p>URL: {data['url']}</p>\n"
+        html_content += f"<img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'>\n"
+        html_content += f"<p>Orientation: {data['orientation']}</p>\n"
+        html_content += f"<p>Master Object Name: {data['master_object_name']}</p>\n"
+        html_content += f"<p>Pixel Height: {data['pixel_height']}</p>\n"
+        html_content += f"<p>Pixel Width: {data['pixel_width']}</p>\n"
+        html_content += f"<p>Content Type: {data['content_type']}</p>\n"
+        html_content += f"<p>Document Type Detail: {data['document_type_detail']}</p>\n"
+        html_content += f"<p>CMG Acronym: {data['cmg_acronym']}</p>\n"
+        html_content += f"<p>Color: {data['color']}</p>\n"
+    html_content += "</body>\n</html>\n"
 
-        # Loop through the data
-        for data in image_data:
-            html_file.write(f"<p>URL: {data['url']}</p>\n")
-            html_file.write(f"<img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'>\n")
-            html_file.write(f"<p>Orientation: {data['orientation']}</p>\n")
-            html_file.write(f"<p>Master Object Name: {data['master_object_name']}</p>\n")
-            html_file.write(f"<p>Pixel Height: {data['pixel_height']}</p>\n")
-            html_file.write(f"<p>Pixel Width: {data['pixel_width']}</p>\n")
-            html_file.write(f"<p>Content Type: {data['content_type']}</p>\n")
-            html_file.write(f"<p>Document Type Detail: {data['document_type_detail']}</p>\n")
-            html_file.write(f"<p>CMG Acronym: {data['cmg_acronym']}</p>\n")
-            html_file.write(f"<p>Color: {data['color']}</p>\n")
-        html_file.write("</body>\n")
-        html_file.write("</html>\n")
+    # Create a DataFrame from the image data
+    df = pd.DataFrame(all_image_data)
 
-# Create a DataFrame from the image data
-df = pd.DataFrame(all_image_data)
+    # Identify duplicate rows
+    duplicates = df.duplicated(subset=["prodnum", "orientation", "pixel_height", "content_type", "cmg_acronym", "color"], keep=False)
 
-# Identify duplicate rows
-duplicates = df.duplicated(subset=["prodnum", "orientation", "pixel_height", "content_type", "cmg_acronym", "color"], keep=False)
+    # Add a new column "note" and set it to "duplicate" for duplicate rows
+    df['note'] = ''
+    df.loc[duplicates, 'note'] = 'duplicate'
 
-# Add a new column "note" and set it to "duplicate" for duplicate rows
-df['note'] = ''
-df.loc[duplicates, 'note'] = 'duplicate'
+    # Prepare the output files
+    excel_file_name = f"{filename}.xlsx"
+    html_file_name = f"{filename}.html"
 
-# Save the DataFrame to an Excel file
-excel_file_name = "extracted_image_data.xlsx"
-df.to_excel(excel_file_name, index=False)
+    # Use BytesIO to handle the files in memory
+    excel_buffer = BytesIO()
+    html_buffer = BytesIO()
+
+    # Save the DataFrame to an Excel file
+    with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
+        df.to_excel(writer, index=False)
+    excel_buffer.seek(0)
+
+    # Save the HTML content to the buffer
+    html_buffer.write(html_content.encode('utf-8'))
+    html_buffer.seek(0)
+
+    # Create a zip file
+    zip_buffer = BytesIO()
+    with ZipFile(zip_buffer, 'w') as zip_file:
+        zip_file.writestr(html_file_name, html_buffer.getvalue())
+        zip_file.writestr(excel_file_name, excel_buffer.getvalue())
+    zip_buffer.seek(0)
+
+    return zip_buffer, f"{filename}.zip"
