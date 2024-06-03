@@ -26,24 +26,26 @@ def qs_tool():
     """QS Tool page"""
     return render_template('qs_tool.html')
 
-@app.route('/image_tool', methods=['POST'])
+@app.route('/image_tool', methods=['GET', 'POST'])
 def image_tool():
     """Image Tool page"""
-    if 'img_product_only' in request.files:
-        file = request.files['img_product_only']
-        try:
-            if allowed_file(file.filename):  # Check if the file has a valid extension
-                zip_buffer, zip_filename = image_only(file)  # Process the file and get the zip buffer and filename
-                if zip_buffer:
-                    return send_file(zip_buffer, as_attachment=True, download_name=zip_filename, mimetype='application/zip')  # Serve the zip file for download
+    if request.method == 'POST':
+        if 'img_product_only' in request.files:
+            file = request.files['img_product_only']
+            try:
+                if allowed_file(file.filename):  # Check if the file has a valid extension
+                    zip_buffer, zip_filename = image_only(file)  # Process the file and get the zip buffer and filename
+                    if zip_buffer:
+                        return send_file(zip_buffer, as_attachment=True, download_name=zip_filename, mimetype='application/zip')  # Serve the zip file for download
+                    else:
+                        return render_template('error.html', error_message='Error processing the file'), 500  # Render error template for processing errors
                 else:
-                    return render_template('error.html', error_message='Error processing the file'), 500  # Render error template for processing errors
-            else:
-                return render_template('error.html', error_message='Invalid file extension'), 400  # Render error template for invalid file extension
-        except Exception as e:
-            print(e)
-            return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
-    return render_template('error.html', error_message='No file part in the request'), 400  # Render error template for missing file
+                    return render_template('error.html', error_message='Invalid file extension'), 400  # Render error template for invalid file extension
+            except Exception as e:
+                print(e)
+                return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
+        return render_template('error.html', error_message='No file part in the request'), 400  # Render error template for missing file
+    return render_template('image_tool.html')  # Render the form for GET requests
 
 @app.route('/ds_tool')
 def ds_tool():
