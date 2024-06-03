@@ -11,7 +11,7 @@ app.config.from_object(config)
 def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['VALID_FILE_EXTENSIONS']
 
-@app.route('/')
+@app.route('/main')
 def index():
     """Homepage"""
     return render_template('index.html')
