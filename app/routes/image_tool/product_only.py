@@ -4,6 +4,7 @@ from zipfile import ZipFile
 from io import BytesIO
 
 def image_only(file):
+    print("enter image")
     # Image dimensions
     image_width = 500
     image_height = 500
@@ -23,7 +24,7 @@ def image_only(file):
 
     # Create an empty list
     image_data = []
-
+    print("dic initalizing")
     # Get the prodnum
     prodnum_element = root.find(".//product_numbers/prodnum")
     prodnum = prodnum_element.text.strip() if prodnum_element is not None else ""
