@@ -1,0 +1,16 @@
+{
+    "wirelesstechnonoteftntnbr": [
+        {
+            "PhwebDescription": "WLAN I AX211 Wi-Fi6e 160MHz +BT 5.2 WW",
+            "ContainerValue": "[44,45]"
+        },
+        {
+            "PhwebDescription": "WLAN I AX211 Wi-Fi6e 160MHz +BT 5.2 WW",
+            "ContainerValue": "[45]"
+        },
+        {
+            "PhwebDescription": "WLAN I AX411 Wi-Fi6e 160MHz +BT 5.2 WW",
+            "ContainerValue": "[45]"
+        }
+    ]
+}

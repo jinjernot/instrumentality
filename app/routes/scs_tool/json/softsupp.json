@@ -1,0 +1,12 @@
+{
+    "softsupp": [
+        {
+            "PhwebDescription": "Wrnty Ext HP 5y ONS Care WKST HW Support",
+            "ContainerValue": "HP Smart Support"
+        },
+        {
+            "PhwebDescription": "Wrnty Ext HP 3y NBD ONS NB HW Support",
+            "ContainerValue": "HP Smart Support"
+        }
+    ]
+}

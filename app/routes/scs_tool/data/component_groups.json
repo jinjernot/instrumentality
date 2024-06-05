@@ -1,0 +1,260 @@
+{
+    "Groups": [
+        {
+            "ComponentGroup": "Processor",
+            "ContainerName": [
+                "processorfamily",
+                "processorname",
+                "processornameftntnbr",
+                "tsfootnote_06",
+                "facet_processortype",
+                "facet_graphics",
+                "graphicseg_01header",
+                "graphicseg_01card_01",
+                "intgcnote",
+                "tsfootnote_07",
+                "facet_processorgen"
+            ]
+        },
+        {
+            "ComponentGroup": "Operating System",
+            "ContainerName": [
+                "cloudserv",
+                "cloudservftntnbr",
+                "facet_os",
+                "hpapps",
+                "osinstalled",
+                "osinstalledftntnbr",
+                "osinstallednote",
+                "swincluded",
+                "swpreinstalled",
+                "swpreinstalledftntnbr",
+                "swprodfinance",
+                "tsfootnote_01",
+                "tsfootnote_02",
+                "tsfootnote_24"
+            ]
+        },
+        {
+            "ComponentGroup": "Graphic card",
+            "ContainerName": [
+                "graphicseg_02card_01",
+                "gcnote",
+                "graphiccardftntnbr_02",
+                "tsfootnote_08",
+                "facet_graphics",
+                "graphicseg_02header",
+                "graphicseg_01header",
+                "specialfeat"
+            ]
+        },
+        {
+            "ComponentGroup": "Optical Drive",
+            "ContainerName": [
+                "cdromdvd"
+            ]
+        },
+        {
+            "ComponentGroup": "Chipset",
+            "ContainerName": [
+                "chipset"
+            ]
+        },
+        {
+            "ComponentGroup": "Memory",
+            "ContainerName": [
+                "memstdes_01",
+                "memstosimp",
+                "memstdnote",
+                "facet_memstd"
+            ]
+        },
+        {
+            "ComponentGroup": "Hard Drive",
+            "ContainerName": [
+                "storage_acceleration",
+                "tsfootnote_09",
+                "flashcachenote",
+                "facet_cap",
+                "hd_01des",
+                "storage_accelerationftntnbr",
+                "storconfig",
+                "hd_03des",
+                "flashcache",
+                "filter_storagetype",
+                "hd_02des",
+                "hd_04des"
+            ]
+        },
+        {
+            "ComponentGroup": "Appearance/WebCam",
+            "ContainerName": [
+                "colour",
+                "productcolour",
+                "camera",
+                "systemfan",
+                "prodfinish",
+                "webcam",
+                "webcamftntnbr",
+                "environspec"
+            ]
+        },
+        {
+            "ComponentGroup": "Display",
+            "ContainerName": [
+                "display",
+                "displaybright",
+                "displaycolorgamut",
+                "displaymet",
+                "displaysize",
+                "displaysizemet",
+                "dispdescmetshort",
+                "dispdescshort",
+                "touch"
+            ]
+        },
+        {
+            "ComponentGroup": "Battery",
+            "ContainerName": [
+                "batterytype"
+            ]
+        },
+        {
+            "ComponentGroup": "Environment",
+            "ContainerName": [
+                "energyeffcomp",
+                "energystar",
+                "ecohighlighgraphic"
+            ]
+        },
+        {
+            "ComponentGroup": "FingerPrint Reader",
+            "ContainerName": [
+                "fingerprread"
+            ]
+        },
+        {
+            "ComponentGroup": "Keyboard",
+            "ContainerName": [
+                "keybrd",
+                "mousepntgdevice",
+                "keybrdcolor"
+            ]
+        },
+        {
+            "ComponentGroup": "Special Features",
+            "ContainerName": [
+                "perftechn"
+            ]
+        },
+        {
+            "ComponentGroup": "Power Supply",
+            "ContainerName": [
+                "powersupplytype",
+                "powersupply",
+                "tsfootnote_05"
+            ]
+        },
+        {
+            "ComponentGroup": "Box content",
+            "ContainerName": [
+                "stylus",
+                "whatsinbox",
+                "whatsinboxftntnbr"
+            ]
+        },
+        {
+            "ComponentGroup": "Wireless Technologies",
+            "ContainerName": [
+                "wirelesstech",
+                "wirelesstechnonoteftntnbr",
+                "prodnetinterface",
+                "wirelesstech_wwan",
+                "wirelesstech_nfc"
+            ]
+        },
+        {
+            "ComponentGroup": "Additional Storage",
+            "ContainerName": [
+                "storageoption"
+            ]
+        },
+        {
+            "ComponentGroup": "Audio",
+            "ContainerName": [
+                "audio"
+            ]
+        },
+        {
+            "ComponentGroup": "Enterprise Upgrade",
+            "ContainerName": [
+                "software"
+            ]
+        },
+        {
+            "ComponentGroup": "Expansion Slot",
+            "ContainerName": [
+                "expanslots",
+                "expanslotsnote"
+            ]
+        },
+        {
+            "ComponentGroup": "External IO Ports",
+            "ContainerName": [
+                "ioports"
+            ]
+        },
+        {
+            "ComponentGroup": "Mobile Connect",
+            "ContainerName": [
+                "broadwireless",
+                "broadwirelessurl"
+            ]
+        },
+        {
+            "ComponentGroup": "Optional Port",
+            "ContainerName": [
+                "ioports_04",
+                "ioports_04_location",
+                "softsupp"
+            ]
+        },
+        {
+            "ComponentGroup": "Security Management",
+            "ContainerName": [
+                "securitymgmt"
+            ]
+        },
+        {
+            "ComponentGroup": "Security Software",
+            "ContainerName": [
+                "securityswlicense",
+                "securityswlicnote",
+                "tsfootnote_56"
+            ]
+        },
+        {
+            "ComponentGroup": "Tech Spec Footnote",
+            "ContainerName": [
+                "tsfootnote_14",
+                "tsfootnote_17",
+                "tsfootnote_16",
+                "tsfootnote_04",
+                "tsfootnote_23",
+                "tsfootnote_25",
+                "tsfootnote_11",
+                "tsfootnote_19",
+                "tsfootnote_22",
+                "tsfootnote_10",
+                "tsfootnote_20",
+                "tsfootnote_03",
+                "tsfootnote_18",
+                "tsfootnote_21",
+                "tsfootnote_12",
+                "tsfootnote_13",
+                "tsfootnote_15",
+                ""
+            ]
+        }
+    ]
+}

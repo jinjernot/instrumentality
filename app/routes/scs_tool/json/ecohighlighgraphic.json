@@ -1,0 +1,40 @@
+{
+    "ecohighlighgraphic": [
+        {
+            "PhwebDescription": "MISC eStar PCID",
+            "ContainerValue": "http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123397.png"
+        },
+        {
+            "PhwebDescription": "FLAG Energy Star PHTM",
+            "ContainerValue": "http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123397.png"
+        },
+        {
+            "PhwebDescription": "LBL ENERGY STAR Certified",
+            "ContainerValue": "http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123397.png; http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123380.png"
+        },
+        {
+            "PhwebDescription": "ENERGY STAR Certified",
+            "ContainerValue": "http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123397.png; http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123380.png"
+        },
+        {
+            "PhwebDescription": "FLAG EPEAT",
+            "ContainerValue": "http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123380.png"
+        },
+        {
+            "PhwebDescription": "LBL Electronic ENERGY STAR",
+            "ContainerValue": "http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123397.png"
+        },
+        {
+            "PhwebDescription": "Electronic Energy Star labeling (EStar)",
+            "ContainerValue": "http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123397.png"
+        },
+        {
+            "PhwebDescription": "FLAG ENERGY STAR Qualified",
+            "ContainerValue": "http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123397.png; http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123380.png"
+        },
+        {
+            "PhwebDescription": "FLAG EPEAT",
+            "ContainerValue": "http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123397.png; http://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03123380.png"
+        }
+    ]
+}

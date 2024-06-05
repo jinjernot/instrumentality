@@ -1,0 +1,496 @@
+{
+    "camera": [
+        {
+            "PhwebDescription": "ID DAS PLA wHDC TNR FPR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM HD IR",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM HD",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "PhwebDescription": "MISC No Webcam",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM FHD",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C f5MP Cam IR RTK USBC",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA wSDC wHDC TNR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam SM 8MP MRAW",
+            "ContainerValue": "8 MP camera"
+        },
+        {
+            "PhwebDescription": "ID PKS ALU fUMA U15",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "PhwebDescription": "ID DAS PLA MSKT wHDC",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID ASV IMR wHDC",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA wHDC TNR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID ASV IMR wHDC FPR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM HD",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID DAS MSKT PLA wHDC TNR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA wHDC TNR",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "PhwebDescription": "ID DAS STD MSKT wHDC",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID DAS PLA wHDC TNR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA wHDC TNR FPR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD AG LED 220 SVA wCAM slm",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0 FHD AG LED250UWVAwHDCTOPNWBZslm",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "PhwebDescription": "ID JTB PLA+TPU MCDT",
+            "ContainerValue": "720p HD camera5 MP camera (rear-facing)"
+        },
+        {
+            "PhwebDescription": "LCD 14.0 FHD AG LED 250 UWVA wHDCNWBZslm",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "PhwebDescription": "ID DAS PLA wHDC TNR",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA wHDC TNR FPR JPN layout",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID DAS MSKT PLA wHDC TNR FPR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA wHDC TNR FPR",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA wHDC",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID TBS PLA wHDC FPR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM HD IR",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "PhwebDescription": "ID TBS PLA wHDC nFPR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM HD IR",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "ID DAS PLA wHDC nFPR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "WEBCAM Integrated HD 720p IR DM",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1165G7 16GB Elite X2 G8TAB",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGABVWLED+LBL1000UWVAfWWANw5MP",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAfWWANw5MPI",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "PhwebDescription": "WEBCAM Integrated HD 720p DM",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 8GB Elite X2 G8 TAB",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1135G7 16GB Elite X2 G8TAB",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGAAGWLED+LBL400UWVAw5MPIRTOFT",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGA BV LED 250 UWVA fWWAN w5M",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGA BV LED 250 UWVA w5MPTSbnt",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WQXGABVLED500UWVAfWWANw5MPIRTOFT",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGAAGWLED+LBL400UWVAfWANw5MPIR",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP IR",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAfWWANw5MPI",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "PhwebDescription": "ID SBL MAG nWWAN TS nAG",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM HD IR",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP IR",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "PhwebDescription": "WEBCAM Integrated HD 720p DM",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP IR",
+            "ContainerValue": "5MP IR Camera"
+        },
+        {
+            "PhwebDescription": "WEBCAM Integrated HD 720p IR DM",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM HD",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID JTB +HRG PLA",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID JTB +HRG PLA",
+            "ContainerValue": "720p HD camera8 MP camera (rear-facing)"
+        },
+        {
+            "PhwebDescription": "ID GXB MAG nWWAN",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP IR",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "WEBCAM Integrated HD 720p DM",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM HD IR",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "PhwebDescription": "WEBCAM Integrated HD 720p IR DM",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam SM 5MP",
+            "ContainerValue": "720p HD camera5 MP camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB TBD",
+            "ContainerValue": "8 MP camera"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 SVA wHDC TS slm",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam NM HD IR",
+            "ContainerValue": "HP  HD IR Camera 720p with face authentication and Windows Hello"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP IR",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 SVAfWWANwHDCTSslm",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "ID RCTO DAS PLA wHDC TNR FPR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID DAS PLA MSKT nSDC wHDC",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID DAS PLA wHDC TNR FPR",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam NM 5MP MRAW",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP IR",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 UWVA wHDC TS slm",
+            "ContainerValue": "720p HD camera5 MP camera"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 UWVA wHDC TS slm",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R78Cf5MPCamIRRTKUSBC455G10",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56CfHDCIRRTKUSBCx360435G10",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "ID TBS ALU wFHDC FPR",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGABVWLED+LBL400UWVAw5MPIRTSAL",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "PhwebDescription": "ID DAS PLA wHDC nFPR",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "PhwebDescription": "ID DAS PLA MSKT nSDC wVGC",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGABVWLED+LBL400UWVAfWANw5MPIR",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78CfHDCIRRTKUSBCx360435G10",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam NM HD IR",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "ID DAS MSKT PLA wSDC wHDC TNR",
+            "ContainerValue": "720p HD camera with temporal noise reduction"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP",
+            "ContainerValue": "5MP camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGA BV LED 250 UWVA fWWAN w5M",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGAAGWLED+LBL400UWVAfWANw5MPIR",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "PhwebDescription": "ID TBS PLA wHDC FPR",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 WUXGA BV LED 250 UWVA w5MPTSbnt",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3 FHD BVLEDUWVA400wHDCIRuslimTSLP",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250UWVAfWWANwHDCTSslm",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID TBS ALU wHDC FPR",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam DM 5MP IR",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam HD IR",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGAAGWLED+LBL400UWVAfWANw5MPIR",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 SVA wHDC TS slm",
+            "ContainerValue": "720p HD camera5 MP camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1210U 8GB 14 G10",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam NM 5MP",
+            "ContainerValue": "720p HD camera5 MP camera"
+        },
+        {
+            "PhwebDescription": "LCD 11.6 HD BV LED 250 UWVA wHDC TS slm",
+            "ContainerValue": "720p HD privacy camera5 MP camera (rear-facing)"
+        },
+        {
+            "PhwebDescription": "Intgrtd Cam NM 5MP",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "WEBCAM Integrated 5MP",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "ID PKS ALU",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "PhwebDescription": "ID TBS PLA wHDC FPR JPN layout",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "ID RCTO DAS MSKT PLA nSDC wHDC BRZL",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAR77730UFHD250fBLFPRwHDC245G10I",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi3-1315UHDfnBLnFPRwHDC240G10I",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAR77730UFHD250fBLfHDCTIPD445G1",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAR57530UFHD250fBLFPRwHDC245G10I",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi7-1355UFHD250fBLFPRwHDC240G10",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi5-1335UFHD250fBLFPRwHDC240G10",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAR37330UHDfnBLnFPRwHDC245G10IN",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAR57530UFHD250fBLfHDCTIPD445G1",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 13.3WUXGAAGWLED+LBL400UWVAw5MPIRTSAL",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "PhwebDescription": "LCD 14.0WUXGABVWLED+LBL1000UWVAfWWANw5MP",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1145G7 8GB OSREliteX2G8TAB",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78CfHDCIRRTKUSBCx360435G10",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "PhwebDescription": "ID ASV PLA nSDC wHDC",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1335UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1345UFHDwBLwHDCIRTIPD630G1",
+            "ContainerValue": "720p HD IR camera"
+        }
+    ]
+}

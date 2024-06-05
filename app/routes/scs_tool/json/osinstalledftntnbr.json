@@ -1,0 +1,36 @@
+{
+    "osinstalledftntnbr": [
+        {
+            "PhwebDescription": "OST W11P6",
+            "ContainerValue": "[1]"
+        },
+        {
+            "PhwebDescription": "OST W10P6",
+            "ContainerValue": "[1]"
+        },
+        {
+            "PhwebDescription": "OST W10H6 SL IDPPP",
+            "ContainerValue": "[1]"
+        },
+        {
+            "PhwebDescription": "OST W11H6 ADV",
+            "ContainerValue": "[1]"
+        },
+        {
+            "PhwebDescription": "OST W11P6 DG106",
+            "ContainerValue": "[1,2]"
+        },
+        {
+            "PhwebDescription": "OST W11P6 HIE",
+            "ContainerValue": "[1]"
+        },
+        {
+            "PhwebDescription": "OST NWZP6",
+            "ContainerValue": "[1]"
+        },
+        {
+            "PhwebDescription": "OST W11P6 DG106 HIE",
+            "ContainerValue": "[1,2]"
+        }
+    ]
+}
