@@ -19,7 +19,7 @@ def clean_report(file):
 
         # Add a list of columns
         df[['Accuracy', 'Correct Value', 'Additional Information']] = ''
-        
+        print("before pl_check")
         # Call the pl_check
         pl_check(df)
 

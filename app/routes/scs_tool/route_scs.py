@@ -17,8 +17,8 @@ def allowed_file(filename):
 
 def scs_tool():
     if request.method == 'POST':
-        if 'regular' in request.files:
-            file = request.files['regular']
+        if 'scs_regular' in request.files:
+            file = request.files['scs_regular']
             try:
                 if allowed_file(file.filename):  # Check if the file has a valid extension
                     clean_report(file)  # Process the file
