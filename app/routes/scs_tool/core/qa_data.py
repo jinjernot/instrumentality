@@ -19,7 +19,6 @@ def clean_report(file):
 
         # Add a list of columns
         df[['Accuracy', 'Correct Value', 'Additional Information']] = ''
-        print("before pl_check")
         # Call the pl_check
         pl_check(df)
 
@@ -62,14 +61,17 @@ def clean_report(file):
                 process_data(os.path.join('/home/garciagi/frame/app/routes/scs_tool/json', x), container_name, container_df, df) # Server 
                 #process_data(os.path.join('json', x), container_name, container_df, df) # Local
         
-        # Check if "ms4" sheet exists
         excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
+        # Check if "ms4" sheet exists
         if "ms4" in excel_file.sheet_names:
-            av_check(df)
-            
-        # Write DataFrame to Excel file
-        df.to_excel('/home/garciagi/frame/SCS_QA.xlsx', index=False) # Server
-        #df.to_excel('SCS_QA.xlsx', index=False) # Local
+            df_final = av_check(file)
+            with pd.ExcelWriter("/home/garciagi/frame/SCS_QA.xlsx") as writer:
+                df.to_excel(writer, sheet_name='qa', index=False)  # Server
+                df_final.to_excel(writer, sheet_name='duplicated', index=False)  # Server
+            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
+        else:
+            df.to_excel('/home/garciagi/frame/SCS_QA.xlsx', index=False)  # Server
+            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
     
         # Formatting data
         format_data()
