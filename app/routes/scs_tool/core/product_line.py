@@ -1,9 +1,11 @@
 import json
 
+from config import SCS_PRODUCT_LINES_PATH
+
 def pl_check(df):
     
     # Read JSON data
-    with open("/home/garciagi/frame/app/routes/scs_tool/data/product_lines.json", "r") as json_file: # Server
+    with open(SCS_PRODUCT_LINES_PATH, "r") as json_file: # Server
     #with open('app/core/data/product_lines.json', 'r') as json_file: # Local
         json_data = json.load(json_file)
 

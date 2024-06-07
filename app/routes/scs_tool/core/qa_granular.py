@@ -1,6 +1,9 @@
-import pandas as pd
 import json
 import os
+
+import pandas as pd
+
+from config import SCS_JSON_PATH, SCS_GRANULAR_FILE_PATH
 
 def clean_granular(file):
     try:
@@ -24,9 +27,9 @@ def clean_granular(file):
                 continue
 
             # Iterate over JSON files
-            for filename in os.listdir('/home/garciagi/frame/app/routes/scs_tool/json'):
+            for filename in os.listdir(SCS_JSON_PATH):
                 if filename.endswith('.json'):
-                    json_path = os.path.join('/home/garciagi/frame/app/routes/scs_tool/json', filename)
+                    json_path = os.path.join(SCS_JSON_PATH, filename)
                     with open(json_path, 'r', encoding='utf-8') as f:
                         data = json.load(f)
                         # Iterate over all keys in the JSON
@@ -45,7 +48,7 @@ def clean_granular(file):
                     break
 
         # Export DataFrame to Excel with the updated 'Comments' column
-        df.to_excel('/home/garciagi/frame/Granular_QA.xlsx', index=False)
+        df.to_excel(SCS_GRANULAR_FILE_PATH, index=False)
 
     except Exception as e:
         print(e)

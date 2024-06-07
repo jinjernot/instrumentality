@@ -1,11 +1,14 @@
-from app.routes.scs_tool.core.process_data import process_data  
-from app.routes.scs_tool.core.format_data import format_data  
-from app.routes.scs_tool.core.product_line import pl_check  
-from app.routes.scs_tool.core.qa_av import av_check
-
-import pandas as pd
 import json
 import os
+
+import pandas as pd
+
+from app.routes.scs_tool.core.process_data import process_data
+from app.routes.scs_tool.core.format_data import format_data
+from app.routes.scs_tool.core.product_line import pl_check
+from app.routes.scs_tool.core.qa_av import av_check
+
+from config import SCS_COMPONENT_GROUPS_PATH, SCS_JSON_PATH, SCS_REGULAR_FILE_PATH
 
 def clean_report(file):
     try:
@@ -42,7 +45,7 @@ def clean_report(file):
         df['ContainerValue'] = df['ContainerValue'].astype(str)
 
         # Load JSON data
-        with open('/home/garciagi/frame/app/routes/scs_tool/data/component_groups.json', 'r') as json_file: # Server
+        with open(SCS_COMPONENT_GROUPS_PATH, 'r') as json_file: # Server
         #with open('app/data/component_groups.json', 'r') as json_file: # Local
             json_data = json.load(json_file)
         groups = json_data['Groups']
@@ -53,25 +56,25 @@ def clean_report(file):
         df = df.drop(rows_to_delete)
 
         # Process JSON files
-        for x in os.listdir('/home/garciagi/frame/app/routes/scs_tool/json'): # Server
+        for x in os.listdir(SCS_JSON_PATH): # Server
         #for x in os.listdir('json'): # Local
             if x.endswith('.json'):
                 container_name = x.split('.')[0]
                 container_df = df[df['ContainerName'] == container_name]
-                process_data(os.path.join('/home/garciagi/frame/app/routes/scs_tool/json', x), container_name, container_df, df) # Server 
+                process_data(os.path.join(SCS_JSON_PATH, x), container_name, container_df, df) # Server 
                 #process_data(os.path.join('json', x), container_name, container_df, df) # Local
         
         excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
         # Check if "ms4" sheet exists
         if "ms4" in excel_file.sheet_names:
             df_final = av_check(file)
-            with pd.ExcelWriter("/home/garciagi/frame/SCS_QA.xlsx") as writer:
+            with pd.ExcelWriter(SCS_REGULAR_FILE_PATH) as writer:
                 df.to_excel(writer, sheet_name='qa', index=False)  # Server
                 df_final.to_excel(writer, sheet_name='duplicated', index=False)  # Server
-            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
+            # df.to_excel('scs_qa.xlsx', index=False)  # Local
         else:
-            df.to_excel('/home/garciagi/frame/SCS_QA.xlsx', index=False)  # Server
-            # df.to_excel('SCS_QA.xlsx', index=False)  # Local
+            df.to_excel(SCS_REGULAR_FILE_PATH, index=False)  # Server
+            # df.to_excel('scs_qa.xlsx', index=False)  # Local
     
         # Formatting data
         format_data()

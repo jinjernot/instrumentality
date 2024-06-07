@@ -22,13 +22,13 @@ def scs_tool():
             try:
                 if allowed_file(file.filename):  # Check if the file has a valid extension
                     clean_report(file)  # Process the file
-                    return send_from_directory('.', filename='SCS_QA.xlsx', as_attachment=True)  # Serve file for download
+                    return send_from_directory('.', filename='scs_qa.xlsx', as_attachment=True)  # Serve file for download
                 else:
                     return render_template('error.html', error_message='Invalid file extension'), 400
             except Exception as e:
                 return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
         else:
-            return render_template('error.html', error_message='No file part in the request'), 400
+            return render_template('error.html', error_message='No file in the request'), 400
 
     # Render the form for GET requests
     return render_template('scs_tool.html')

@@ -1,4 +1,5 @@
 from flask import Flask, render_template
+
 from app.routes.image_tool.route_image import image_tool
 from app.routes.scs_tool.route_scs import scs_tool
 

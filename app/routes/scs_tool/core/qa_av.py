@@ -1,6 +1,7 @@
 #Importar librería
-import pandas as pd
 import sys
+
+import pandas as pd
 
 def av_check(file):
     #Cargar la informacion de los archivos en data frames

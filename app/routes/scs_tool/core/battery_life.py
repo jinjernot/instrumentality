@@ -1,5 +1,7 @@
 import pandas as pd
 
+from config import SCS_BATTERY_FILE_PATH
+
 def battery_life(file, file2):
     df = pd.read_excel(file.stream, engine='openpyxl') 
     
@@ -38,7 +40,7 @@ def battery_life(file, file2):
         battery_life_df = pd.merge(battery_life_df, filtered_df2, on='SKU', how='left')
         
         # Save battery_life_df to an Excel file
-        battery_life_df.to_excel("/home/garciagi/frame/Battery_Life_QA.xlsx", index=False)
+        battery_life_df.to_excel(SCS_BATTERY_FILE_PATH, index=False)
         
     except Exception as e:
         print(e)

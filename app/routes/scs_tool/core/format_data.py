@@ -1,13 +1,15 @@
+import openpyxl
+
 from openpyxl.styles import PatternFill,Font
 
-import openpyxl
+from config import SCS_REGULAR_FILE_PATH
 
 def format_data():
     """This function is used to to formate the data in the excel file, bold headers, adjust the column width and highlight the errors"""
 
     # Load Workbook and get the active sheet
-    wb = openpyxl.load_workbook('/home/garciagi/frame/SCS_QA.xlsx') # Server
-    #wb = openpyxl.load_workbook('SCS_QA.xlsx') # Local
+    wb = openpyxl.load_workbook(SCS_REGULAR_FILE_PATH) # Server
+    #wb = openpyxl.load_workbook('scs_qa.xlsx') # Local
     worksheet = wb.active
 
     # Bold and color the headers
@@ -39,6 +41,6 @@ def format_data():
             # Change the color of the font in the cell to red.
             font = cell.font
             cell.font = Font(color='FF0000', name=font.name, size=font.size)
-    # Save the workbook to a file called `SCS_QA.xlsx`.
-    wb.save('/home/garciagi/frame/SCS_QA.xlsx') # Server
-    #wb.save('SCS_QA.xlsx') # Local
+    # Save the workbook to a file called `scs_qa.xlsx`.
+    wb.save('/home/garciagi/frame/scs_qa.xlsx') # Server
+    #wb.save('scs_qa.xlsx') # Local
