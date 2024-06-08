@@ -1,16 +1,16 @@
 from flask import Flask, send_file, render_template, request
-from app.routes.image_tool.product_only import image_only
-from app.routes.image_tool.annotated import annotated_only
+from app.routes.qs_tool.routes.image_tool.product_only import image_only
+from app.routes.qs_tool.routes.image_tool.annotated import annotated_only
 import config
 
 app = Flask(__name__)
-app.static_folder = 'static'
+app.routes.qs_tool.static_folder = 'static'
 
-app.config.from_object(config)
+app.routes.qs_tool.config.from_object(config)
 
 # Validate file extension 
 def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['VALID_FILE_EXTENSIONS']
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.routes.qs_tool.config['VALID_FILE_EXTENSIONS']
 
 def image_tool():
     if 'img_product_only' in request.files:

@@ -2,6 +2,7 @@ from flask import Flask, render_template
 
 from app.routes.image_tool.route_image import image_tool
 from app.routes.scs_tool.route_scs import scs_tool
+from app.routes.qs_tool.route_qs import qs_tool
 
 import config
 
@@ -21,9 +22,9 @@ def scs_tool_route():
     return scs_tool()
 
 @app.route('/qs_tool')
-def qs_tool():
+def qs_tool_route():
     """QS Tool page"""
-    return render_template('qs_tool.html')
+    return qs_tool()
 
 @app.route('/image_tool', methods=['GET', 'POST'])
 def image_tool_route():

@@ -1,11 +1,11 @@
-from app.routes.ds_tool.table import table_column_widths
+from app.routes.qs_tool.routes.ds_tool.table import table_column_widths
 from docx.shared import Pt, Inches
 from docx2pdf import convert
 from docx import Document
 import os
 
 
-from app.routes.ds_tool.footer import add_footer
+from app.routes.qs_tool.routes.ds_tool.footer import add_footer
 
 def excel_to_word(df, new_df, xlsx_file, header_value):
 
