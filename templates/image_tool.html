@@ -38,7 +38,7 @@
 						</a>
 					</li>
 					<li class="nav-item">
-						<a href="{{ url_for('qs_tool') }}">
+						<a href="{{ url_for('qs_tool_route') }}">
 							<p>Quickspecs Builder</p>
 						</a>
 					</li>
@@ -96,7 +96,26 @@
 											<button type="submit" class="btn btn-success">Submit</button>
 										</div>
 									</form>
-								
+							</div>
+						</div>
+
+
+						<div class="col-md-4"> 
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">Image URL Report</div>
+								</div>
+								<div class="card-body">
+									<form action="image_tool" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<label for="img_url">Please upload XML file</label>
+											<input type="file" class="form-control-file" id="img_url"
+												name="img_url">
+										</div></div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</form>
 							</div>
 						</div>
 

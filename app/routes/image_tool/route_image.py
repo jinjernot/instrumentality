@@ -1,18 +1,22 @@
 from flask import Flask, send_file, render_template, request
-from app.routes.qs_tool.routes.image_tool.product_only import image_only
-from app.routes.qs_tool.routes.image_tool.annotated import annotated_only
+
+from app.routes.image_tool.core.product_only import image_only
+from app.routes.image_tool.core.annotated import annotated_only
+from app.routes.image_tool.core.image_urls import image_url
+
 import config
 
 app = Flask(__name__)
-app.routes.qs_tool.static_folder = 'static'
+app.static_folder = 'static'
 
-app.routes.qs_tool.config.from_object(config)
+app.config.from_object(config)
 
 # Validate file extension 
 def allowed_file(filename):
-    return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.routes.qs_tool.config['VALID_FILE_EXTENSIONS']
+    return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['VALID_FILE_EXTENSIONS']
 
 def image_tool():
+    
     if 'img_product_only' in request.files:
         file = request.files['img_product_only']
         try:
@@ -26,6 +30,7 @@ def image_tool():
                 return render_template('error.html', error_message='Invalid file extension'), 400  # Render error template for invalid file extension
         except Exception as e:
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
+        
     elif 'img_annotated' in request.files:  # Check for img_annotated
         file = request.files['img_annotated']
         try:
@@ -33,6 +38,20 @@ def image_tool():
                 zip_buffer, zip_filename = annotated_only(file)  # Process the file and get the zip buffer and filename
                 if zip_buffer:
                     return send_file(zip_buffer, as_attachment=True, attachment_filename=zip_filename, mimetype='application/zip')  # Serve the zip file for download
+                else:
+                    return render_template('error.html', error_message='Error processing the file'), 500  # Render error template for processing errors
+            else:
+                return render_template('error.html', error_message='Invalid file extension'), 400  # Render error template for invalid file extension
+        except Exception as e:
+            return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
+        
+    elif 'img_url' in request.files:  # Check for img_annotated
+        file = request.files['img_url']
+        try:
+            if allowed_file(file.filename):  # Check if the file has a valid extension
+                excel_buffer, excel_filename = image_url(file)  # Process the file and get the zip buffer and filename
+                if excel_buffer:
+                    return send_file(excel_buffer, as_attachment=True, attachment_filename=excel_filename)  # Serve the zip file for download
                 else:
                     return render_template('error.html', error_message='Error processing the file'), 500  # Render error template for processing errors
             else:

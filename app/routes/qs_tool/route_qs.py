@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template, send_from_directory
 
-from app.routes.qs_tool.core.laptop.build_laptop import generate_docx
+from app.routes.qs_tool.core.laptop.build_laptop import createdocx
 
 import config
 
@@ -21,7 +21,7 @@ def qs_tool():
             file = request.files['qs_file']
             try:
                 if allowed_file(file.filename):  # Check if the file has a valid extension
-                    generate_docx(file)  # Process the file
+                    createdocx(file)  # Process the file
                     return send_from_directory('.', filename='qs_file.xlsx', as_attachment=True)  # Serve file for download
                 else:
                     return render_template('error.html', error_message='Invalid file extension'), 400
@@ -31,4 +31,4 @@ def qs_tool():
             return render_template('error.html', error_message='No file in the request'), 400
 
     # Render the form for GET requests
-    return render_template('scs_tool.html')
+    return render_template('qs_tool.html')
