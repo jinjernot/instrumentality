@@ -1,11 +1,11 @@
 import pandas as pd
-from app.routes.ds_tool.word import *
+from app.routes.ds_tool.core.word import excel_to_word
 
-def create_sheet(xlsx_file):
+def create_ds(file):
     """Builds a sheet"""
 
     # Read Excel
-    df = pd.read_excel(xlsx_file, sheet_name='Sheet1')
+    df = pd.read_excel(file, sheet_name='Sheet1')
 
     # Extract the header value from the DataFrame
     header_value = df.columns[1]  
@@ -24,8 +24,7 @@ def create_sheet(xlsx_file):
 
     # Convert all data to string format
     df = df.astype(str)
-
-    print(df.columns)
+    
     # Remove rows where "Container Group" contains specific strings
     unwanted_strings = ["Messaging", "Facets", "Core Information", "Metadata"]
     df = df[~df["Container Group"].str.contains('|'.join(unwanted_strings), na=False)]
@@ -72,4 +71,4 @@ def create_sheet(xlsx_file):
     #new_df.to_excel("skus.xlsx", index=False)
     # Convert Excel to Word
     #word_file = 'data.docx'
-    excel_to_word(df, new_df, xlsx_file, header_value)
+    return excel_to_word(df, new_df, file, header_value)

@@ -1,16 +1,18 @@
-from app.routes.qs_tool.routes.ds_tool.table import table_column_widths
+import pandas as pd
+
 from docx.shared import Pt, Inches
-from docx2pdf import convert
 from docx import Document
-import os
 
+from app.routes.ds_tool.core.table import table_column_widths
+from app.routes.ds_tool.core.footer import add_footer
 
-from app.routes.qs_tool.routes.ds_tool.footer import add_footer
+from io import BytesIO
 
-def excel_to_word(df, new_df, xlsx_file, header_value):
+def excel_to_word(df, new_df, file, header_value):
 
     # Create a Word document
-    doc = Document("template.docx")
+    doc = Document("template.docx")    # Extract the filename without extension for naming
+    filename = file.filename.rsplit('.', 1)[0]
 
     # Add header with the extracted value
     section = doc.sections[0]  # Get the first section (assuming only one section)
@@ -122,13 +124,19 @@ def excel_to_word(df, new_df, xlsx_file, header_value):
 
     add_footer(doc)
 
-    # Extract filename without extension
-    excel_filename = os.path.splitext(xlsx_file)[0]
+    # Save the DataFrame to an Excel file
+    excel_file_name = f"{filename}.xlsx"
+    # Use BytesIO to handle the files in memory
+    excel_buffer = BytesIO()
+    
+    # Save the DataFrame to an Excel file
+    with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
+        df.to_excel(writer, index=False)
+    excel_buffer.seek(0)
 
     # Save Word file with the same name as the Excel file
-    word_filename = excel_filename + '_output.docx'
-    doc.save(word_filename)
-
-    # Convert Word to PDF
-    pdf_filename = excel_filename + '_output.pdf'
-    convert(word_filename, pdf_filename)
+    word_buffer = BytesIO()
+    doc.save(word_buffer)
+    word_buffer.seek(0)
+    
+    return excel_buffer, word_buffer, excel_file_name
