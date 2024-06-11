@@ -71,4 +71,4 @@ def create_ds(file):
     #new_df.to_excel("skus.xlsx", index=False)
     # Convert Excel to Word
     #word_file = 'data.docx'
-    return excel_to_word(df, new_df, file, header_value)
+    return excel_to_word(df, new_df, header_value)

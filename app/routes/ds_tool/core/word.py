@@ -1,19 +1,14 @@
-import pandas as pd
-
 from docx.shared import Pt, Inches
 from docx import Document
 
 from app.routes.ds_tool.core.table import table_column_widths
 from app.routes.ds_tool.core.footer import add_footer
 
-from io import BytesIO
-
-def excel_to_word(df, new_df, file, header_value):
+def excel_to_word(df, new_df, header_value):
 
     # Create a Word document
-    doc = Document("/home/garciagi/frame/template.docx")    # Extract the filename without extension for naming
-    filename = file.filename.rsplit('.', 1)[0]
-
+    doc = Document("/home/garciagi/frame/template.docx")
+    
     # Add header with the extracted value
     section = doc.sections[0]  # Get the first section (assuming only one section)
     header = section.header
@@ -124,19 +119,6 @@ def excel_to_word(df, new_df, file, header_value):
 
     add_footer(doc)
 
-    # Save the DataFrame to an Excel file
-    excel_file_name = f"{filename}.xlsx"
-    # Use BytesIO to handle the files in memory
-    excel_buffer = BytesIO()
-    
-    # Save the DataFrame to an Excel file
-    with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
-        df.to_excel(writer, index=False)
-    excel_buffer.seek(0)
-
     # Save Word file with the same name as the Excel file
-    word_buffer = BytesIO()
-    doc.save(word_buffer)
-    word_buffer.seek(0)
-    
-    return excel_buffer, word_buffer, excel_file_name
+    word_filename = '/home/garciagi/frame/ds.docx'
+    doc.save(word_filename)
