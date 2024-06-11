@@ -11,7 +11,7 @@ from io import BytesIO
 def excel_to_word(df, new_df, file, header_value):
 
     # Create a Word document
-    doc = Document("template.docx")    # Extract the filename without extension for naming
+    doc = Document("/home/garciagi/frame/template.docx")    # Extract the filename without extension for naming
     filename = file.filename.rsplit('.', 1)[0]
 
     # Add header with the extracted value

@@ -16,7 +16,6 @@ def allowed_file(filename):
     return '.' in filename and filename.rsplit('.', 1)[1].lower() in app.config['VALID_FILE_EXTENSIONS']
 
 def image_tool():
-    
     if 'img_product_only' in request.files:
         file = request.files['img_product_only']
         try:

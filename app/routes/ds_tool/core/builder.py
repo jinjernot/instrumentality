@@ -5,7 +5,7 @@ def create_ds(file):
     """Builds a sheet"""
 
     # Read Excel
-    df = pd.read_excel(file, sheet_name='Sheet1')
+    df = pd.read_excel(file.stream, sheet_name='Sheet1',  engine='openpyxl')
 
     # Extract the header value from the DataFrame
     header_value = df.columns[1]  
