@@ -4,10 +4,12 @@ from docx import Document
 from app.routes.ds_tool.core.table import table_column_widths
 from app.routes.ds_tool.core.footer import add_footer
 
+from config import DF_TEMPLATE_PATH, DF_DOCX_FILE_PATH
+
 def excel_to_word(df, new_df, header_value):
 
     # Create a Word document
-    doc = Document("/home/garciagi/frame/template.docx")
+    doc = Document(DF_TEMPLATE_PATH)
     
     # Add header with the extracted value
     section = doc.sections[0]  # Get the first section (assuming only one section)
@@ -120,5 +122,5 @@ def excel_to_word(df, new_df, header_value):
     add_footer(doc)
 
     # Save Word file with the same name as the Excel file
-    word_filename = '/home/garciagi/frame/ds.docx'
+    word_filename = DF_DOCX_FILE_PATH
     doc.save(word_filename)
