@@ -6,14 +6,15 @@ from app.routes.qs_tool.core.laptop.overview.overview import overview_section
 from app.routes.qs_tool.core.laptop.tables.tables import table_section
 from app.routes.qs_tool.core.format.format import format_document
 
-imgs_path = "/home/garciagi/qs/imgs/"
+from config import QS_IMAGE_PATH, QS_HTML_FILE_PATH, QS_DOCX_FILE_PATH, QS_ZIP_FILE_PATH, QS_CENTER_FACING_IMAGE_PATH, QS_PROFILE_FACING_IMAGE_PATH
+
+imgs_path = QS_IMAGE_PATH
 #imgs_path = "./imgs/"
 
-def createdocx(file):
+def create_docx(file):
 
-    # Variables
     doc = Document()
-    html_file = '/home/garciagi/qs/quickspecs.html'
+    html_file = QS_HTML_FILE_PATH
     #html_file = 'quickspecs.html'
 
     # Quickspecs sections
@@ -22,7 +23,7 @@ def createdocx(file):
     table_section(doc, file, html_file)
 
     format_document(doc, file, imgs_path)
-    docx_file = '/home/garciagi/qs/quickspecs.docx'
+    docx_file = QS_DOCX_FILE_PATH
     #docx_file = 'quickspecs.docx'
 
     doc.save(docx_file)
@@ -31,7 +32,7 @@ def createdocx(file):
     #convert(docx_file)
 
     # Create a zip file and add specific files to it
-    zip_file_name = '/home/garciagi/qs/quickspecs.zip'
+    zip_file_name = QS_ZIP_FILE_PATH
     #zip_file_name = 'quickspecs.zip'
 
     with ZipFile(zip_file_name, 'w') as zipf:
@@ -39,5 +40,5 @@ def createdocx(file):
         zipf.write(docx_file, arcname='quickspecs.docx')
         #zipf.write("image001.png", arcname='image001.png')
         #zipf.write("image002.png", arcname='image002.png')        
-        zipf.write("/home/garciagi/qs/image001.png", arcname='image001.png')
-        zipf.write("/home/garciagi/qs/image002.png", arcname='image002.png')
+        zipf.write(QS_CENTER_FACING_IMAGE_PATH, arcname='image001.png')
+        zipf.write(QS_PROFILE_FACING_IMAGE_PATH, arcname='image002.png')

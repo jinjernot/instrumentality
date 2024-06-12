@@ -1,3 +1,5 @@
+import pandas as pd
+
 from app.routes.qs_tool.core.laptop.tech_specs.operating_systems import operating_systems_section
 from app.routes.qs_tool.core.laptop.tech_specs.product_name import product_name_section
 from app.routes.qs_tool.core.laptop.tech_specs.networking import networking_section
@@ -15,7 +17,7 @@ from app.routes.qs_tool.core.laptop.tech_specs.audio import audio_section
 from app.routes.qs_tool.core.laptop.tech_specs.power import power_section
 from app.routes.qs_tool.core.laptop.tech_specs.ports import ports_section
 
-import pandas as pd
+from config import QS_TECHSPECS_PATH
 
 def tech_specs_section(doc, file, html_file):
     """TechSpecs Section"""
@@ -31,7 +33,7 @@ def tech_specs_section(doc, file, html_file):
         df_filtered = df.dropna(subset=[df.columns[1]])
 
         # Save the filtered DataFrame to a new Excel file
-        output_file = '/home/garciagi/qs/filtered_tech_specs.xlsx'
+        output_file = QS_TECHSPECS_PATH
         df_filtered.to_excel(output_file, index=False)
 
         # Read the filtered DataFrame

@@ -10,6 +10,8 @@ from io import BytesIO
 from app.routes.qs_tool.core.format.table import table_column_widths
 from app.routes.qs_tool.core.format.hr import *
 
+from config import QS_APP_PATH
+
 def download_image(url):
     """Download image from URL and return the image data."""
     response = requests.get(url)
@@ -58,7 +60,7 @@ def callout_section(doc, file, html_file, prod_name, df):
     df = pd.read_excel(file.stream, sheet_name='Callouts', engine='openpyxl')
 
     # Set the target directory
-    target_directory = '/home/garciagi/qs'
+    target_directory = QS_APP_PATH
     #target_directory = '.'
 
     # Get image URLs from the DataFrame
