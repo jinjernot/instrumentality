@@ -42,5 +42,5 @@ def format_data():
             font = cell.font
             cell.font = Font(color='FF0000', name=font.name, size=font.size)
     # Save the workbook to a file called `scs_qa.xlsx`.
-    wb.save('/home/garciagi/frame/scs_qa.xlsx') # Server
+    wb.save(SCS_REGULAR_FILE_PATH) # Server
     #wb.save('scs_qa.xlsx') # Local
