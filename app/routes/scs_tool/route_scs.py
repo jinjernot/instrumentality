@@ -4,6 +4,8 @@ from app.routes.scs_tool.core.qa_data import clean_report
 
 import config
 
+from config import SCS_APP_PATH
+
 # Create a Flask app
 app = Flask(__name__)
 app.use_static_for = 'static'
@@ -22,7 +24,7 @@ def scs_tool():
             try:
                 if allowed_file(file.filename):  # Check if the file has a valid extension
                     clean_report(file)  # Process the file
-                    return send_from_directory('.', filename='scs_qa.xlsx', as_attachment=True)  # Serve file for download
+                    return send_from_directory(SCS_APP_PATH, filename='scs_qa.xlsx', as_attachment=True)  # Serve file for download
                 else:
                     return render_template('error.html', error_message='Invalid file extension'), 400
             except Exception as e:

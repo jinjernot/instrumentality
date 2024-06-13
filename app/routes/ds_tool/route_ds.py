@@ -4,6 +4,8 @@ from app.routes.ds_tool.core.builder import create_ds
 
 import config
 
+from config import DF_APP_PATH
+
 # Create a Flask app
 app = Flask(__name__)
 app.use_static_for = 'static'
@@ -21,7 +23,7 @@ def ds_tool():
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
                 create_ds(file)  # Process the file
-                return send_from_directory('.', filename='ds.docx', as_attachment=True)   # Serve the zip file for download
+                return send_from_directory(DF_APP_PATH, filename='ds.docx', as_attachment=True)   # Serve the zip file for download
             else:
                 return render_template('error.html', error_message='Invalid file extension'), 400
         except Exception as e:
