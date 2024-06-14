@@ -55,8 +55,9 @@ def annotated_only(file):
     # Create the HTML
     html_content = "<html>\n<body>\n"
     for data in image_data:
-        html_content += f"<p>URL: {data['url']}</p>\n"
+        html_content += f"<p><b>URL:</b> {data['url']}</p>\n"
         html_content += f"<img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'>\n"
+        html_content += "<hr style='width: 50%;'>\n"
     html_content += "</body>\n</html>\n"
 
     # Create a DataFrame from the image data
