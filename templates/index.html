@@ -1,104 +1,148 @@
 <html>
-
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>FRAME</title>
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-		name='viewport' />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>FRAME</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+          name='viewport' />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/custom.css') }}" /> <!-- Link to your custom CSS -->
 
-	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
 </head>
 
 <body>
-	<div class="wrapper">
-		<div class="main-header">
-			<div class="logo-header">
-				FRAME
-				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
-					data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-			</div>
-		</div>
-		<div class="sidebar">
-			<div class="scrollbar-inner sidebar-wrapper">
+    <div class="wrapper">
+        <div class="main-header">
+            <div class="logo-header">
+                FRAME
+                <button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
+                        data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="scrollbar-inner sidebar-wrapper">
+                <ul class="nav">
+                    <li class="nav-item active">
+                        <a href="{{ url_for('index') }}">
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url_for('scs_tool_route') }}">
+                            <p>SCS QA Tool</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url_for('qs_tool_route') }}">
+                            <p>Quickspecs Builder</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url_for('image_tool_route') }}">
+                            <p>Image Toolbox</p>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="{{ url_for('ds_tool_route') }}">
+                            <p>NPI Datasheet</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <div class="content">
+                <div class="container-fluid">
+                    <h4 class="page-title">Welcome to FRAME: Your Arsenal for Content Mastery</h4>
 
-				<ul class="nav">
-					<li class="nav-item active">
-						<a href="{{ url_for('index') }}">
-							<p>Home</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('scs_tool_route') }}">
-							<p>SCS QA Tool</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('qs_tool_route') }}">
-							<p>Quickspecs Builder</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('image_tool_route') }}">
-							<p>Image Toolbox</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('ds_tool_route') }}">
-							<p>NPI Datasheet</p>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="main-panel">
-			<div class="content">
-				<div class="container-fluid">
-					<h4 class="page-title"></h4>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">SCS QA Tool</h4>
+                                    <p class="card-category">
+                                        Data processing</p>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mapcontainer">
+                                        This app is designed to perform quality assurance, highling errors and
+                                        suggesting action to address the issues.
+                                    </div>
+                                    <img class="image-main" src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c05789999.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
 
-					<div class="col-md-8">
-						<div class="card">
-							<div class="card-header">
-								<h4 class="card-title">Welcome to FRAME: Your Arsenal for Content Mastery</h4>
-								<p class="card-category">
-								Unlock the power of seamless automation and file processing</p>
-							</div>
-							<div class="card-body">
-								<div class="mapcontainer">
-									This platform contains several apps specifically designed to empower content team, streamlining their activities and enhancing productivity.<br><br>
-									<ul>
-										<li><strong>SCS QA Tool:</strong> This app is designed to perform quality assurance, highling errors and suggesting action to address the issues.</li>
-										<li><strong>Quickspecs Builder:</strong> Generate QS documents instantly with this tool, saving time and reducing manual effort involved in document creation.</li>
-										<li><strong>Image Toolbox:</strong> Equipped with several scripts, this app helps troubleshoot and resolve the most common image issues.</li>
-										<li><strong>DS NPI:</strong> Generate easily readable documents for content reviewers, facilitating smoother review processes and clear communication.</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					</div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Quickspecs Builder</h4>
+                                    <p class="card-category">
+                                        Automated Document Generation</p>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mapcontainer">
+                                        Generate QS documents instantly with this tool, saving time and reducing manual
+                                        effort involved in document creation.
+                                    </div>
+                                    <img class="image-main" src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c04796982.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">Image Toolbox</h4>
+                                    <p class="card-category">
+                                        Data Scrapping</p>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mapcontainer">
+                                        Equipped with several scripts, this app helps troubleshoot and resolve the most
+                                        common image issues.
+                                    </div>
+                                    <img class="image-main" src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c04796982.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card">
+                                <div class="card-header">
+                                    <h4 class="card-title">DS NPI</h4>
+                                    <p class="card-category">
+                                        Automated Document Generation</p>
+                                </div>
+                                <div class="card-body">
+                                    <div class="mapcontainer">
+                                        Generate easily readable documents for content reviewers, facilitating smoother
+                                        review processes and clear communication.
+                                    </div>
+                                    <img class="image-main" src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c04796982.png" alt="Image">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-
-				</div>
-			</div>
-			<footer class="footer">
-				<div class="container-fluid">
-					<nav class="pull-left">
-						<ul class="nav">
-						</ul>
-					</nav>
-					<div class="copyright ml-auto">
-						HP Inc. Restricted, Copyright 2024 HP Inc. Company.
-					</div>
-				</div>
-			</footer>
-		</div>
-	</div>
-	</div>
-
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <nav class="pull-left">
+                        <ul class="nav">
+                        </ul>
+                    </nav>
+                    <div class="copyright ml-auto">
+                        HP Inc. Restricted, Copyright 2024 HP Inc. Company.
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
 </body>
-
 </html>

@@ -3721,6 +3721,15 @@ body {
   color: #ffffff;
 }
 
+.image-main {
+  width: 25%; /* Set the width to 50% of the parent element */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* Ensure the image is a block-level element */
+  margin-left: auto; /* Push the image to the right */
+  margin-right: 0; /* Ensure there is no margin on the right */
+}
+
+
 /*     Responsive     */
 @media screen and (max-width: 700px) {
   .row-card-no-pd [class*=col-] .card:after {
@@ -3867,5 +3876,3 @@ body {
     display: none;
   }
 }
-
-/*# sourceMappingURL=ready.css.map */
