@@ -85,16 +85,17 @@ def image_only(file):
     # Create the HTML
     html_content = "<html>\n<body>\n"
     for data in image_data:
-        html_content += f"<p>URL: {data['url']}</p>\n"
+        html_content += f"<p><b>URL:</b> {data['url']}</p>\n"
         html_content += f"<img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'>\n"
-        html_content += f"<p>Orientation: {data['orientation']}</p>\n"
-        html_content += f"<p>Master Object Name: {data['master_object_name']}</p>\n"
-        html_content += f"<p>Pixel Height: {data['pixel_height']}</p>\n"
-        html_content += f"<p>Pixel Width: {data['pixel_width']}</p>\n"
-        html_content += f"<p>Content Type: {data['content_type']}</p>\n"
-        html_content += f"<p>Document Type Detail: {data['document_type_detail']}</p>\n"
-        html_content += f"<p>CMG Acronym: {data['cmg_acronym']}</p>\n"
-        html_content += f"<p>Color: {data['color']}</p>\n"
+        html_content += f"<p><b>Orientation:</b> {data['orientation']}</p>\n"
+        html_content += f"<p><b>Master Object Name:</b> {data['master_object_name']}</p>\n"
+        html_content += f"<p><b>Pixel Height:</b> {data['pixel_height']}</p>\n"
+        html_content += f"<p><b>Pixel Width:</b> {data['pixel_width']}</p>\n"
+        html_content += f"<p><b>Content Type:</b> {data['content_type']}</p>\n"
+        html_content += f"<p><b>Document Type Detail:</b> {data['document_type_detail']}</p>\n"
+        html_content += f"<p><b>CMG Acronym:</b> {data['cmg_acronym']}</p>\n"
+        html_content += f"<p><b>Color:</b> {data['color']}</p>\n"
+        html_content += "<hr style='width: 50%;'>\n"
     html_content += "</body>\n</html>\n"
 
     # Create a DataFrame from the image data
