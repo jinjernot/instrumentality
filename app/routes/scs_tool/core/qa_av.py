@@ -19,7 +19,7 @@ def av_check(file):
     SKUAcc_len=len(SkuAcc["SKU"].drop_duplicates())
     if (MS4_len!=SKUAcc_len):
         print("Data of one of both tabs are corrupted, please verify the file and try again")
-        sys.exit()
+        # sys.exit()
 
     #Crear nuevos data frames para el análisis
     #DataFrame de SCS (Sku Accuracy)
