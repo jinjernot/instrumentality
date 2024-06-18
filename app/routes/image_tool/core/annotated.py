@@ -5,8 +5,8 @@ from io import BytesIO
 
 def annotated_only(file):
     # Image dimensions
-    image_width = 500
-    image_height = 500
+    image_width = 300
+    image_height = 300
 
     # Create an empty list
     all_image_data = []
@@ -30,20 +30,22 @@ def annotated_only(file):
     # Loop through all the required elements
     for asset_element in root.findall(".//msc/asset"):
         asset_embed_code_element = asset_element.find("asset_embed_code")
+        asset_name_element = asset_element.find("asset_name")
         asset_category_element = asset_element.find("asset_category")
         document_type_detail_element = asset_element.find("asset_type")
         language_code_element = asset_element.find("language_code")
         asset_id_element = asset_element.find("asset_id")
         imagedetail_element = asset_element.find("imagedetail")
 
-        # Check if 'asset_name', 'asset_category', and 'asset_type' are available
+        # Check if 'asset_embed_code_element', 'asset_category', and 'asset_type' are available
         if asset_embed_code_element is not None and asset_category_element is not None and document_type_detail_element is not None:
-            asset_name = asset_embed_code_element.text.strip()
+            asset_embed_code = asset_embed_code_element.text.strip()
             asset_category = asset_category_element.text.strip()
             document_type_detail = document_type_detail_element.text.strip()
 
             # Extract the new tags if available
             language_code = language_code_element.text.strip() if language_code_element is not None else ""
+            asset_name = asset_name_element.text.strip() if asset_name_element is not None else ""
             asset_id = asset_id_element.text.strip() if asset_id_element is not None else ""
             imagedetail = imagedetail_element.text.strip() if imagedetail_element is not None else ""
 
@@ -51,36 +53,77 @@ def annotated_only(file):
             if document_type_detail == "Image" and asset_category == "Image - Annotated":
                 image_data.append({
                     "prodnum": prodnum,
-                    "url": asset_name,
+                    "asset_name": asset_name,
+                    "url": asset_embed_code,
                     "language_code": language_code,
                     "asset_id": asset_id,
-                    "imagedetail": imagedetail
+                    "imagedetail": imagedetail,
                 })
 
                 # Append data to the list
                 all_image_data.append({
                     "prodnum": prodnum,
-                    "url": asset_name,
+                    "asset_name": asset_name,
+                    "url": asset_embed_code,
                     "language_code": language_code,
                     "asset_id": asset_id,
-                    "imagedetail": imagedetail
+                    "imagedetail": imagedetail,
                 })
 
-    # Create the HTML
-    html_content = "<html>\n<body>\n"
+    # Create the HTML table
+    html_content = """
+    <html>
+    <head>
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+    </head>
+    <body>
+    <table>
+    <tr>
+        <th>Prodnum</th>
+        <th>Asset Name</th>
+        <th>URL</th>
+        <th>Language Code</th>
+        <th>Asset ID</th>
+        <th>Image Detail</th>
+        <th>Image</th>
+    </tr>
+    """
+    
     for data in image_data:
-        html_content += f"<p><b>URL:</b> {data['url']}</p>\n"
-        html_content += f"<p><b>Language Code:</b> {data['language_code']}</p>\n"
-        html_content += f"<p><b>Asset ID:</b> {data['asset_id']}</p>\n"
-        html_content += f"<p><b>Image Detail:</b> {data['imagedetail']}</p>\n"
-        html_content += f"<img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'>\n"
-        html_content += "<hr>\n"
-    html_content += "</body>\n</html>\n"
+        html_content += f"""
+        <tr>
+            <td>{data['prodnum']}</td>
+            <td>{data['asset_name']}</td>
+            <td>{data['url']}</td>
+            <td>{data['language_code']}</td>
+            <td>{data['asset_id']}</td>
+            <td>{data['imagedetail']}</td>
+            <td><img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'></td>
+        </tr>
+        """
+    html_content += """
+    </table>
+    </body>
+    </html>
+    """
 
     # Create a DataFrame from the image data
     df = pd.DataFrame(all_image_data)
-    
-    
+
     # Identify duplicate rows
     duplicates = df.duplicated(subset=["url", "language_code", "asset_id", "imagedetail"], keep=False)
 

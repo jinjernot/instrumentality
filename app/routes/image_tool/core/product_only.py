@@ -6,8 +6,8 @@ from io import BytesIO
 
 def image_only(file):
     # Image dimensions
-    image_width = 500
-    image_height = 500
+    image_width = 300
+    image_height = 300
 
     # Create an empty list
     all_image_data = []
@@ -82,21 +82,65 @@ def image_only(file):
                     "color": color
                 })
 
-    # Create the HTML
-    html_content = "<html>\n<body>\n"
+    # Create the HTML table
+    html_content = """
+    <html>
+    <head>
+    <style>
+        table {
+            font-family: Arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    </style>
+    </head>
+    <body>
+    <table>
+    <tr>
+        <th>Prodnum</th>
+        <th>URL</th>
+        <th>Orientation</th>
+        <th>Master Object Name</th>
+        <th>Pixel Height</th>
+        <th>Pixel Width</th>
+        <th>Content Type</th>
+        <th>Document Type Detail</th>
+        <th>CMG Acronym</th>
+        <th>Color</th>
+        <th>Image</th>
+    </tr>
+    """
+    
     for data in image_data:
-        html_content += f"<p><b>URL:</b> {data['url']}</p>\n"
-        html_content += f"<img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'>\n"
-        html_content += f"<p><b>Orientation:</b> {data['orientation']}</p>\n"
-        html_content += f"<p><b>Master Object Name:</b> {data['master_object_name']}</p>\n"
-        html_content += f"<p><b>Pixel Height:</b> {data['pixel_height']}</p>\n"
-        html_content += f"<p><b>Pixel Width:</b> {data['pixel_width']}</p>\n"
-        html_content += f"<p><b>Content Type:</b> {data['content_type']}</p>\n"
-        html_content += f"<p><b>Document Type Detail:</b> {data['document_type_detail']}</p>\n"
-        html_content += f"<p><b>CMG Acronym:</b> {data['cmg_acronym']}</p>\n"
-        html_content += f"<p><b>Color:</b> {data['color']}</p>\n"
-        html_content += "<hr>\n"
-    html_content += "</body>\n</html>\n"
+        html_content += f"""
+        <tr>
+            <td>{data['prodnum']}</td>
+            <td>{data['url']}</td>
+            <td>{data['orientation']}</td>
+            <td>{data['master_object_name']}</td>
+            <td>{data['pixel_height']}</td>
+            <td>{data['pixel_width']}</td>
+            <td>{data['content_type']}</td>
+            <td>{data['document_type_detail']}</td>
+            <td>{data['cmg_acronym']}</td>
+            <td>{data['color']}</td>
+            <td><img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'></td>
+
+        </tr>
+        """
+    html_content += """
+    </table>
+    </body>
+    </html>
+    """
 
     # Create a DataFrame from the image data
     df = pd.DataFrame(all_image_data)
