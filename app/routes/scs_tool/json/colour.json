@@ -1131,6 +1131,34 @@
         {
             "PhwebDescription": "ID PRG ALU+MAG wHDC TNR US layout 23C1",
             "ContainerValue": "Pale golden rose"
+        },
+        {
+            "PhwebDescription": "ID ABL ALU",
+            "ContainerValue": "Atmospheric blue"
+        },
+        {
+            "PhwebDescription": "ID CCW ALU",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": "ID CCW PLA wHDC TNR HyperX",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": "ID CCW PLA HyperX",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": "ID CCW MAG+ALU fOLED JPN layout HyperX",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": "ID CCW PLA HyperX fThin",
+            "ContainerValue": "Ceramic white"
+        },
+        {
+            "PhwebDescription": "ID GLS PT wHDC US layout",
+            "ContainerValue": "Chalkboard gray"
         }
     ]
 }

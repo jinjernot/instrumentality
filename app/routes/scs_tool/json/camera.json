@@ -491,6 +491,686 @@
         {
             "PhwebDescription": "BU RCTO UMAi5-1345UFHDwBLwHDCIRTIPD630G1",
             "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 8GB64GeMMCx36011G3J",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PentN6000 4GB64GeMMCx36011G4J",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA Cel N5100 4GB32GeMMCx36011G3J",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-13950HX nWWAN Fury 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX400012GB i9-13900HStudioG10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB PHi7KTRTKUSBC450G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C TI PD IC 865 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 650 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT RTKUSBC 450 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i7-13700HStudioG10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 16GB TIPDx3601040G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX408012GB i9-13900HStudioG10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT 470 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 630 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R9 HS PRO 8C TI PDIC865G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT RTK USBC 860 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR9PRO7940HSPower1",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT RTKUSBC 440 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR7PRO7840HSPower15.",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS i9-13950HX fWWAN Fury 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GB i7-13800HStudioG10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxx 250 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3xxxxU 250 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB Dfly G4",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7xxxxU 250 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCMX5502GB PHi7KT 470 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78CfHDCIRRTKUSBCx360435G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT RTKUSBC 450 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi7-13700HPower15.",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB RTK USBC 830G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1334U 470 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U 32GB TIPDx3601040G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM TI PD IC 840 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM RTK USBC 860 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM RTK USBC 860 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC RTX A500 PH i7KT TI PDIC14G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KTHW RTKUSBC 450 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi9-13900HPower15.",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT RTKUSBC 440 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5xxxxU 250 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBR77840HSPower15.6",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM HW TI PD IC 840 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT 470 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 PRO 8C TI PD IC 845 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX30008GB i9-13900H StudioG10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT TI PD IC 840 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB fOLED Dfly G4",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT TI PD IC 840 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR77840HSPower15.6G1",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7-KT TI PD IC 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW RTK USBC 860 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW TI PD IC 840 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13700HX fWWAN Fury 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM HW RTK USBC 860 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi7-13700HPower15.6G1",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U fWWAN TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R78Cf5MPCamIRRTKUSBC455G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 32GB Dfly G4",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBi9-13900HPower15.6G",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U 32GB TIPDx3601040G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBi7-13700HPower15.6G",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13850HX fWWAN Fury 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U TIPD 650 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-KT TI PD IC 14 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C RTK USBC 455 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA N100 8GB L5 x360 11 G11",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U fWWAN TIPD 650 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM TI PD IC 840 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW TI PD IC 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1360P TIPD 1040 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 16GB TIPDx3601040G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7-RM TI PD IC 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40708GB i9-13900H StudioG10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT16GBRTKUSBCx360830G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GBTIPDICx360830G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U RTKUSBC 1040 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT RTK USBC 860 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U RTKUSBC 1040 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U fWWAN TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB Dfly G4",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT TI PD IC 860 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U 16GB TIPDx3601040G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 7730U 255 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GB i7-13800HStudioG10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 1040 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 8GB RTK USBC 830 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi9-13900HPower15.",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i7-RM TI PD IC 14 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U fWWAN TIPD 650 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR5PRO6C TIPD 645 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT HW RTK USBC 14 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U fWWAN TIPD 650 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT fWWAN RTKUSBC 450 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 630 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi3KT RTKUSBC 450 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U RTKUSBC 1040 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R7 PRO 7850HS Power 15.6 G10A",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KT fWWAN RTK USBC 440 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHCelxxxx 250 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT32GBRTKUSBCx360830G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX3000Ada8GBi7-13700HPower156",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U fWWAN TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C fWWAN RTK USBC445G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78C fWWAN TIPD 645 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR78C fWWAN TIPD 655 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U TIPD 650 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT fWWAN RTKUSBC 450 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56C fWWAN TIPD 645 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13850HX nWWAN Fury 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi312xxx 250 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX40506GB i7-13620H 15",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDSUMAPentSN50304GB128GeMMCnSDC14aca0",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHR56C fWWAN TIPD 655 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 245 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 255 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX2000Ada8GBi7-13800HPower15.",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi7-1365UfWWANRTKUSBC640G10BRZP",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13600HPwr15.6G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi7-13800HPower15.6G1",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA10006GBR5PRO7640HSPower15.",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT 16GB RTK USBC 830G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAi5-1345UfWWANRTKUSBC640G10BRZP",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi5KT fWWAN RTKUSBC 440 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAR77730UFHD250fBLFPRwHDC245G10I",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R3 7320U 8GB 245 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW TI PD IC 14 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U RTKUSBC 440 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 PRO 7640HS Power 15.6 G10A",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS i7-13700HX nWWAN Fury 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1345U TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-KT HW TI PD IC 840 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM HW TI PD IC 14 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM 32GB Dfly G4",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 HS PRO 8C TI PDIC14G10A",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM16GBRTKUSBCx360830G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 HS PRO 6C TI PDIC14G10A",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U TIPD 14 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-KT 16GB RTK USBC 830G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM HW OSR TI PDIC840G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7520U 8GB 255 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSC T550 PH i5-KT TI PD IC 16 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1370P fWWAN TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1365U TIPD640G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R5 6C RTK USBC 445 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU RCTOUMAR55625UHDfnBLnFPRfHDC245G9INDI",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i7-RM16GBRTKUSBCx360830G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAi5-1335UFHD250fBLfHDCTIPD440G",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-N305 240 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA R5 7530U 255 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U TIPD 650 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMA i5-1345U RTKUSBC 840 G10BRZL",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 8C f5MP Cam IR RTK USBC",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1335U 240 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMAR7PRO7730UfHDCIRfWWANTIPD645G1",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA20008GB i7-13700HStudioG10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTX20504GB i7-1355U TIPD640G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH i5-RM 16GB OSR Dfly G4",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i3-1315U TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1355U TIPD 14 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i5-1350P fWWAN TIPD 640 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU RCTO UMAR57530UFHD250fBLfHDCTIPD445G1",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PH R7 HS PRO 8C TI PDIC865G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA i7-1365U OSR RTKUSBC 1040 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHi7KTHW RTKUSBC 440 G10",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS UMA PHPentxxxx 17",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "PhwebDescription": "BU IDS DSCRTXA5004GBi5-13500HPower15.6G1",
+            "ContainerValue": "##BLANK##"
         }
     ]
 }

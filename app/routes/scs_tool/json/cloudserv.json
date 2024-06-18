@@ -371,6 +371,10 @@
         {
             "PhwebDescription": "OST NWZH6 SL EN APACPPP",
             "ContainerValue": "25 GB Dropbox storage for 12 months"
+        },
+        {
+            "PhwebDescription": "OST FreeDOS 3.0",
+            "ContainerValue": "##BLANK##"
         }
     ]
 }
