@@ -32,6 +32,9 @@ def annotated_only(file):
         asset_embed_code_element = asset_element.find("asset_embed_code")
         asset_category_element = asset_element.find("asset_category")
         document_type_detail_element = asset_element.find("asset_type")
+        language_code_element = asset_element.find("language_code")
+        asset_id_element = asset_element.find("asset_id")
+        imagedetail_element = asset_element.find("imagedetail")
 
         # Check if 'asset_name', 'asset_category', and 'asset_type' are available
         if asset_embed_code_element is not None and asset_category_element is not None and document_type_detail_element is not None:
@@ -39,29 +42,51 @@ def annotated_only(file):
             asset_category = asset_category_element.text.strip()
             document_type_detail = document_type_detail_element.text.strip()
 
+            # Extract the new tags if available
+            language_code = language_code_element.text.strip() if language_code_element is not None else ""
+            asset_id = asset_id_element.text.strip() if asset_id_element is not None else ""
+            imagedetail = imagedetail_element.text.strip() if imagedetail_element is not None else ""
+
             # Get the elements if conditions are met
             if document_type_detail == "Image" and asset_category == "Image - Annotated":
                 image_data.append({
                     "prodnum": prodnum,
-                    "url": asset_name
+                    "url": asset_name,
+                    "language_code": language_code,
+                    "asset_id": asset_id,
+                    "imagedetail": imagedetail
                 })
 
                 # Append data to the list
                 all_image_data.append({
                     "prodnum": prodnum,
-                    "url": asset_name
+                    "url": asset_name,
+                    "language_code": language_code,
+                    "asset_id": asset_id,
+                    "imagedetail": imagedetail
                 })
 
     # Create the HTML
     html_content = "<html>\n<body>\n"
     for data in image_data:
         html_content += f"<p><b>URL:</b> {data['url']}</p>\n"
+        html_content += f"<p><b>Language Code:</b> {data['language_code']}</p>\n"
+        html_content += f"<p><b>Asset ID:</b> {data['asset_id']}</p>\n"
+        html_content += f"<p><b>Image Detail:</b> {data['imagedetail']}</p>\n"
         html_content += f"<img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'>\n"
-        html_content += "<hr style='width: 50%;'>\n"
+        html_content += "<hr>\n"
     html_content += "</body>\n</html>\n"
 
     # Create a DataFrame from the image data
     df = pd.DataFrame(all_image_data)
+    
+    
+    # Identify duplicate rows
+    duplicates = df.duplicated(subset=["url", "language_code", "asset_id", "imagedetail"], keep=False)
+
+    # Add a new column "note" and set it to "duplicate" for duplicate rows
+    df['note'] = ''
+    df.loc[duplicates, 'note'] = 'duplicate'
 
     # Prepare the output files
     excel_file_name = f"{filename}.xlsx"

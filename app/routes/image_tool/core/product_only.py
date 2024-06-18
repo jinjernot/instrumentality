@@ -95,7 +95,7 @@ def image_only(file):
         html_content += f"<p><b>Document Type Detail:</b> {data['document_type_detail']}</p>\n"
         html_content += f"<p><b>CMG Acronym:</b> {data['cmg_acronym']}</p>\n"
         html_content += f"<p><b>Color:</b> {data['color']}</p>\n"
-        html_content += "<hr style='width: 50%;'>\n"
+        html_content += "<hr>\n"
     html_content += "</body>\n</html>\n"
 
     # Create a DataFrame from the image data
