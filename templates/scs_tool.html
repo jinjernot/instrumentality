@@ -3,8 +3,7 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>FRAME</title>
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-		name='viewport' />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}" />
 	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
@@ -15,13 +14,10 @@
 		<div class="main-header">
 			<div class="logo-header">
 				FRAME
-				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
-					data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
 			</div>
-
 		</div>
 		<div class="sidebar">
 			<div class="scrollbar-inner sidebar-wrapper">
@@ -70,7 +66,6 @@
 				<div class="container-fluid">
 					<h4 class="page-title">SCS QA Tool</h4>
 					<div class="row">
-
 						<div class="col-md-4">
 							<div class="card">
 								<div class="card-header">
@@ -80,13 +75,13 @@
 									<form action="scs_tool" method="POST" enctype="multipart/form-data">
 										<div class="form-group">
 											<label for="scs_regular">Please upload XLSX file</label>
-											<input type="file" class="form-control-file" id="scs_regular"
-												name="scs_regular">
+											<input type="file" class="form-control-file" id="scs_regular" name="scs_regular">
 										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</form>
 								</div>
-								<div class="card-action"><button type="submit" class="btn btn-success">Submit</button>
-								</div>
-								</form>
 							</div>
 						</div>
 
@@ -96,13 +91,15 @@
 									<div class="card-title">Granular Report</div>
 								</div>
 								<div class="card-body">
-									<div class="form-group">
-										<label for="product_only">Please upload XLSX file</label>
-										<input type="file" class="form-control-file" id="product_only">
-									</div>
-								</div>
-								<div class="card-action">
-									<button class="btn btn-success">Submit</button>
+									<form action="scs_tool" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<label for="product_only">Please upload XLSX file</label>
+											<input type="file" class="form-control-file" id="product_only" name="product_only">
+										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>
@@ -115,13 +112,15 @@
 									<div class="card-title">Battery Life Report</div>
 								</div>
 								<div class="card-body">
-									<div class="form-group">
-										<label for="product_only">Please upload XLSX file</label>
-										<input type="file" class="form-control-file" id="product_only">
-									</div>
-								</div>
-								<div class="card-action">
-									<button class="btn btn-success">Submit</button>
+									<form action="scs_tool" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<label for="product_only">Please upload XLSX file</label>
+											<input type="file" class="form-control-file" id="product_only" name="product_only">
+										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>
@@ -132,17 +131,18 @@
 									<div class="card-title">Matrix File</div>
 								</div>
 								<div class="card-body">
-									<div class="form-group">
-										<label for="product_only">Please upload XLSX file</label>
-										<input type="file" class="form-control-file" id="product_only">
-									</div>
-								</div>
-								<div class="card-action">
-									<button class="btn btn-success">Submit</button>
+									<form action="scs_tool" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<label for="product_only">Please upload XLSX file</label>
+											<input type="file" class="form-control-file" id="product_only" name="product_only">
+										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</form>
 								</div>
 							</div>
 						</div>
-
 					</div>
 				</div>
 
@@ -160,8 +160,6 @@
 			</footer>
 		</div>
 	</div>
-	</div>
-
 </body>
 
 </html>

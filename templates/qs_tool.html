@@ -3,8 +3,7 @@
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>FRAME</title>
-	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-		name='viewport' />
+	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}" />
 	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
@@ -15,17 +14,13 @@
 		<div class="main-header">
 			<div class="logo-header">
 				FRAME
-				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse"
-					data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
+				<button class="navbar-toggler sidenav-toggler ml-auto" type="button" data-toggle="collapse" data-target="collapse" aria-controls="sidebar" aria-expanded="false" aria-label="Toggle navigation">
 					<span class="navbar-toggler-icon"></span>
 				</button>
-
 			</div>
-
 		</div>
 		<div class="sidebar">
 			<div class="scrollbar-inner sidebar-wrapper">
-
 				<ul class="nav">
 					<li class="nav-item">
 						<a href="{{ url_for('index') }}">
@@ -53,15 +48,15 @@
 						</a>
 					</li>
 					<li class="nav-item">
-                        <a href="http://g8t11912g.inc.hpicorp.net/app/pccs/app5">
-                            <p>PCCS Tool</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="http://g8t11912g.inc.hpicorp.net/app/api/app4">
-                            <p>Content Craft</p>
-                        </a>
-                    </li>
+						<a href="http://g8t11912g.inc.hpicorp.net/app/pccs/app5">
+							<p>PCCS Tool</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="http://g8t11912g.inc.hpicorp.net/app/api/app4">
+							<p>Content Craft</p>
+						</a>
+					</li>
 				</ul>
 			</div>
 		</div>
@@ -79,13 +74,13 @@
 									<form action="qs_tool" method="POST" enctype="multipart/form-data">
 										<div class="form-group">
 											<label for="qs_file">Please upload XLSX file</label>
-											<input type="file" class="form-control-file" id="qs_file"
-												name="qs_file">
+											<input type="file" class="form-control-file" id="qs_file" name="qs_file">
 										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">Submit</button>
+										</div>
+									</form>
 								</div>
-								<div class="card-action"><button type="submit" class="btn btn-success">Submit</button>
-								</div>
-								</form>
 							</div>
 						</div>
 					</div>
@@ -104,8 +99,6 @@
 			</footer>
 		</div>
 	</div>
-	</div>
-
 </body>
 
 </html>
