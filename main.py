@@ -36,5 +36,10 @@ def ds_tool_route():
     """DS Tool page"""
     return ds_tool()
 
+@app.route('/faq', methods=['GET', 'POST'])
+def faq_route():
+    """DS Tool page"""
+    return render_template('faq.html')
+
 if __name__ == "__main__":
     app.run(debug=True)
