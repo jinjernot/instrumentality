@@ -9,7 +9,6 @@ import config
 
 app = Flask(__name__)
 app.static_folder = 'static'
-
 app.config.from_object(config)
 
 @app.route('/main')
@@ -29,6 +28,7 @@ def qs_tool_route():
 
 @app.route('/image_tool', methods=['GET', 'POST'])
 def image_tool_route():
+    """Image Tool page"""
     return image_tool()
     
 @app.route('/ds_tool', methods=['GET', 'POST'])
@@ -38,7 +38,7 @@ def ds_tool_route():
 
 @app.route('/faq', methods=['GET', 'POST'])
 def faq_route():
-    """DS Tool page"""
+    """FAQ page"""
     return render_template('faq.html')
 
 if __name__ == "__main__":
