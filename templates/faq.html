@@ -3,8 +3,7 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <title>FRAME</title>
-    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
-        name='viewport' />
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
     <link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}" />
     <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
@@ -72,19 +71,18 @@
                 <div class="container-fluid">
                     <h4 class="page-title">FAQ</h4>
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-3">
                             <div class="card">
                                 <div class="card-header">
-                                    <div class="card-title">Country Codes</div>
+                                    <div class="card-title">Country Codes - APJ</div>
                                 </div>
                                 <div class="card-body">
                                     <table class="table table-hover">
                                         <thead>
                                             <tr>
-                                                <th scope="col">LocaleCode</th>
-                                                <th scope="col">CountryCode</th>
-                                                <th scope="col">LanguageCode</th>
-                                                <th scope="col">Region</th>
+                                                <th scope="col">Locale</th>
+                                                <th scope="col">Country</th>
+                                                <th scope="col">Language</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -92,469 +90,441 @@
                                                 <td>au-en</td>
                                                 <td>au</td>
                                                 <td>en</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>cn-zh</td>
                                                 <td>cn</td>
                                                 <td>zh</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>hk-zh</td>
                                                 <td>hk</td>
                                                 <td>zh</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>hk-en</td>
                                                 <td>hk</td>
                                                 <td>en</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>in-en</td>
                                                 <td>in</td>
                                                 <td>en</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>id-en</td>
                                                 <td>id</td>
                                                 <td>en</td>
-                                                <td>APJ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>id-id</td>
+                                                <td>id</td>
+                                                <td>id</td>
                                             </tr>
                                             <tr>
                                                 <td>jp-ja</td>
                                                 <td>jp</td>
                                                 <td>ja</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>kr-ko</td>
                                                 <td>kr</td>
                                                 <td>ko</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>my-en</td>
                                                 <td>my</td>
                                                 <td>en</td>
-                                                <td>APJ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>my-ms</td>
+                                                <td>my</td>
+                                                <td>ms</td>
                                             </tr>
                                             <tr>
                                                 <td>nz-en</td>
                                                 <td>nz</td>
                                                 <td>en</td>
-                                                <td>APJ</td>
-                                            </tr>
-                                            <tr>
-                                                <td>pk-en</td>
-                                                <td>pk</td>
-                                                <td>en</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>ph-en</td>
                                                 <td>ph</td>
                                                 <td>en</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>sg-en</td>
                                                 <td>sg</td>
                                                 <td>en</td>
-                                                <td>APJ</td>
+                                            </tr>
+                                            <tr>
+                                                <td>th-th</td>
+                                                <td>th</td>
+                                                <td>th</td>
                                             </tr>
                                             <tr>
                                                 <td>tw-zh</td>
                                                 <td>tw</td>
                                                 <td>zh</td>
-                                                <td>APJ</td>
-                                            </tr>
-                                            <tr>
-                                                <td>th-en</td>
-                                                <td>th</td>
-                                                <td>en</td>
-                                                <td>APJ</td>
                                             </tr>
                                             <tr>
                                                 <td>vn-en</td>
                                                 <td>vn</td>
                                                 <td>en</td>
-                                                <td>APJ</td>
                                             </tr>
+                                            <tr>
+                                                <td>vn-vi</td>
+                                                <td>vn</td>
+                                                <td>vi</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-title">Country Codes - EMEA</div>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Locale</th>
+                                                <th scope="col">Country</th>
+                                                <th scope="col">Language</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
                                             <tr>
                                                 <td>at-de</td>
                                                 <td>at</td>
                                                 <td>de</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>be-nl</td>
                                                 <td>be</td>
                                                 <td>nl</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>be-fr</td>
                                                 <td>be</td>
                                                 <td>fr</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>bg-bg</td>
                                                 <td>bg</td>
                                                 <td>bg</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>hr-en</td>
                                                 <td>hr</td>
                                                 <td>en</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>cz-cs</td>
                                                 <td>cz</td>
                                                 <td>cs</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>dk-da</td>
                                                 <td>dk</td>
                                                 <td>da</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>ee-en</td>
-                                                <td>ee</td>
-                                                <td>en</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>ee-et</td>
-                                                <td>ee</td>
-                                                <td>et</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>fi-fi</td>
                                                 <td>fi</td>
                                                 <td>fi</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>fr-fr</td>
                                                 <td>fr</td>
                                                 <td>fr</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>de-de</td>
                                                 <td>de</td>
                                                 <td>de</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>gr-en</td>
                                                 <td>gr</td>
                                                 <td>en</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>gr-el</td>
-                                                <td>gr</td>
-                                                <td>el</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>hu-hu</td>
                                                 <td>hu</td>
                                                 <td>hu</td>
-                                                <td>EMEA</td>
+                                            </tr>
+                                            <tr>
+                                                <td>is-en</td>
+                                                <td>is</td>
+                                                <td>en</td>
                                             </tr>
                                             <tr>
                                                 <td>ie-en</td>
                                                 <td>ie</td>
                                                 <td>en</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>il-en</td>
                                                 <td>il</td>
                                                 <td>en</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>il-he</td>
-                                                <td>il</td>
-                                                <td>he</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>it-it</td>
                                                 <td>it</td>
                                                 <td>it</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
-                                                <td>lv-lv</td>
-                                                <td>lv</td>
-                                                <td>lv</td>
-                                                <td>EMEA</td>
+                                                <td>kz-ru</td>
+                                                <td>kz</td>
+                                                <td>ru</td>
                                             </tr>
                                             <tr>
-                                                <td>lt-lt</td>
-                                                <td>lt</td>
-                                                <td>lt</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>ma-fr</td>
-                                                <td>ma</td>
+                                                <td>lu-fr</td>
+                                                <td>lu</td>
                                                 <td>fr</td>
-                                                <td>EMEA</td>
+                                            </tr>
+                                            <tr>
+                                                <td>lu-de</td>
+                                                <td>lu</td>
+                                                <td>de</td>
                                             </tr>
                                             <tr>
                                                 <td>nl-nl</td>
                                                 <td>nl</td>
                                                 <td>nl</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>ng-en</td>
-                                                <td>ng</td>
-                                                <td>en</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>no-no</td>
                                                 <td>no</td>
                                                 <td>no</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>pl-pl</td>
                                                 <td>pl</td>
                                                 <td>pl</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>pt-pt</td>
                                                 <td>pt</td>
                                                 <td>pt</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>ro-en</td>
-                                                <td>ro</td>
-                                                <td>en</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>ro-ro</td>
                                                 <td>ro</td>
                                                 <td>ro</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>ru-ru</td>
                                                 <td>ru</td>
                                                 <td>ru</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>sa-ar</td>
-                                                <td>sa</td>
-                                                <td>ar</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>sa-en</td>
-                                                <td>sa</td>
-                                                <td>en</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>cs-en</td>
-                                                <td>cs</td>
-                                                <td>en</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>sk-sk</td>
                                                 <td>sk</td>
                                                 <td>sk</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
-                                                <td>si-sl</td>
+                                                <td>si-en</td>
                                                 <td>si</td>
-                                                <td>sl</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>za-en</td>
-                                                <td>za</td>
                                                 <td>en</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>es-es</td>
                                                 <td>es</td>
                                                 <td>es</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>se-sv</td>
                                                 <td>se</td>
                                                 <td>sv</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>ch-en</td>
-                                                <td>ch</td>
-                                                <td>en</td>
-                                                <td>EMEA</td>
-                                            </tr>
-                                            <tr>
-                                                <td>ch-fr</td>
-                                                <td>ch</td>
-                                                <td>fr</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
                                                 <td>ch-de</td>
                                                 <td>ch</td>
                                                 <td>de</td>
-                                                <td>EMEA</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ch-fr</td>
+                                                <td>ch</td>
+                                                <td>fr</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ch-it</td>
+                                                <td>ch</td>
+                                                <td>it</td>
                                             </tr>
                                             <tr>
                                                 <td>tr-tr</td>
                                                 <td>tr</td>
                                                 <td>tr</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
-                                                <td>ae-ar</td>
-                                                <td>ae</td>
-                                                <td>ar</td>
-                                                <td>EMEA</td>
+                                                <td>ua-ru</td>
+                                                <td>ua</td>
+                                                <td>ru</td>
                                             </tr>
                                             <tr>
                                                 <td>ae-en</td>
                                                 <td>ae</td>
                                                 <td>en</td>
-                                                <td>EMEA</td>
                                             </tr>
                                             <tr>
-                                                <td>gb-en</td>
-                                                <td>gb</td>
+                                                <td>uk-en</td>
+                                                <td>uk</td>
                                                 <td>en</td>
-                                                <td>EMEA</td>
                                             </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-title">Country Codes - LAR</div>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-hover">
+                                        <thead>
                                             <tr>
-                                                <td>ar-mx</td>
+                                                <th scope="col">Locale</th>
+                                                <th scope="col">Country</th>
+                                                <th scope="col">Language</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>ar-es</td>
                                                 <td>ar</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>bo-mx</td>
+                                                <td>bo-es</td>
                                                 <td>bo</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>br-br</td>
+                                                <td>br-pt</td>
                                                 <td>br</td>
-                                                <td>br</td>
-                                                <td>LAR</td>
+                                                <td>pt</td>
                                             </tr>
                                             <tr>
-                                                <td>jm-en</td>
-                                                <td>jm</td>
-                                                <td>en</td>
-                                                <td>LAR</td>
-                                            </tr>
-                                            <tr>
-                                                <td>cl-mx</td>
+                                                <td>cl-es</td>
                                                 <td>cl</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>co-mx</td>
+                                                <td>co-es</td>
                                                 <td>co</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>ec-mx</td>
+                                                <td>cr-es</td>
+                                                <td>cr</td>
+                                                <td>es</td>
+                                            </tr>
+                                            <tr>
+                                                <td>do-es</td>
+                                                <td>do</td>
+                                                <td>es</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ec-es</td>
                                                 <td>ec</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>mx-mx</td>
-                                                <td>mx</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>sv-es</td>
+                                                <td>sv</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>pa-mx</td>
+                                                <td>gt-es</td>
+                                                <td>gt</td>
+                                                <td>es</td>
+                                            </tr>
+                                            <tr>
+                                                <td>hn-es</td>
+                                                <td>hn</td>
+                                                <td>es</td>
+                                            </tr>
+                                            <tr>
+                                                <td>mx-es</td>
+                                                <td>mx</td>
+                                                <td>es</td>
+                                            </tr>
+                                            <tr>
+                                                <td>ni-es</td>
+                                                <td>ni</td>
+                                                <td>es</td>
+                                            </tr>
+                                            <tr>
+                                                <td>pa-es</td>
                                                 <td>pa</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>py-mx</td>
+                                                <td>py-es</td>
                                                 <td>py</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>pe-mx</td>
+                                                <td>pe-es</td>
                                                 <td>pe</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>pr-mx</td>
+                                                <td>pr-es</td>
                                                 <td>pr</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>uy-mx</td>
+                                                <td>uy-es</td>
                                                 <td>uy</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
                                             <tr>
-                                                <td>ve-mx</td>
+                                                <td>ve-es</td>
                                                 <td>ve</td>
-                                                <td>mx</td>
-                                                <td>LAR</td>
+                                                <td>es</td>
                                             </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card">
+                                <div class="card-header">
+                                    <div class="card-title">Country Codes - NA</div>
+                                </div>
+                                <div class="card-body">
+                                    <table class="table table-hover">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col">Locale</th>
+                                                <th scope="col">Country</th>
+                                                <th scope="col">Language</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
                                             <tr>
                                                 <td>ca-en</td>
                                                 <td>ca</td>
                                                 <td>en</td>
-                                                <td>NA</td>
                                             </tr>
                                             <tr>
                                                 <td>ca-fr</td>
                                                 <td>ca</td>
                                                 <td>fr</td>
-                                                <td>NA</td>
                                             </tr>
                                             <tr>
                                                 <td>us-en</td>
                                                 <td>us</td>
                                                 <td>en</td>
-                                                <td>NA</td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -562,20 +532,21 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                <footer class="footer">
-                    <div class="container-fluid">
-                        <nav class="pull-left">
-                            <ul class="nav">
-                            </ul>
-                        </nav>
-                        <div class="copyright ml-auto">
-                            HP Inc. Restricted, Copyright 2024 HP Inc. Company.
-                        </div>
-                    </div>
-                </footer>
             </div>
-        </div>
-</body>
-
-</html>
+            </div>
+                    <footer class="footer">
+                        <div class="container-fluid">
+                            <nav class="pull-left">
+                                <ul class="nav"></ul>
+                            </nav>
+                            <div class="copyright ml-auto">
+                                HP Inc. Restricted, Copyright 2024 HP Inc. Company.
+                            </div>
+                        </div>
+                    </footer>
+              
+            </div>
+       
+        </body>
+        
+        </html>
