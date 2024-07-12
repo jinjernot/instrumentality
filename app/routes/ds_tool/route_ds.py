@@ -21,8 +21,8 @@ def ds_tool():
     if 'ds_file' in request.files:
         file = request.files['ds_file']
         try:
-            if allowed_file(file.filename):  # Check if the file has a valid extension
-                create_ds(file)  # Process the file
+            if allowed_file(file.filename): 
+                create_ds(file)  
                 return send_from_directory(DF_APP_PATH, filename='ds.docx', as_attachment=True)   # Serve the zip file for download
             else:
                 return render_template('error.html', error_message='Invalid file extension'), 400
