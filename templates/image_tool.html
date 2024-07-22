@@ -1,203 +1,152 @@
-<html>
-  <head>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>FRAME</title>
-    <meta
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
-      name="viewport"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/bootstrap.min.css') }}"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ url_for('static', filename='css/ready.css') }}"
-    />
+<html lang="en">
 
-    <link
-      rel="shortcut icon"
-      type="image/x-icon"
-      href="{{ url_for('static', filename='images/favicon.ico') }}"
-    />
-  </head>
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<title>FRAME</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}" />
+	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
+</head>
 
-  <body>
-    <div class="wrapper">
-      <div class="main-header">
-        <div class="logo-header">
-          FRAME
-          <button
-            class="navbar-toggler sidenav-toggler ml-auto"
-            type="button"
-            data-toggle="collapse"
-            data-target="collapse"
-            aria-controls="sidebar"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-        </div>
-      </div>
-      <div class="sidebar">
-        <div class="scrollbar-inner sidebar-wrapper">
-          <ul class="nav">
-            <li class="nav-item">
-              <a href="{{ url_for('index') }}">
-                <p>Home</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url_for('scs_tool_route') }}">
-                <p>SCS QA Tool</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url_for('qs_tool_route') }}">
-                <p>Quickspecs Builder</p>
-              </a>
-            </li>
-            <li class="nav-item active">
-              <a href="{{ url_for('image_tool_route') }}">
-                <p>Image Toolbox</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url_for('ds_tool_route') }}">
-                <p>CROME</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="https://g8t11912g.inc.hpicorp.net/app/pccs/app5">
-                <p>PCCS Tool</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="https://g8t11912g.inc.hpicorp.net/app/contentcraft/main">
-                <p>Content Craft</p>
-              </a>
-            </li>
-            <li class="nav-item">
-              <a href="{{ url_for('faq_route') }}">
-                <p>FAQ</p>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="main-panel">
-        <div class="content">
-          <div class="container-fluid">
-            <h4 class="page-title">Image Toolbox</h4>
-            <div class="row">
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                    <div class="card-title">Product Only Report</div>
-                  </div>
-                  <div class="card-body">
-                    <form
-                      action="image_tool"
-                      method="POST"
-                      enctype="multipart/form-data"
-                    >
-                      <div class="form-group">
-                        <label for="img_product_only"
-                          >Please upload XML file</label
-                        >
-                        <input
-                          type="file"
-                          class="form-control-file"
-                          id="img_product_only"
-                          name="img_product_only"
-                        />
-                      </div>
-                      <div class="card-action">
-                        <button type="submit" class="btn btn-success">
-                          Submit
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
+<body>
+	<div class="wrapper">
+		<div class="main-header">
+			<div class="logo-header">
+				<img src="{{ url_for('static', filename='images/favicon.png') }}" class="img-header" />
+				FRAME
+			</div>
+		</div>
+		<div class="sidebar">
+			<div class="scrollbar-inner sidebar-wrapper">
+				<ul class="nav">
+					<li class="nav-item">
+						<a href="{{ url_for('index') }}">
+							<p>Home</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="{{ url_for('scs_tool_route') }}">
+							<p>SCS QA Tool</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="{{ url_for('qs_tool_route') }}">
+							<p>Quickspecs Builder</p>
+						</a>
+					</li>
+					<li class="nav-item active">
+						<a href="{{ url_for('image_tool_route') }}">
+							<p>Image Toolbox</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="{{ url_for('ds_tool_route') }}">
+							<p>CROME</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://g8t11912g.inc.hpicorp.net/app/pccs/app5">
+							<p>PCCS Tool</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://g8t11912g.inc.hpicorp.net/app/contentcraft/main">
+							<p>Content Craft</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="{{ url_for('faq_route') }}">
+							<p>FAQ</p>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="main-panel">
+			<div class="content">
+				<div class="container-fluid">
+					<h4 class="page-title">Image Toolbox</h4>
+					<div class="row">
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">Product Only Report</div>
+								</div>
+								<div class="card-body">
+									<form action="image_tool" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<label for="img_product_only">Please upload XML file</label>
+											<input type="file" class="form-control-file" id="img_product_only"
+												name="img_product_only" />
+										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">
+												Submit
+											</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
 
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                    <div class="card-title">Annotated Image Report</div>
-                  </div>
-                  <div class="card-body">
-                    <form
-                      action="image_tool"
-                      method="POST"
-                      enctype="multipart/form-data"
-                    >
-                      <div class="form-group">
-                        <label for="img_annotated"
-                          >Please upload XML file</label
-                        >
-                        <input
-                          type="file"
-                          class="form-control-file"
-                          id="img_annotated"
-                          name="img_annotated"
-                        />
-                      </div>
-                      <div class="card-action">
-                        <button type="submit" class="btn btn-success">
-                          Submit
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">Annotated Image Report</div>
+								</div>
+								<div class="card-body">
+									<form action="image_tool" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<label for="img_annotated">Please upload XML file</label>
+											<input type="file" class="form-control-file" id="img_annotated"
+												name="img_annotated" />
+										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">
+												Submit
+											</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
 
-              <div class="col-md-4">
-                <div class="card">
-                  <div class="card-header">
-                    <div class="card-title">Image URL Report</div>
-                  </div>
-                  <div class="card-body">
-                    <form
-                      action="image_tool"
-                      method="POST"
-                      enctype="multipart/form-data"
-                    >
-                      <div class="form-group">
-                        <label for="img_url">Please upload XML file</label>
-                        <input
-                          type="file"
-                          class="form-control-file"
-                          id="img_url"
-                          name="img_url"
-                        />
-                      </div>
-                      <div class="card-action">
-                        <button type="submit" class="btn btn-success">
-                          Submit
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <footer class="footer">
-          <div class="container-fluid">
-            <nav class="pull-left">
-              <ul class="nav"></ul>
-            </nav>
-            <div class="copyright ml-auto">
-              HP Inc. Restricted, Copyright 2024 HP Inc. Company.
-            </div>
-          </div>
-        </footer>
-      </div>
-    </div>
-  </body>
+						<div class="col-md-4">
+							<div class="card">
+								<div class="card-header">
+									<div class="card-title">Image URL Report</div>
+								</div>
+								<div class="card-body">
+									<form action="image_tool" method="POST" enctype="multipart/form-data">
+										<div class="form-group">
+											<label for="img_url">Please upload XML file</label>
+											<input type="file" class="form-control-file" id="img_url" name="img_url" />
+										</div>
+										<div class="card-action">
+											<button type="submit" class="btn btn-success">
+												Submit
+											</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer class="footer">
+				<div class="container-fluid">
+					<nav class="pull-left">
+						<ul class="nav"></ul>
+					</nav>
+					<div class="copyright ml-auto">
+						HP Inc. Restricted, Copyright 2024 HP Inc. Company.
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+</body>
+
 </html>
