@@ -2,8 +2,9 @@
 
 <head>
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>FRAME</title>
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no" name="viewport" />
+	<title>FRAME - SCS QA Tool</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
+		name="viewport" />
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
 	<link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}" />
 	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
@@ -27,7 +28,7 @@
 					</li>
 					<li class="nav-item active">
 						<a href="{{ url_for('scs_tool_route') }}">
-							<p>SCS QA Tool</p>
+							<p>SCS Quality Assurance Tool</p>
 						</a>
 					</li>
 					<li class="nav-item">
@@ -46,15 +47,15 @@
 						</a>
 					</li>
 					<li class="nav-item">
-                        <a href="https://g8t11912g.inc.hpicorp.net/app/pccs/app5">
-                            <p>PCCS Tool</p>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="https://g8t11912g.inc.hpicorp.net/app/contentcraft/main">
-                            <p>Content Craft</p>
-                        </a>
-                    </li>
+						<a href="https://g8t11912g.inc.hpicorp.net/app/pccs/app5">
+							<p>PCCS Tool</p>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="https://g8t11912g.inc.hpicorp.net/app/contentcraft/main">
+							<p>Content Craft</p>
+						</a>
+					</li>
 					<li class="nav-item">
 						<a href="{{ url_for('faq_route') }}">
 							<p>FAQ</p>
@@ -67,7 +68,7 @@
 		<div class="main-panel">
 			<div class="content">
 				<div class="container-fluid">
-					<h4 class="page-title">SCS QA Tool</h4>
+					<h4 class="page-title">SCS Quality Assurance Tool</h4>
 					<div class="row">
 						<div class="col-md-4">
 							<div class="card">
@@ -78,7 +79,8 @@
 									<form action="scs_tool" method="POST" enctype="multipart/form-data">
 										<div class="form-group">
 											<label for="scs_regular">Please upload XLSX file</label>
-											<input type="file" class="form-control-file" id="scs_regular" name="scs_regular">
+											<input type="file" class="form-control-file" id="scs_regular"
+												name="scs_regular">
 										</div>
 										<div class="card-action">
 											<button type="submit" class="btn btn-success">Submit</button>
@@ -97,7 +99,8 @@
 									<form action="scs_tool" method="POST" enctype="multipart/form-data">
 										<div class="form-group">
 											<label for="product_only">Please upload XLSX file</label>
-											<input type="file" class="form-control-file" id="product_only" name="product_only">
+											<input type="file" class="form-control-file" id="product_only"
+												name="product_only">
 										</div>
 										<div class="card-action">
 											<button type="submit" class="btn btn-success">Submit</button>
@@ -118,7 +121,8 @@
 									<form action="scs_tool" method="POST" enctype="multipart/form-data">
 										<div class="form-group">
 											<label for="product_only">Please upload XLSX file</label>
-											<input type="file" class="form-control-file" id="product_only" name="product_only">
+											<input type="file" class="form-control-file" id="product_only"
+												name="product_only">
 										</div>
 										<div class="card-action">
 											<button type="submit" class="btn btn-success">Submit</button>
@@ -137,7 +141,8 @@
 									<form action="scs_tool" method="POST" enctype="multipart/form-data">
 										<div class="form-group">
 											<label for="product_only">Please upload XLSX file</label>
-											<input type="file" class="form-control-file" id="product_only" name="product_only">
+											<input type="file" class="form-control-file" id="product_only"
+												name="product_only">
 										</div>
 										<div class="card-action">
 											<button type="submit" class="btn btn-success">Submit</button>
@@ -147,6 +152,31 @@
 							</div>
 						</div>
 					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="card">
+								<div class="card-body">
+									<div class="">
+										The SCS QA Tool is a software solution designed to enhance the accuracy data
+										acquired by SCS Team.<br>
+										This tool streamlines the process of cleaning and
+										verifying SKU Accuracy Reports, ensuring that the acquired content aligns
+										seamlessly with HP's content database.<br>
+										The tool first comprehensively cleans the SKU Accuracy Report, addressing common
+										data inconsistencies, formatting errors, and duplications.<br>
+										After cleaning the data, the tool performs a robust comparison with the product
+										database. It identifies discrepancies, inconsistencies, and mismatches between
+										the acquired content and the existing records.
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+
+
+
 				</div>
 
 			</div>
