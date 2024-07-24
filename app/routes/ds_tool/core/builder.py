@@ -7,7 +7,7 @@ def create_ds(file):
     """Builds a sheet"""
 
     # Read Excel
-    df = pd.read_excel(file.stream, sheet_name='Content',  engine='openpyxl')
+    df = pd.read_excel(file.stream, sheet_name='Content', engine='openpyxl')
 
     # Extract the header value from the DataFrame
     header_value = df.columns[1]  
@@ -26,6 +26,9 @@ def create_ds(file):
 
     # Convert all data to string format
     df = df.astype(str)
+
+    # Replace cells with value "_x0000_" with "##BLANK##"
+    df.replace("_x0000_", "##BLANK##", inplace=True)
     
     # Remove rows where "Container Group" contains specific strings
     unwanted_strings = ["Messaging", "Facets", "Core Information", "Metadata"]
