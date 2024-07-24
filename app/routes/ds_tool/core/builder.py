@@ -1,6 +1,8 @@
 import pandas as pd
 from app.routes.ds_tool.core.word import excel_to_word
 
+from config import DF_XLSX_FILE_PATH
+
 def create_ds(file):
     """Builds a sheet"""
 
@@ -68,7 +70,7 @@ def create_ds(file):
     # Save Excel file
     #excel_file = 'data.xlsx'
     #df.to_excel(excel_file, index=False)
-    #new_df.to_excel("skus.xlsx", index=False)
+    new_df.to_excel(DF_XLSX_FILE_PATH, index=False)
     # Convert Excel to Word
     #word_file = 'data.docx'
     return excel_to_word(df, new_df, header_value)
