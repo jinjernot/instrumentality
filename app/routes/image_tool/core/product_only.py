@@ -40,13 +40,13 @@ def image_only(file):
         cmg_acronym_element = asset_element.find("cmg_acronym")
         color_element = asset_element.find("color")
 
-        # Check if 'image_url_https' and 'product image' is available
+        # Check if 'image_url_https' and 'product image' or 'product in use' is available
         if asset_embed_code_element is not None and document_type_detail_element is not None:
             image_url = asset_embed_code_element.text.strip()
             document_type_detail = document_type_detail_element.text.strip()
 
             # Get the elements
-            if image_url and document_type_detail == "product image":
+            if image_url and document_type_detail in ["product image", "product in use"]:
                 orientation = orientation_element.text.strip() if orientation_element is not None else ""
                 master_object_name = master_object_name_element.text.strip() if master_object_name_element is not None else ""
                 pixel_height = pixel_height_element.text.strip() if pixel_height_element is not None else ""
@@ -82,6 +82,9 @@ def image_only(file):
                     "color": color
                 })
 
+    # Sort image data by document type detail
+    image_data = sorted(image_data, key=lambda x: x["document_type_detail"])
+
     # Create the HTML table
     html_content = """
     <html>
@@ -99,6 +102,12 @@ def image_only(file):
         }
         tr:nth-child(even) {
             background-color: #f2f2f2;
+        }
+        .divider {
+            border: none;
+            border-top: 2px solid rgb(0, 150, 214);
+            margin: 20px auto;
+            width: 50%;
         }
     </style>
     </head>
@@ -119,7 +128,16 @@ def image_only(file):
     </tr>
     """
     
+    previous_type = None
     for data in image_data:
+        if previous_type is not None and previous_type != data['document_type_detail']:
+            # Add <hr> to separate different document types
+            html_content += """
+            <tr>
+                <td colspan="11"><hr class="divider"></td>
+            </tr>
+            """
+
         html_content += f"""
         <tr>
             <td>{data['prodnum']}</td>
@@ -133,9 +151,11 @@ def image_only(file):
             <td>{data['cmg_acronym']}</td>
             <td>{data['color']}</td>
             <td><img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'></td>
-
         </tr>
         """
+
+        previous_type = data['document_type_detail']
+
     html_content += """
     </table>
     </body>
