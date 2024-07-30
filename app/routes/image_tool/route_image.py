@@ -1,7 +1,7 @@
 from flask import Flask, send_file, render_template, request
 
-from app.routes.image_tool.core.annotated import annotated_only
-from app.routes.image_tool.core.product_only import image_only
+from app.routes.image_tool.core.rich_media import annotated_only
+from app.routes.image_tool.core.product_images import image_only
 from app.routes.image_tool.core.image_urls import image_url
 
 import config

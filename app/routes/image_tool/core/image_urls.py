@@ -73,8 +73,8 @@ def image_url(file):
         # Define the format for status codes not equal to 200
         format_red = workbook.add_format({'font_color': 'red'})
         
-        # Apply conditional formatting to the status column (assuming it is column B, change if necessary)
-        worksheet.conditional_format('H2:H{}'.format(len(df) + 1), 
+        # Apply conditional formatting to the status column (column B)
+        worksheet.conditional_format('B2:B{}'.format(len(df) + 1), 
                                      {'type': 'cell',
                                       'criteria': '!=',
                                       'value': 200,
