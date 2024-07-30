@@ -38,7 +38,10 @@ def annotated_only(file):
         imagedetail_element = asset_element.find("imagedetail")
 
         # Check if 'asset_embed_code_element', 'asset_category', and 'asset_type' are available
-        if asset_embed_code_element is not None and asset_category_element is not None and document_type_detail_element is not None:
+        if (asset_embed_code_element is not None and
+            asset_category_element is not None and
+            document_type_detail_element is not None):
+            
             asset_embed_code = asset_embed_code_element.text.strip()
             asset_category = asset_category_element.text.strip()
             document_type_detail = document_type_detail_element.text.strip()
@@ -50,13 +53,14 @@ def annotated_only(file):
             imagedetail = imagedetail_element.text.strip() if imagedetail_element is not None else ""
 
             # Get the elements if conditions are met
-            if document_type_detail == "Image" and asset_category == "Image - Annotated":
+            if document_type_detail == "Image" and asset_category in ["Image - Annotated", "Image - Product Detail", "Image - Banners"]:
                 image_data.append({
                     "prodnum": prodnum,
                     "asset_name": asset_name,
                     "url": asset_embed_code,
                     "language_code": language_code,
                     "asset_id": asset_id,
+                    "asset_category": asset_category,
                     "imagedetail": imagedetail,
                 })
 
@@ -67,8 +71,12 @@ def annotated_only(file):
                     "url": asset_embed_code,
                     "language_code": language_code,
                     "asset_id": asset_id,
+                    "asset_category": asset_category,
                     "imagedetail": imagedetail,
                 })
+
+    # Sort image data by asset category
+    image_data = sorted(image_data, key=lambda x: x["asset_category"])
 
     # Create the HTML table
     html_content = """
@@ -88,6 +96,12 @@ def annotated_only(file):
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }
+        .divider {
+            border: none;
+            border-top: 2px solid rgb(0, 150, 214);
+            margin: 20px auto;
+            width: 50%;
+        }
     </style>
     </head>
     <body>
@@ -98,12 +112,22 @@ def annotated_only(file):
         <th>URL</th>
         <th>Language Code</th>
         <th>Asset ID</th>
+        <th>Asset Category</th>
         <th>Image Detail</th>
         <th>Image</th>
     </tr>
     """
-    
+
+    previous_category = None
     for data in image_data:
+        if previous_category is not None and previous_category != data['asset_category']:
+            # Add <hr> to separate different categories
+            html_content += """
+            <tr>
+                <td colspan="8"><hr class="divider"></td>
+            </tr>
+            """
+
         html_content += f"""
         <tr>
             <td>{data['prodnum']}</td>
@@ -111,10 +135,15 @@ def annotated_only(file):
             <td>{data['url']}</td>
             <td>{data['language_code']}</td>
             <td>{data['asset_id']}</td>
+            <td>{data['asset_category']}</td>
             <td>{data['imagedetail']}</td>
             <td><img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'></td>
         </tr>
         """
+
+        # Update the last category
+        previous_category = data['asset_category']
+
     html_content += """
     </table>
     </body>
@@ -125,7 +154,7 @@ def annotated_only(file):
     df = pd.DataFrame(all_image_data)
 
     # Identify duplicate rows
-    duplicates = df.duplicated(subset=["url", "language_code", "asset_id", "imagedetail"], keep=False)
+    duplicates = df.duplicated(subset=["url", "language_code", "asset_id", "asset_category", "imagedetail"], keep=False)
 
     # Add a new column "note" and set it to "duplicate" for duplicate rows
     df['note'] = ''
