@@ -2,3 +2,4 @@ docs
 myenv
 __pycache__
 config.py
+.venv
