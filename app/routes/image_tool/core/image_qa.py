@@ -12,6 +12,52 @@ import numpy as np
 # Load the ResNet50 model
 model = ResNet50(weights='imagenet')
 
+def validate_url(url):
+    try:
+        response = requests.head(url, timeout=5)
+        if response.status_code == 200:
+            return "Valid"
+        else:
+            return "Invalid"
+    except requests.RequestException:
+        return "Invalid"
+
+def classify_image(image_url, model):
+    try:
+        # Download the image
+        response = requests.get(image_url, stream=True)
+        response.raise_for_status()
+
+        # Open the image and resize it
+        img = Image.open(response.raw).convert('RGB').resize((224, 224))
+
+        # Convert the image to a numpy array and preprocess it
+        img_array = image.img_to_array(img)
+        img_array = np.expand_dims(img_array, axis=0)
+        img_array = preprocess_input(img_array)
+
+        # Make predictions using the model
+        preds = model.predict(img_array)
+        decoded_preds = decode_predictions(preds, top=3)[0]
+
+        # Check for specific categories
+        categories = {
+            "laptop": ["laptop", "notebook"],
+            "desktop": ["desktop", "monitor", "computer"],
+            "printer": ["printer"],
+        }
+
+        for _, name, _ in decoded_preds:
+            for category, keywords in categories.items():
+                if any(keyword in name.lower() for keyword in keywords):
+                    return category.capitalize()
+
+        return "Other"
+
+    except Exception as e:
+        print(f"Error classifying image {image_url}: {e}")
+        return "Error"
+
 def process_xml_files_from_folder(folder_path):
     all_image_data = []
 
@@ -217,50 +263,13 @@ def process_xml_files_from_folder(folder_path):
         zip_file.writestr(excel_file_name, excel_buffer.getvalue())
     zip_buffer.seek(0)
 
-    return zip_buffer, "output.zip"
+    # Save zip file to the local directory
+    zip_file_path = os.path.join(folder_path, "output.zip")
+    with open(zip_file_path, 'wb') as f:
+        f.write(zip_buffer.getvalue())
+    
+    print(f"Processed {len(all_image_data)} images. Output saved to '{zip_file_path}'.")
 
-def validate_url(url):
-    try:
-        response = requests.head(url, timeout=5)
-        if response.status_code == 200:
-            return "Valid"
-        else:
-            return "Invalid"
-    except requests.RequestException:
-        return "Invalid"
-
-def classify_image(image_url, model):
-    try:
-        # Download the image
-        response = requests.get(image_url, stream=True)
-        response.raise_for_status()
-        
-        # Open the image and resize it
-        img = Image.open(response.raw).resize((224, 224))
-        
-        # Convert the image to a numpy array and preprocess it
-        img_array = image.img_to_array(img)
-        img_array = np.expand_dims(img_array, axis=0)
-        img_array = preprocess_input(img_array)
-        
-        # Make predictions using the model
-        preds = model.predict(img_array)
-        decoded_preds = decode_predictions(preds, top=3)[0]
-
-        # Check for specific categories
-        categories = {
-            "laptop": ["laptop", "notebook"],
-            "desktop": ["desktop", "monitor", "computer"],
-            "printer": ["printer"],
-        }
-
-        for _, name, _ in decoded_preds:
-            for category, keywords in categories.items():
-                if any(keyword in name.lower() for keyword in keywords):
-                    return category.capitalize()
-
-        return "Other"
-
-    except Exception as e:
-        print(f"Error classifying image: {e}")
-        return "Error"
+# Specify the path to your XML folder here
+xml_folder_path = 'xml/'
+process_xml_files_from_folder(xml_folder_path)
