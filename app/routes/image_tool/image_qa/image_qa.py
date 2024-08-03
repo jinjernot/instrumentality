@@ -2,8 +2,6 @@ import os
 import pandas as pd
 import xml.etree.ElementTree as ET
 import requests
-from zipfile import ZipFile
-from io import BytesIO
 from PIL import Image
 from keras.applications.resnet50 import ResNet50, preprocess_input, decode_predictions
 from keras.preprocessing import image
@@ -148,62 +146,23 @@ def process_xml_files_from_folder(folder_path):
     # Sort image data by document type detail
     image_data = sorted(all_image_data, key=lambda x: x["document_type_detail"])
 
-    # Create the HTML table
-    html_content = """
-    <html>
-    <head>
-    <style>
-        table {
-            font-family: Arial, sans-serif;
-            border-collapse: collapse;
-            width: 100%;
-        }
-        th, td {
-            border: 1px solid #dddddd;
-            text-align: left;
-            padding: 8px;
-        }
-        tr:nth-child(even) {
-            background-color: #f2f2f2;
-        }
-        .divider {
-            border: none;
-            border-top: 2px solid rgb(0, 150, 214);
-            margin: 20px auto;
-            width: 50%;
-        }
-    </style>
-    </head>
-    <body>
-    <table>
-    <tr>
-        <th>Prodnum</th>
-        <th>URL</th>
-        <th>URL Validity</th>
-        <th>Orientation</th>
-        <th>Master Object Name</th>
-        <th>Pixel Height</th>
-        <th>Pixel Width</th>
-        <th>Content Type</th>
-        <th>Document Type Detail</th>
-        <th>CMG Acronym</th>
-        <th>Color</th>
-        <th>Image Type</th>
-        <th>Image</th>
-    </tr>
-    """
+    # Read the template file
+    with open('xml/template.html', 'r') as file:
+        html_template = file.read()
 
+    # Generate HTML table rows
     previous_type = None
+    table_rows = ""
     for data in image_data:
-        if previous_type is not None and previous_type != data['document_type_detail']:
+        if previous_type is not None and previous_type != data['prodnum']:
             # Add <hr> to separate different document types
-            html_content += """
+            table_rows += """
             <tr>
                 <td colspan="13"><hr class="divider"></td>
             </tr>
             """
 
-        html_content += f"""
+        table_rows += f"""
         <tr>
             <td>{data['prodnum']}</td>
             <td>{data['url']}</td>
@@ -221,13 +180,10 @@ def process_xml_files_from_folder(folder_path):
         </tr>
         """
 
-        previous_type = data['document_type_detail']
+        previous_type = data['prodnum']
 
-    html_content += """
-    </table>
-    </body>
-    </html>
-    """
+    # Replace placeholder with the generated rows
+    html_content = html_template.replace('{{ table_rows }}', table_rows)
 
     # Create a DataFrame from the image data
     df = pd.DataFrame(all_image_data)
@@ -243,32 +199,17 @@ def process_xml_files_from_folder(folder_path):
     excel_file_name = "output.xlsx"
     html_file_name = "output.html"
 
-    # Use BytesIO to handle the files in memory
-    excel_buffer = BytesIO()
-    html_buffer = BytesIO()
-
     # Save the DataFrame to an Excel file
-    with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
+    excel_path = os.path.join(folder_path, excel_file_name)
+    with pd.ExcelWriter(excel_path, engine='xlsxwriter') as writer:
         df.to_excel(writer, index=False)
-    excel_buffer.seek(0)
 
-    # Save the HTML content to the buffer
-    html_buffer.write(html_content.encode('utf-8'))
-    html_buffer.seek(0)
-
-    # Create a zip file
-    zip_buffer = BytesIO()
-    with ZipFile(zip_buffer, 'w') as zip_file:
-        zip_file.writestr(html_file_name, html_buffer.getvalue())
-        zip_file.writestr(excel_file_name, excel_buffer.getvalue())
-    zip_buffer.seek(0)
-
-    # Save zip file to the local directory
-    zip_file_path = os.path.join(folder_path, "output.zip")
-    with open(zip_file_path, 'wb') as f:
-        f.write(zip_buffer.getvalue())
+    # Save the HTML content to a file
+    html_path = os.path.join(folder_path, html_file_name)
+    with open(html_path, 'w', encoding='utf-8') as f:
+        f.write(html_content)
     
-    print(f"Processed {len(all_image_data)} images. Output saved to '{zip_file_path}'.")
+    print(f"Processed {len(all_image_data)} images. Output saved to '{excel_path}' and '{html_path}'.")
 
 # Specify the path to your XML folder here
 xml_folder_path = 'xml/'
