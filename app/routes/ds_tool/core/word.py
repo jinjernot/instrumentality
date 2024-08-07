@@ -7,7 +7,6 @@ from app.routes.ds_tool.core.footer import add_footer
 from config import DF_TEMPLATE_PATH, DF_DOCX_FILE_PATH
 
 def excel_to_word(df, new_df, header_value):
-
     # Create a Word document
     doc = Document(DF_TEMPLATE_PATH)
     
@@ -19,6 +18,20 @@ def excel_to_word(df, new_df, header_value):
     header_run.bold = True  # Make the text bold
     header_run.font.size = Pt(16)  # Set the font size to 16pt
 
+    # Add confidential text below the header
+    paragraph = doc.add_paragraph()
+    confidential_text = (
+        "This document is confidential and is meant solely for the product development content review team. "
+        "Please refrain from sharing, distributing, or copying this document for any other purposes. "
+        "The file should not be forwarded without obtaining approval from the PM team or permission from the HP development company. "
+        "Be advised that the information provided is subject to change at any time. "
+        "Additionally, each table header indicates whether the information pertains to the Series level or the SKU level."
+    )
+    confidential_run = paragraph.add_run(confidential_text)
+    confidential_run.font.size = Pt(10)  # Set the font size to 10pt
+    confidential_run.italic = True  # Make the text italicized
+
+    # Add a new paragraph for Series Values title
     paragraph = doc.add_paragraph()
     run = paragraph.add_run("Series Values")
     run.font.size = Pt(12)
@@ -71,7 +84,7 @@ def excel_to_word(df, new_df, header_value):
         #doc.add_paragraph()
 
         # Add a new table for the current column
-        table = doc.add_table(rows=new_df.shape[0] + 1, cols=2,  style='Table Grid')
+        table = doc.add_table(rows=new_df.shape[0] + 1, cols=2, style='Table Grid')
         table_column_widths(table, (Inches(2), Inches(5.5),))
 
         # Populate the table with the values from the first and current column
@@ -89,7 +102,7 @@ def excel_to_word(df, new_df, header_value):
                 for paragraph in cell.paragraphs:
                     for run in paragraph.runs:
                         run.font.size = Pt(8)  # Set font size to 6 points
-                        
+
                 # Reduce spacing within cell
                 cell.paragraphs[0].paragraph_format.space_before = Pt(0)
                 cell.paragraphs[0].paragraph_format.space_after = Pt(0)
