@@ -1,5 +1,6 @@
 from docx.shared import Pt, Inches
 from docx import Document
+from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
 from app.routes.ds_tool.core.table import table_column_widths
 from app.routes.ds_tool.core.footer import add_footer
@@ -18,18 +19,23 @@ def excel_to_word(df, new_df, header_value):
     header_run.bold = True  # Make the text bold
     header_run.font.size = Pt(16)  # Set the font size to 16pt
 
-    # Add confidential text below the header
+    # Add confidential text centered on the page with bullet points
     paragraph = doc.add_paragraph()
-    confidential_text = (
-        "This document is confidential and is meant solely for the product development content review team. "
-        "Please refrain from sharing, distributing, or copying this document for any other purposes. "
-        "The file should not be forwarded without obtaining approval from the PM team or permission from the HP development company. "
-        "Be advised that the information provided is subject to change at any time. "
-        "Additionally, each table header indicates whether the information pertains to the Series level or the SKU level."
-    )
-    confidential_run = paragraph.add_run(confidential_text)
-    confidential_run.font.size = Pt(10)  # Set the font size to 10pt
-    confidential_run.italic = True  # Make the text italicized
+    paragraph.alignment = WD_PARAGRAPH_ALIGNMENT.LEFT
+    confidential_text_lines = [
+        "• This document is confidential and is meant solely for the product development content review team.",
+        "• Please refrain from sharing, distributing, or copying this document for any other purposes.",
+        "• The file should not be forwarded without obtaining approval from the PM team or permission from the HP development company.",
+        "• Be advised that the information provided is subject to change at any time.",
+        "• Additionally, each table header indicates whether the information pertains to the Series level or the SKU level."
+    ]
+    for line in confidential_text_lines:
+        run = paragraph.add_run(line + "\n")
+        run.font.size = Pt(10)  # Set the font size to 10pt
+        run.italic = True  # Make the text italicized
+
+    # Insert a page break to start the rest of the document on a new page
+    doc.add_page_break()
 
     # Add a new paragraph for Series Values title
     paragraph = doc.add_paragraph()
