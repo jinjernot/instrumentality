@@ -1,7 +1,6 @@
 import pandas as pd
 import xml.etree.ElementTree as ET
-
-from zipfile import ZipFile
+from zipfile import ZipFile, BadZipFile
 from io import BytesIO
 
 def image_only(file):
@@ -9,22 +8,82 @@ def image_only(file):
     image_width = 300
     image_height = 300
 
-    # Create an empty list
+    # Create an empty list to store all image data
     all_image_data = []
+
+    # Check if the file is a ZIP file
+    if file.filename.endswith('.zip'):
+        try:
+            # Open the ZIP file
+            with ZipFile(file) as zip_file:
+                # Iterate over each file in the ZIP
+                for zip_info in zip_file.infolist():
+                    # Check if the file is an XML file
+                    if zip_info.filename.endswith('.xml'):
+                        with zip_file.open(zip_info) as xml_file:
+                            # Process the XML file
+                            process_xml(xml_file, zip_info.filename, all_image_data)
+        except BadZipFile:
+            print(f"Error: The file '{file.filename}' is not a valid ZIP file.")
+            return None
+    else:
+        # Process a single XML file
+        process_xml(file, file.filename, all_image_data)
+
+    # Sort image data by document type detail
+    all_image_data = sorted(all_image_data, key=lambda x: x["document_type_detail"])
+
+    # Generate HTML content
+    html_content = generate_html(all_image_data, image_width, image_height)
+
+    # Create a DataFrame from the image data
+    df = pd.DataFrame(all_image_data)
+
+    # Identify duplicate rows
+    duplicates = df.duplicated(subset=["prodnum", "orientation", "pixel_height", "content_type", "cmg_acronym", "color"], keep=False)
+
+    # Add a new column "note" and set it to "duplicate" for duplicate rows
+    df['note'] = ''
+    df.loc[duplicates, 'note'] = 'duplicate'
 
     # Extract the filename without extension for naming HTML and Excel files
     filename = file.filename.rsplit('.', 1)[0]
 
+    # Prepare the output files
+    excel_file_name = f"{filename}.xlsx"
+    html_file_name = f"{filename}.html"
+
+    # Use BytesIO to handle the files in memory
+    excel_buffer = BytesIO()
+    html_buffer = BytesIO()
+
+    # Save the DataFrame to an Excel file
+    with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
+        df.to_excel(writer, index=False)
+    excel_buffer.seek(0)
+
+    # Save the HTML content to the buffer
+    html_buffer.write(html_content.encode('utf-8'))
+    html_buffer.seek(0)
+
+    # Create a ZIP file
+    zip_buffer = BytesIO()
+    with ZipFile(zip_buffer, 'w') as zip_file:
+        zip_file.writestr(html_file_name, html_buffer.getvalue())
+        zip_file.writestr(excel_file_name, excel_buffer.getvalue())
+    zip_buffer.seek(0)
+
+    return zip_buffer, f"{filename}.zip"
+
+def process_xml(file, filename, all_image_data):
     try:
         tree = ET.parse(file)
         root = tree.getroot()
     except ET.ParseError:
-        print(f"Error parsing the XML file '{file.filename}'. Skipping.")
-        return None
+        print(f"Error parsing the XML file '{filename}'. Skipping.")
+        return
 
-    # Create an empty list
-    image_data = []
-    # Get the prodnum
+    # Extract the prodnum
     prodnum_element = root.find(".//product_numbers/prodnum")
     prodnum = prodnum_element.text.strip() if prodnum_element is not None else ""
 
@@ -45,7 +104,6 @@ def image_only(file):
             image_url = asset_embed_code_element.text.strip()
             document_type_detail = document_type_detail_element.text.strip()
 
-            # Get the elements
             if image_url and document_type_detail in ["product image", "product in use"]:
                 orientation = orientation_element.text.strip() if orientation_element is not None else ""
                 master_object_name = master_object_name_element.text.strip() if master_object_name_element is not None else ""
@@ -55,20 +113,6 @@ def image_only(file):
                 cmg_acronym = cmg_acronym_element.text.strip() if cmg_acronym_element is not None else ""
                 color = color_element.text.strip() if color_element is not None else ""
 
-                image_data.append({
-                    "prodnum": prodnum,
-                    "url": image_url,
-                    "orientation": orientation,
-                    "master_object_name": master_object_name,
-                    "pixel_height": pixel_height,
-                    "pixel_width": pixel_width,
-                    "content_type": content_type,
-                    "document_type_detail": document_type_detail,
-                    "cmg_acronym": cmg_acronym,
-                    "color": color
-                })
-
-                # Append data to the list
                 all_image_data.append({
                     "prodnum": prodnum,
                     "url": image_url,
@@ -82,10 +126,7 @@ def image_only(file):
                     "color": color
                 })
 
-    # Sort image data by document type detail
-    image_data = sorted(image_data, key=lambda x: x["document_type_detail"])
-
-    # Create the HTML table
+def generate_html(image_data, image_width, image_height):
     html_content = """
     <html>
     <head>
@@ -161,39 +202,4 @@ def image_only(file):
     </body>
     </html>
     """
-
-    # Create a DataFrame from the image data
-    df = pd.DataFrame(all_image_data)
-
-    # Identify duplicate rows
-    duplicates = df.duplicated(subset=["prodnum", "orientation", "pixel_height", "content_type", "cmg_acronym", "color"], keep=False)
-
-    # Add a new column "note" and set it to "duplicate" for duplicate rows
-    df['note'] = ''
-    df.loc[duplicates, 'note'] = 'duplicate'
-
-    # Prepare the output files
-    excel_file_name = f"{filename}.xlsx"
-    html_file_name = f"{filename}.html"
-
-    # Use BytesIO to handle the files in memory
-    excel_buffer = BytesIO()
-    html_buffer = BytesIO()
-
-    # Save the DataFrame to an Excel file
-    with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
-        df.to_excel(writer, index=False)
-    excel_buffer.seek(0)
-
-    # Save the HTML content to the buffer
-    html_buffer.write(html_content.encode('utf-8'))
-    html_buffer.seek(0)
-
-    # Create a zip file
-    zip_buffer = BytesIO()
-    with ZipFile(zip_buffer, 'w') as zip_file:
-        zip_file.writestr(html_file_name, html_buffer.getvalue())
-        zip_file.writestr(excel_file_name, excel_buffer.getvalue())
-    zip_buffer.seek(0)
-
-    return zip_buffer, f"{filename}.zip"
+    return html_content

@@ -1,6 +1,6 @@
 from flask import Flask, send_file, render_template, request
 
-from app.routes.image_tool.core.rich_media import annotated_only
+from app.routes.image_tool.core.rich_media import rich_media_only
 from app.routes.image_tool.core.product_images import image_only
 from app.routes.image_tool.core.image_urls import image_url
 
@@ -32,11 +32,11 @@ def image_tool():
         except Exception as e:
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
         
-    elif 'img_annotated' in request.files:  # Check for img_annotated
-        file = request.files['img_annotated']
+    elif 'img_rich_media' in request.files:  # Check for img_rich_media
+        file = request.files['img_rich_media']
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension
-                zip_buffer, zip_filename = annotated_only(file)  # Process the file and get the zip buffer and filename
+                zip_buffer, zip_filename = rich_media_only(file)  # Process the file and get the zip buffer and filename
                 if zip_buffer:
                     return send_file(zip_buffer, as_attachment=True, attachment_filename=zip_filename, mimetype='application/zip')  # Serve the zip file for download
                 else:
@@ -46,7 +46,7 @@ def image_tool():
         except Exception as e:
             return render_template('error.html', error_message=str(e)), 500  # Render error template for server errors
         
-    elif 'img_url' in request.files:  # Check for img_annotated
+    elif 'img_url' in request.files:  # Check for img_rich_media
         file = request.files['img_url']
         try:
             if allowed_file(file.filename):  # Check if the file has a valid extension

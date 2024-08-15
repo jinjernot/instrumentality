@@ -1,34 +1,37 @@
-import xml.etree.ElementTree as ET
-import pandas as pd
-from zipfile import ZipFile
-from io import BytesIO
+import xml.etree.ElementTree as ET  # Import the module for working with XML
+import pandas as pd  # Import pandas for handling data in tabular form
+from zipfile import ZipFile  # Import ZipFile to create zip files
+from io import BytesIO  # Import BytesIO to handle in-memory data
 
-def annotated_only(file):
+def rich_media_only(file):
     # Image dimensions
     image_width = 300
     image_height = 300
 
-    # Create an empty list
+    # List to store all image data
     all_image_data = []
 
-    # Extract the filename without extension for naming HTML and Excel files
+    # Extract the file name without the extension for naming the HTML and Excel files
     filename = file.filename.rsplit('.', 1)[0]
 
     try:
+        # Attempt to parse the XML file
         tree = ET.parse(file)
         root = tree.getroot()
     except ET.ParseError:
-        print(f"Error parsing the XML file '{file.filename}'. Skipping.")
+        print(f"Error parsing XML file '{file.filename}'. Skipping.")
         return None
 
-    # Create an empty list
+    # List to store specific image data
     image_data = []
-    # Get the prodnum
+    
+# Get the product number, ensuring that prodnum_element is not None
     prodnum_element = root.find(".//product_numbers/prodnum")
     prodnum = prodnum_element.text.strip() if prodnum_element is not None else ""
 
-    # Loop through all the required elements
-    for asset_element in root.findall(".//msc/asset"):
+    # Loop through all "asset" elements in the XML, ensuring that root.findall() doesn't return None
+    for asset_element in root.findall(".//msc/asset") or []:  # Adding "or []" ensures it's iterable even if None
+        # Find elements within each "asset"
         asset_embed_code_element = asset_element.find("asset_embed_code")
         asset_name_element = asset_element.find("asset_name")
         asset_category_element = asset_element.find("asset_category")
@@ -37,7 +40,7 @@ def annotated_only(file):
         asset_id_element = asset_element.find("asset_id")
         imagedetail_element = asset_element.find("imagedetail")
 
-        # Check if 'asset_embed_code_element', 'asset_category', and 'asset_type' are available
+        # Check if certain elements are present (not None) before accessing them
         if (asset_embed_code_element is not None and
             asset_category_element is not None and
             document_type_detail_element is not None):
@@ -46,14 +49,14 @@ def annotated_only(file):
             asset_category = asset_category_element.text.strip()
             document_type_detail = document_type_detail_element.text.strip()
 
-            # Extract the new tags if available
+            # Extract other elements if available, using conditional expressions to handle None
             language_code = language_code_element.text.strip() if language_code_element is not None else ""
             asset_name = asset_name_element.text.strip() if asset_name_element is not None else ""
             asset_id = asset_id_element.text.strip() if asset_id_element is not None else ""
             imagedetail = imagedetail_element.text.strip() if imagedetail_element is not None else ""
-
-            # Get the elements if conditions are met
+            # Filter data based on document type and asset category
             if document_type_detail == "Image" and asset_category in ["Image - Annotated", "Image - Product Detail", "Image - Banners"]:
+                # Add the data to the list
                 image_data.append({
                     "prodnum": prodnum,
                     "asset_name": asset_name,
@@ -64,7 +67,7 @@ def annotated_only(file):
                     "imagedetail": imagedetail,
                 })
 
-                # Append data to the list
+                # Add the data to the global image data list
                 all_image_data.append({
                     "prodnum": prodnum,
                     "asset_name": asset_name,
@@ -75,10 +78,10 @@ def annotated_only(file):
                     "imagedetail": imagedetail,
                 })
 
-    # Sort image data by asset category
+    # Sort the image data by asset category
     image_data = sorted(image_data, key=lambda x: x["asset_category"])
 
-    # Create the HTML table
+    # Create the HTML content to display the data in a table
     html_content = """
     <html>
     <head>
@@ -118,16 +121,18 @@ def annotated_only(file):
     </tr>
     """
 
+    # Variable to track the previous category
     previous_category = None
     for data in image_data:
+        # Add a divider if the category changes
         if previous_category is not None and previous_category != data['asset_category']:
-            # Add <hr> to separate different categories
             html_content += """
             <tr>
                 <td colspan="8"><hr class="divider"></td>
             </tr>
             """
 
+        # Add the rows with the image data
         html_content += f"""
         <tr>
             <td>{data['prodnum']}</td>
@@ -141,30 +146,31 @@ def annotated_only(file):
         </tr>
         """
 
-        # Update the last category
+        # Update the previous category
         previous_category = data['asset_category']
 
+    # Close the table and the HTML content
     html_content += """
     </table>
     </body>
     </html>
     """
 
-    # Create a DataFrame from the image data
+    # Create a DataFrame with the image data
     df = pd.DataFrame(all_image_data)
 
-    # Identify duplicate rows
+    # Identify duplicate rows in the DataFrame
     duplicates = df.duplicated(subset=["url", "language_code", "asset_id", "asset_category", "imagedetail"], keep=False)
 
-    # Add a new column "note" and set it to "duplicate" for duplicate rows
+    # Add a new "note" column and mark duplicate rows as "duplicate"
     df['note'] = ''
     df.loc[duplicates, 'note'] = 'duplicate'
 
-    # Prepare the output files
+    # Prepare the output file names
     excel_file_name = f"{filename}.xlsx"
     html_file_name = f"{filename}.html"
 
-    # Use BytesIO to handle the files in memory
+    # Use BytesIO to handle files in memory
     excel_buffer = BytesIO()
     html_buffer = BytesIO()
 
@@ -177,11 +183,12 @@ def annotated_only(file):
     html_buffer.write(html_content.encode('utf-8'))
     html_buffer.seek(0)
 
-    # Create a zip file
+    # Create a zip file with the Excel and HTML files
     zip_buffer = BytesIO()
     with ZipFile(zip_buffer, 'w') as zip_file:
         zip_file.writestr(html_file_name, html_buffer.getvalue())
         zip_file.writestr(excel_file_name, excel_buffer.getvalue())
     zip_buffer.seek(0)
 
+    # Return the zip buffer and the zip file name
     return zip_buffer, f"{filename}.zip"
