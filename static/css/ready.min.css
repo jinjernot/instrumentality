@@ -2168,7 +2168,7 @@ img.img-header {
 }
 .sidebar .nav .nav-item.active a:before,
 .sidebar .nav .nav-item.active:hover a:before {
-  background: #1d7af3;
+  background: #0096d6;
   opacity: 1 !important;
   position: absolute;
   z-index: 1;
@@ -2198,7 +2198,7 @@ img.img-header {
   background: #fbfbfb;
 }
 .sidebar .nav .nav-item:hover a:before {
-  background: #1d7af3;
+  background: #0096d6;
   opacity: 0.7;
   position: absolute;
   z-index: 1;
