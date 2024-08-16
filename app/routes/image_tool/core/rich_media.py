@@ -1,7 +1,8 @@
-import xml.etree.ElementTree as ET  # Import the module for working with XML
-import pandas as pd  # Import pandas for handling data in tabular form
-from zipfile import ZipFile  # Import ZipFile to create zip files
-from io import BytesIO  # Import BytesIO to handle in-memory data
+import xml.etree.ElementTree as ET
+import pandas as pd 
+
+from zipfile import ZipFile, BadZipFile
+from io import BytesIO
 
 def rich_media_only(file):
     # Image dimensions
@@ -10,22 +11,82 @@ def rich_media_only(file):
 
     # List to store all image data
     all_image_data = []
+    
+    # Check if the file is a ZIP file
+    if file.filename.endswith('.zip'):
+        try:
+            # Open the ZIP file
+            with ZipFile(file) as zip_file:
+                # Iterate over each file in the ZIP
+                for zip_info in zip_file.infolist():
+                    # Check if the file is an XML file
+                    if zip_info.filename.endswith('.xml'):
+                        with zip_file.open(zip_info) as xml_file:
+                            # Process the XML file
+                            process_xml(xml_file, zip_info.filename, all_image_data)
+        except BadZipFile:
+            print(f"Error: The file '{file.filename}' is not a valid ZIP file.")
+            return None
+    else:
+        # Process a single XML file
+        process_xml(file, file.filename, all_image_data)
 
+    # Sort the image data by asset category
+    image_data = sorted(image_data, key=lambda x: x["asset_category"])
+
+    # Generate HTML content
+    html_content = generate_html(all_image_data, image_width, image_height)
+
+    # Create a DataFrame with the image data
+    df = pd.DataFrame(all_image_data)
+
+    # Identify duplicate rows in the DataFrame
+    duplicates = df.duplicated(subset=["url", "language_code", "asset_id", "asset_category", "imagedetail"], keep=False)
+
+    # Add a new "note" column and mark duplicate rows as "duplicate"
+    df['note'] = ''
+    df.loc[duplicates, 'note'] = 'duplicate'
+    
     # Extract the file name without the extension for naming the HTML and Excel files
     filename = file.filename.rsplit('.', 1)[0]
 
+    # Prepare the output file names
+    excel_file_name = f"{filename}.xlsx"
+    html_file_name = f"{filename}.html"
+
+    # Use BytesIO to handle files in memory
+    excel_buffer = BytesIO()
+    html_buffer = BytesIO()
+
+    # Save the DataFrame to an Excel file
+    with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
+        df.to_excel(writer, index=False)
+    excel_buffer.seek(0)
+
+    # Save the HTML content to the buffer
+    html_buffer.write(html_content.encode('utf-8'))
+    html_buffer.seek(0)
+
+    # Create a zip file with the Excel and HTML files
+    zip_buffer = BytesIO()
+    with ZipFile(zip_buffer, 'w') as zip_file:
+        zip_file.writestr(html_file_name, html_buffer.getvalue())
+        zip_file.writestr(excel_file_name, excel_buffer.getvalue())
+    zip_buffer.seek(0)
+
+    # Return the zip buffer and the zip file name
+    return zip_buffer, f"{filename}.zip"
+
+def process_xml(file, filename, all_image_data):
     try:
         # Attempt to parse the XML file
         tree = ET.parse(file)
         root = tree.getroot()
     except ET.ParseError:
-        print(f"Error parsing XML file '{file.filename}'. Skipping.")
-        return None
-
-    # List to store specific image data
-    image_data = []
+        print(f"Error parsing XML file '{filename}'. Skipping.")
+        return
     
-# Get the product number, ensuring that prodnum_element is not None
+    # Get the product number, ensuring that prodnum_element is not None
     prodnum_element = root.find(".//product_numbers/prodnum")
     prodnum = prodnum_element.text.strip() if prodnum_element is not None else ""
 
@@ -57,7 +118,7 @@ def rich_media_only(file):
             # Filter data based on document type and asset category
             if document_type_detail == "Image" and asset_category in ["Image - Annotated", "Image - Product Detail", "Image - Banners"]:
                 # Add the data to the list
-                image_data.append({
+                all_image_data.append({
                     "prodnum": prodnum,
                     "asset_name": asset_name,
                     "url": asset_embed_code,
@@ -78,10 +139,7 @@ def rich_media_only(file):
                     "imagedetail": imagedetail,
                 })
 
-    # Sort the image data by asset category
-    image_data = sorted(image_data, key=lambda x: x["asset_category"])
-
-    # Create the HTML content to display the data in a table
+def generate_html(image_data, image_width, image_height):
     html_content = """
     <html>
     <head>
@@ -155,40 +213,4 @@ def rich_media_only(file):
     </body>
     </html>
     """
-
-    # Create a DataFrame with the image data
-    df = pd.DataFrame(all_image_data)
-
-    # Identify duplicate rows in the DataFrame
-    duplicates = df.duplicated(subset=["url", "language_code", "asset_id", "asset_category", "imagedetail"], keep=False)
-
-    # Add a new "note" column and mark duplicate rows as "duplicate"
-    df['note'] = ''
-    df.loc[duplicates, 'note'] = 'duplicate'
-
-    # Prepare the output file names
-    excel_file_name = f"{filename}.xlsx"
-    html_file_name = f"{filename}.html"
-
-    # Use BytesIO to handle files in memory
-    excel_buffer = BytesIO()
-    html_buffer = BytesIO()
-
-    # Save the DataFrame to an Excel file
-    with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
-        df.to_excel(writer, index=False)
-    excel_buffer.seek(0)
-
-    # Save the HTML content to the buffer
-    html_buffer.write(html_content.encode('utf-8'))
-    html_buffer.seek(0)
-
-    # Create a zip file with the Excel and HTML files
-    zip_buffer = BytesIO()
-    with ZipFile(zip_buffer, 'w') as zip_file:
-        zip_file.writestr(html_file_name, html_buffer.getvalue())
-        zip_file.writestr(excel_file_name, excel_buffer.getvalue())
-    zip_buffer.seek(0)
-
-    # Return the zip buffer and the zip file name
-    return zip_buffer, f"{filename}.zip"
+    return html_content
