@@ -1,0 +1,7 @@
+SCS_APP_PATH = '/home/garciagi/frame/app/routes/scs_tool/'
+SCS_REGULAR_FILE_PATH = '/home/garciagi/frame/app/routes/scs_tool/scs_qa.xlsx'
+SCS_GRANULAR_FILE_PATH = '/home/garciagi/frame/app/routes/scs_tool/granular_qa.xlsx'
+SCS_BATTERY_FILE_PATH = '/home/garciagi/frame/app/routes/scs_tool/battery_life_qa.xlsx'
+SCS_COMPONENT_GROUPS_PATH = '/home/garciagi/frame/app/routes/scs_tool/data/component_groups.json'
+SCS_PRODUCT_LINES_PATH = '/home/garciagi/frame/app/routes/scs_tool/data/product_lines.json'
+SCS_JSON_PATH = '/home/garciagi/frame/app/routes/scs_tool/json'
