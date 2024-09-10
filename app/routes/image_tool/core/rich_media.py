@@ -32,7 +32,7 @@ def rich_media_only(file):
         process_xml(file, file.filename, all_image_data)
 
     # Sort the image data by asset category
-    image_data = sorted(image_data, key=lambda x: x["asset_category"])
+    all_image_data = sorted(all_image_data, key=lambda x: x["asset_category"])
 
     # Generate HTML content
     html_content = generate_html(all_image_data, image_width, image_height)
@@ -86,13 +86,10 @@ def process_xml(file, filename, all_image_data):
         print(f"Error parsing XML file '{filename}'. Skipping.")
         return
     
-    # Get the product number, ensuring that prodnum_element is not None
     prodnum_element = root.find(".//product_numbers/prodnum")
     prodnum = prodnum_element.text.strip() if prodnum_element is not None else ""
 
-    # Loop through all "asset" elements in the XML, ensuring that root.findall() doesn't return None
-    for asset_element in root.findall(".//msc/asset") or []:  # Adding "or []" ensures it's iterable even if None
-        # Find elements within each "asset"
+    for asset_element in root.findall(".//msc/asset") or []:
         asset_embed_code_element = asset_element.find("asset_embed_code")
         asset_name_element = asset_element.find("asset_name")
         asset_category_element = asset_element.find("asset_category")
@@ -100,8 +97,9 @@ def process_xml(file, filename, all_image_data):
         language_code_element = asset_element.find("language_code")
         asset_id_element = asset_element.find("asset_id")
         imagedetail_element = asset_element.find("imagedetail")
+        pixel_height_element = asset_element.find("pixel_height")
+        pixel_width_element = asset_element.find("pixel_width")
 
-        # Check if certain elements are present (not None) before accessing them
         if (asset_embed_code_element is not None and
             asset_category_element is not None and
             document_type_detail_element is not None):
@@ -110,14 +108,14 @@ def process_xml(file, filename, all_image_data):
             asset_category = asset_category_element.text.strip()
             document_type_detail = document_type_detail_element.text.strip()
 
-            # Extract other elements if available, using conditional expressions to handle None
             language_code = language_code_element.text.strip() if language_code_element is not None else ""
             asset_name = asset_name_element.text.strip() if asset_name_element is not None else ""
             asset_id = asset_id_element.text.strip() if asset_id_element is not None else ""
             imagedetail = imagedetail_element.text.strip() if imagedetail_element is not None else ""
-            # Filter data based on document type and asset category
+            pixel_height = pixel_height_element.text.strip() if pixel_height_element is not None else ""
+            pixel_width = pixel_width_element.text.strip() if pixel_width_element is not None else ""
+
             if document_type_detail == "Image" and asset_category in ["Image - Annotated", "Image - Product Detail", "Image - Banners"]:
-                # Add the data to the list
                 all_image_data.append({
                     "prodnum": prodnum,
                     "asset_name": asset_name,
@@ -126,19 +124,10 @@ def process_xml(file, filename, all_image_data):
                     "asset_id": asset_id,
                     "asset_category": asset_category,
                     "imagedetail": imagedetail,
+                    "pixel_height": pixel_height,
+                    "pixel_width": pixel_width
                 })
-
-                # Add the data to the global image data list
-                all_image_data.append({
-                    "prodnum": prodnum,
-                    "asset_name": asset_name,
-                    "url": asset_embed_code,
-                    "language_code": language_code,
-                    "asset_id": asset_id,
-                    "asset_category": asset_category,
-                    "imagedetail": imagedetail,
-                })
-
+                
 def generate_html(image_data, image_width, image_height):
     html_content = """
     <html>
@@ -175,22 +164,22 @@ def generate_html(image_data, image_width, image_height):
         <th>Asset ID</th>
         <th>Asset Category</th>
         <th>Image Detail</th>
+        <th>Pixel Width</th>
+        <th>Pixel Height</th>
+
         <th>Image</th>
     </tr>
     """
 
-    # Variable to track the previous category
     previous_category = None
     for data in image_data:
-        # Add a divider if the category changes
         if previous_category is not None and previous_category != data['asset_category']:
             html_content += """
             <tr>
-                <td colspan="8"><hr class="divider"></td>
+                <td colspan="10"><hr class="divider"></td>
             </tr>
             """
 
-        # Add the rows with the image data
         html_content += f"""
         <tr>
             <td>{data['prodnum']}</td>
@@ -200,14 +189,14 @@ def generate_html(image_data, image_width, image_height):
             <td>{data['asset_id']}</td>
             <td>{data['asset_category']}</td>
             <td>{data['imagedetail']}</td>
+            <td>{data['pixel_width']}</td>
+            <td>{data['pixel_height']}</td>
             <td><img src='{data['url']}' alt='Image' width='{image_width}' height='{image_height}'></td>
         </tr>
         """
 
-        # Update the previous category
         previous_category = data['asset_category']
 
-    # Close the table and the HTML content
     html_content += """
     </table>
     </body>
