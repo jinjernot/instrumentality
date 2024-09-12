@@ -40,16 +40,19 @@ def image_only(file):
     # Create a DataFrame from the image data
     df = pd.DataFrame(all_image_data)
 
-    # Identify duplicate rows
-    duplicates = df.duplicated(subset=["prodnum", "orientation", "pixel_height", "content_type", "cmg_acronym", "color"], keep=False)
+    # Filter the DataFrame to only include rows with "product image" or "product in use"
+    df_filtered = df[df['document_type_detail'].isin(["product image", "product in use", "product image with output sample", "product image - not as shown with output sample"])]
+
+    # Identify duplicate rows in the filtered DataFrame
+    duplicates = df_filtered.duplicated(subset=["prodnum", "orientation", "pixel_height", "content_type", "cmg_acronym", "color"], keep=False)
 
     # Add a new column "note" and set it to "duplicate" for duplicate rows
-    df['note'] = ''
-    df.loc[duplicates, 'note'] = 'duplicate'
+    df_filtered['note'] = ''
+    df_filtered.loc[duplicates, 'note'] = 'duplicate'
 
     # Extract the filename without extension for naming HTML and Excel files
     filename = file.filename.rsplit('.', 1)[0]
-
+    
     # Prepare the output files
     excel_file_name = f"{filename}.xlsx"
     html_file_name = f"{filename}.html"
@@ -58,11 +61,11 @@ def image_only(file):
     excel_buffer = BytesIO()
     html_buffer = BytesIO()
 
-    # Save the DataFrame to an Excel file
+    # Save the filtered DataFrame to an Excel file
     with pd.ExcelWriter(excel_buffer, engine='xlsxwriter') as writer:
-        df.to_excel(writer, index=False)
+        df_filtered.to_excel(writer, index=False)
     excel_buffer.seek(0)
-
+    
     # Save the HTML content to the buffer
     html_buffer.write(html_content.encode('utf-8'))
     html_buffer.seek(0)
