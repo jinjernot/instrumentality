@@ -40,11 +40,11 @@ def image_only(file):
     # Create a DataFrame from the image data
     df = pd.DataFrame(all_image_data)
 
-    # Filter the DataFrame to only include rows with "product image" or "product in use"
+    # Filter the DataFrame 
     df_filtered = df[df['document_type_detail'].isin(["product image", "product in use", "product image with output sample", "product image - not as shown with output sample"])]
 
     # Identify duplicate rows in the filtered DataFrame
-    duplicates = df_filtered.duplicated(subset=["prodnum", "orientation", "pixel_height", "content_type", "cmg_acronym", "color"], keep=False)
+    duplicates = df_filtered.duplicated(subset=["prodnum", "orientation", "pixel_height","pixel_width", "content_type", "cmg_acronym", "color"], keep=False)
 
     # Add a new column "note" and set it to "duplicate" for duplicate rows
     df_filtered['note'] = ''
@@ -108,7 +108,7 @@ def process_xml(file, filename, all_image_data):
             image_url = asset_embed_code_element.text.strip()
             document_type_detail = document_type_detail_element.text.strip()
 
-            if image_url and document_type_detail in ["product image", "product in use"]:
+            if image_url and document_type_detail in ["product image", "product in use", "product image with output sample", "product image - not as shown with output sample"]:
                 orientation = orientation_element.text.strip() if orientation_element is not None else ""
                 master_object_name = master_object_name_element.text.strip() if master_object_name_element is not None else ""
                 pixel_height = pixel_height_element.text.strip() if pixel_height_element is not None else ""
