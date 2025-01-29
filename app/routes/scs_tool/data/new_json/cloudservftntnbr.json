@@ -1,0 +1,20 @@
+{
+    "cloudservftntnbr": [
+        {
+            "Component": "7P097AV",
+            "ContainerValue": "[1]"
+        },
+        {
+            "Component": "7P098AV",
+            "ContainerValue": "[1]"
+        },
+        {
+            "Component": "889U5AV",
+            "ContainerValue": "[1]"
+        },
+        {
+            "Component": "889U6AV",
+            "ContainerValue": "[1]"
+        }
+    ]
+}

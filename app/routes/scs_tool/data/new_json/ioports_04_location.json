@@ -1,0 +1,32 @@
+{
+    "ioports_04_location": [
+        {
+            "Component": "6Q1F5AV",
+            "ContainerValue": "Front Premium"
+        },
+        {
+            "Component": "6U7A3AV",
+            "ContainerValue": "Front Premium"
+        },
+        {
+            "Component": "7D8C8AV",
+            "ContainerValue": "Front"
+        },
+        {
+            "Component": "961F4AV",
+            "ContainerValue": "Front Premium"
+        },
+        {
+            "Component": "A09Y1AV",
+            "ContainerValue": "Rear"
+        },
+        {
+            "Component": "6Q1H4AV",
+            "ContainerValue": "Front Premium"
+        },
+        {
+            "Component": "8M314AV",
+            "ContainerValue": "##BLANK##"
+        }
+    ]
+}

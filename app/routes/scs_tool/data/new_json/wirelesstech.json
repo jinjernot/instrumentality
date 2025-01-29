@@ -1,0 +1,1508 @@
+{
+    "wirelesstech": [
+        {
+            "Component": "17Q30AV",
+            "ContainerValue": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "182S5AV",
+            "ContainerValue": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "1HJ23AV",
+            "ContainerValue": "Intel® Dual Band Wireless-AC 8265 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 4.2 wireless card, non-vPro®"
+        },
+        {
+            "Component": "1X7C6AV",
+            "ContainerValue": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "2H2E6AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card, non-vPro®"
+        },
+        {
+            "Component": "2J6F3AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card, non-vPro®"
+        },
+        {
+            "Component": "2K4Z8AV",
+            "ContainerValue": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "2T3R7AV",
+            "ContainerValue": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "2T3R8AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "2VM99AV",
+            "ContainerValue": "Intel® Wireless-AC 9260 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5.1 wireless card, non-vPro®"
+        },
+        {
+            "Component": "2W0P8AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "2X9A6AV",
+            "ContainerValue": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "388N5AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "39V62AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "3A7J9AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card, non-vPro®"
+        },
+        {
+            "Component": "3B8E4AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "46Q47AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "46W35AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "490T1AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "4A5J4AV",
+            "ContainerValue": "Qualcomm® FastConnect™ 6900 Wi-Fi 6E (2x2) and Bluetooth® 5.2 wireless card"
+        },
+        {
+            "Component": "4B4G7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4B5Y9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4B8D0AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4C610AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4C611AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4C8C2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D837AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4E7U6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4E7U7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4E7U8AV",
+            "ContainerValue": "Realtek RTL8852AE Wi-Fi 6 (2x2) and Bluetooth®️ 5.2 wireless card"
+        },
+        {
+            "Component": "4F2N5AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4F2N6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4F3X7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4F5Z8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4F600AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4F6X1AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4G0N8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4G0N9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "4G0P0AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4G3T5AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4G3T6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4G3T7AV",
+            "ContainerValue": "Realtek RTL8852AE Wi-Fi 6 (2x2) and Bluetooth®️ 5.2 wireless card"
+        },
+        {
+            "Component": "4G511AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4H0E8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4H0E9AV",
+            "ContainerValue": "Realtek RTL8852AE Wi-Fi 6 (2x2) and Bluetooth®️ 5.2 wireless card"
+        },
+        {
+            "Component": "4H562AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "4N4V8AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "4Q3C8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4Q561AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4T813AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4U3U8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4X6E2AV",
+            "ContainerValue": "Realtek RTL8852AE Wi-Fi 6 (2x2) and Bluetooth®️ 5.2 wireless card"
+        },
+        {
+            "Component": "4Y623AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4Z6H7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "50C46AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "511Z5AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "52U92AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "534F5AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "54B45AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "54B46AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "552G1AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "55S18AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "565W3AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "56D95AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "56Y03AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "570J8AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "589Y8AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "598X2AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "599L9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "599M0AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "5B986AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "5B987AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "5Z8P7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "60K85AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "60Q45AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "617F7AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "617F8AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "62F59AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "62F60AV",
+            "ContainerValue": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "630X2AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "631F7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "636H9AV",
+            "ContainerValue": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "636J0AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "63D56AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "67W09AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX210 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "67Z45AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "68F39AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "6C068AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6C069AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6C0B8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6C0B9AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6G165AV",
+            "ContainerValue": "Realtek RTL8821CE 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "6G6F1AV",
+            "ContainerValue": "Realtek RTL8821CE-M 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "6G6F2AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "6GU57AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "6J2S6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "6J6G7AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6J6L7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6K701AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6K703AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6K704AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6LX96AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "6M068AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6M5Z0AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6M9M7AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "6MY56AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "6N0C0AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6Q2C9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "6Q2D0AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6V541AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "6V679AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "6V680AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "6V962AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "70C75AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "70D60AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "70L26AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "70R93AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "70Y36AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "70Z25AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "710R1AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "716M1AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "717W1AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "717W2AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "719L6AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "719L7AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "71C60AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "71C61AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "727Q1AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "727Q2AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "734X3AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "74G12AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7902 (1x1) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "74G13AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "74G14AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "74G15AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "74G16AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "74X60AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "753H9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "753J0AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "755J4AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "755J5AV",
+            "ContainerValue": "Realtek Wi-Fi 6E (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "757H1AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "758T1AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "75D16AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "75D27AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "75D28AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "75D30AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "75L13AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "75L14AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "75L16AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "75P56AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "75P57AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "75P58AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "760Z5AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "760Z6AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "762C9AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "762D0AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "765T8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "76D42AV",
+            "ContainerValue": "Realtek Wi-Fi 6E (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "77G05AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "77J59AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "77S50AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card"
+        },
+        {
+            "Component": "77S51AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "77W53AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "77X99AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "780X5AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "780X6AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "788H6AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "788H7AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card"
+        },
+        {
+            "Component": "788H8AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE 802.11a/b/g/n/ax (1x1) and Bluetooth®️ 5.3 wireless card"
+        },
+        {
+            "Component": "788H9AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card"
+        },
+        {
+            "Component": "78D28AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "78H99AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card"
+        },
+        {
+            "Component": "78J00AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card"
+        },
+        {
+            "Component": "78J01AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "78J02AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card"
+        },
+        {
+            "Component": "793Z6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "794J9AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "794K0AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "794K1AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "799N2AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "799W9AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7B4C7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7B6Q8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "7C128AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7C3V8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "7F131AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7K646AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "7M1S8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7M3M3AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7M3M4AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "7W647AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "7WX82AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "7X8S5AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7X8S6AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7Z001AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7Z2X3AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "843L5AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "843L6AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "843M2AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth®️ 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "88V86AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX210 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "8C802AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8C8C9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8H8M9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX210 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "8J0M4AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8K0S8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8K0S9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8K0T0AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8K0T1AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8K9V4AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8K9V6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8K9V7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8L6Z0AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8L6Z1AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8M364AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8M365AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8M571AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8M572AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8N3G0AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8N3G1AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8N3Y6AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "8Q639AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8R6D1AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8R6D2AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8T6D4AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8VQ16AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX200 (2x2) and Bluetooth® 5.2 wireless card"
+        },
+        {
+            "Component": "8Y0X5AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8Y0Y9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8Y0Z0AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "8Y2D6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8Y2D7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8Y2D8AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "8Y4V6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8Y8T4AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8Y8T5AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "8Y8T6AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "8Z509AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8Z510AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8Z637AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "8Z638AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8Z6Y2AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8Z6Y3AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "900P6AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "900P7AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "902P8AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "902P9AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "902X5AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "902X6AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "903N5AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "909X3AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "909X4AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "90D00AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "90D01AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "90H30AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "90H31AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "90M76AV",
+            "ContainerValue": "MediaTek Wi-Fi 7 MT7925 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "910H1AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "910H6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "910H7AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "910K3AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "910K4AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "911S7AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "912A8AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "912B5AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "915G9AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "915H0AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "915H1AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "915H2AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (1x1) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "918X7AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "91Q57AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "91S70AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7902 (1x1) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "929P5AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "929W4AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "929W5AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "92A16AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "92J93AV",
+            "ContainerValue": "MediaTek Wi-Fi 7 MT7925 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "946R2AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "946S0AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "94G40AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "94G41AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "94G97AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "94G98AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "951N5AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "951N6AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "954J7AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "974M9AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "974N0AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "983Y3AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "984J2AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "984J3AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "9A1F1AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "9A1F2AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9A6H4AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9A6H5AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "9A8D0AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9A8D1AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9B059AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "9B088AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "9C1F2AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E MT7922 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9C1F3AV",
+            "ContainerValue": "Realtek Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "9C620AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "9C621AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "9D042AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9F112AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "9F114AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "9F3G4AV",
+            "ContainerValue": "MediaTek Wi-Fi 7 MT7925 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "9J3A1AV",
+            "ContainerValue": "MediaTek Wi-Fi 7 MT7925 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "9J6P1AV",
+            "ContainerValue": "Qualcomm® FastConnect™ 6900 Wi-Fi 6E (2x2) Dual Band Simultaneous (DBS) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9J6P2AV",
+            "ContainerValue": "Qualcomm® FastConnect™ 7800 Wi-Fi 7 (2x2) High Band Simultaneous (HBS) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "9N208AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE201 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "9Q091AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "9Q092AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "9Q670AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "9Q671AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "9S0Z9AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "9S101AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9S5K3AV",
+            "ContainerValue": "Qualcomm® FastConnect™️ 6900 Wi-Fi 6E (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9S5K4AV",
+            "ContainerValue": "Qualcomm® FastConnect™ 7800 Wi-Fi 7 (2x2) High Band Simultaneous (HBS) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "9S6E9AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "9S6F1AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9UK91AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card, non-vPro®"
+        },
+        {
+            "Component": "9W1F6AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card"
+        },
+        {
+            "Component": "9W5Q2AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9X377AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card, non-vPro®"
+        },
+        {
+            "Component": "9X4H2AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "9X4V4AV",
+            "ContainerValue": "MediaTek Wi-Fi 7 MT7925 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "9X4V6AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9X758AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "9X760AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9Y0W7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "A09Z1AV",
+            "ContainerValue": "MediaTek Wi-Fi 7 MT7925 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "A09Z2AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "A09Z3AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "A27RRAV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card"
+        },
+        {
+            "Component": "7F167AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4C2Y0AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "8M573AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "8R6D0AV",
+            "ContainerValue": "MediaTek Wi-Fi 7 MT7925 (2x2) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "9Q090AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "8C803AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8K9V5AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "794J8AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8M574AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "8Y2D9AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "8Q640AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "8T6D5AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9Q093AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "8Y8T7AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "565W2AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "63D50AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9L7D0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "A8VV6AV",
+            "ContainerValue": "Qualcomm® FastConnect™ 7800 Wi-Fi 7 (2x2) High Band Simultaneous (HBS) and Bluetooth® 5.4 wireless card"
+        },
+        {
+            "Component": "9F113AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "7C9R8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4N286AV",
+            "ContainerValue": "Realtek RTL8822CE 802.11a/b/g/n/ac (2x2) Wi-Fi® and Bluetooth® 5 wireless card"
+        },
+        {
+            "Component": "7E0V1AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7P181AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "716M2AV",
+            "ContainerValue": "Realtek Wi-Fi 6E RTL8852CE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7E3S7AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "4W5E4AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "3A7J8AV",
+            "ContainerValue": "Intel® Wi-Fi 6 AX201 (2x2) and Bluetooth® 5.2 wireless card, vPro®"
+        },
+        {
+            "Component": "8C8Q2AV",
+            "ContainerValue": "MediaTek Wi-Fi 6 MT7921 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9D2H6AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, vPro®"
+        },
+        {
+            "Component": "9R7L9AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7C1C9AV",
+            "ContainerValue": "Realtek Wi-Fi 6 RTL8852BE (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "9D2C3AV",
+            "ContainerValue": "Intel® Wi-Fi 7 BE200 (2x2) and Bluetooth® 5.4 wireless card, non-vPro®"
+        },
+        {
+            "Component": "A91T2AV",
+            "ContainerValue": "Qualcomm® FastConnect™️ 6900 Wi-Fi 6E (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4B4G6AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "5Z7C8AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "749U3AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "4J4Q3AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "74A60AV",
+            "ContainerValue": "MediaTek Wi-Fi 6E RZ616 (2x2) and Bluetooth® 5.3 wireless card"
+        },
+        {
+            "Component": "7C9R9AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX211 (2x2) and Bluetooth® 5.3 wireless card, vPro®"
+        },
+        {
+            "Component": "67V96AV",
+            "ContainerValue": "Intel® Wi-Fi 6E AX210 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        },
+        {
+            "Component": "4R8B3AV",
+            "ContainerValue": "Realtek RTL8821CE 802.11a/b/g/n/ac (1x1) Wi-Fi® and Bluetooth® 4.2 wireless card"
+        },
+        {
+            "Component": "4U3V0AV",
+            "ContainerValue": "Realtek RTL8852AE Wi-Fi 6 (2x2) and Bluetooth®️ 5.2 wireless card"
+        },
+        {
+            "Component": "74B38AV",
+            "ContainerValue": "Realtek RTL8852BE Wi-Fi 6 (2x2) and Bluetooth® 5.3 wireless card (supporting gigabit data rate)"
+        }
+    ]
+}

@@ -1,0 +1,112 @@
+{
+    "gcnote": [
+        {
+            "Component": "38W99AV",
+            "ContainerValue": "Powered by NVIDIA Ampere architecture"
+        },
+        {
+            "Component": "4G587AV",
+            "ContainerValue": "NVIDIA® Max-Q technology"
+        },
+        {
+            "Component": "4V3C8AV",
+            "ContainerValue": "Support for Microsoft® DirectX® 12"
+        },
+        {
+            "Component": "7M3L1AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "7Y6K0AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "8N9K0AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "8N9K1AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "8N9K2AV",
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
+        },
+        {
+            "Component": "8N9K3AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "8N9K4AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "8U970AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "8U971AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "8X3Y4AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "8X3Y9AV",
+            "ContainerValue": "Advanced Optimus"
+        },
+        {
+            "Component": "90P67AV",
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
+        },
+        {
+            "Component": "90Q68AV",
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
+        },
+        {
+            "Component": "9A9W0AV",
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
+        },
+        {
+            "Component": "9B478AV",
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
+        },
+        {
+            "Component": "9B480AV",
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
+        },
+        {
+            "Component": "9D739AV",
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
+        },
+        {
+            "Component": "9D8T1AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "9D8T2AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "9F276AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "9F277AV",
+            "ContainerValue": "NVIDIA® Studio"
+        },
+        {
+            "Component": "9G8X9AV",
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
+        },
+        {
+            "Component": "9J121AV",
+            "ContainerValue": "NVIDIA® Studio; Advanced Optimus"
+        },
+        {
+            "Component": "9X4R4AV",
+            "ContainerValue": "[BLANk]"
+        }
+    ]
+}

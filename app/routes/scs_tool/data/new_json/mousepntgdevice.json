@@ -1,0 +1,1404 @@
+{
+    "mousepntgdevice": [
+        {
+            "Component": "1AG53AV",
+            "ContainerValue": "HP USB Mouse"
+        },
+        {
+            "Component": "1B288AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "1B292AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "1HS83AV",
+            "ContainerValue": "HP USB Wired Optical Mouse"
+        },
+        {
+            "Component": "1R2R3AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "1Y473AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "1Y4H0AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "2H2T0AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "2M7C6AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "2R7X8AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "2R7Y0AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "2V2K5AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "2VM98AV",
+            "ContainerValue": "HP USB wired mouse"
+        },
+        {
+            "Component": "2W0L6AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "3F4J3AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "3F6Y9AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4B4A4AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4B4A6AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4B4A7AV",
+            "ContainerValue": "HP 128 Laser Wired Mouse"
+        },
+        {
+            "Component": "4B635AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4B636AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4B8L6AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4C5T5AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "4C5T6AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4C5T7AV",
+            "ContainerValue": "HP 128 Laser Wired Mouse"
+        },
+        {
+            "Component": "4E7L8AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "4E7L9AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4E7M0AV",
+            "ContainerValue": "HP 128 Laser Wired Mouse"
+        },
+        {
+            "Component": "4E842AV",
+            "ContainerValue": "HP PS/2 mouse"
+        },
+        {
+            "Component": "4F2S7AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4F3Q8AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4F5P5AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4F5P6AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "4F5P7AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4F5P8AV",
+            "ContainerValue": "HP 128 Laser Wired Mouse"
+        },
+        {
+            "Component": "4G0F6AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4G0F7AV",
+            "ContainerValue": "HP 128 Laser Wired Mouse"
+        },
+        {
+            "Component": "4G3H1AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "4G3H2AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4G3H3AV",
+            "ContainerValue": "HP 128 Laser Wired Mouse"
+        },
+        {
+            "Component": "4G4V3AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4G4V5AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4H089AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4H091AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4H4J7AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "4J336AV",
+            "ContainerValue": "HP PS/2 mouse"
+        },
+        {
+            "Component": "4J365AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4J366AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "4J367AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4J4G8AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4J4G9AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "4J4H0AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4K4R6AV",
+            "ContainerValue": "HP 125 USB Black Wired Mouse"
+        },
+        {
+            "Component": "4N386AV",
+            "ContainerValue": "HP Wired Desktop 128 Laser Mouse"
+        },
+        {
+            "Component": "4N398AV",
+            "ContainerValue": "HP Wired Desktop 128 Laser Mouse"
+        },
+        {
+            "Component": "4N7V3AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4Q384AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4Q385AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4Q516AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4Q517AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4Q518AV",
+            "ContainerValue": "HP Wired Desktop 128 Laser Mouse"
+        },
+        {
+            "Component": "4U3M7AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4U3M8AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "4X908AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4Z6F0AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "4Z6F2AV",
+            "ContainerValue": "HP Wired Desktop 128 Laser Mouse"
+        },
+        {
+            "Component": "531S9AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "534X5AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "552F1AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "556P1AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "565Q4AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "565Q5AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "56D83AV",
+            "ContainerValue": "HP Imagepad; Precision Touchpad support"
+        },
+        {
+            "Component": "56D85AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "56S28AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "56S29AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "56S30AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "56S31AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "56S32AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "56X82AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "57G89AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "57M64AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "57M65AV",
+            "ContainerValue": "HP Wired Desktop 128 Laser Mouse"
+        },
+        {
+            "Component": "598X4AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "598X5AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "598X6AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "599M1AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "599M2AV",
+            "ContainerValue": "HP Imagepad; Precision Touchpad support"
+        },
+        {
+            "Component": "599M3AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "5B8R0AV",
+            "ContainerValue": "HP 128 Laser Wired Mouse"
+        },
+        {
+            "Component": "5B9A6AV",
+            "ContainerValue": "Haptic trackpad with multi-touch gesture support"
+        },
+        {
+            "Component": "5B9K0AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "68F20AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "6J8A2AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "6LY10AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "6LY11AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "6LY13AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support; Precision Touchpad support"
+        },
+        {
+            "Component": "6PR34AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "6PR35AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "6QK29AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "6Y3N5AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "6Y3N7AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "6Y5Y7AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "6Y8D7AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "6Z448AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "701Q9AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "709R3AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "715H2AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "718B0AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "718B1AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "719R3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "719R4AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "71D01AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "71D03AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "71H33AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "71J51AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "72M11AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "72M12AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "72N08AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "72N13AV",
+            "ContainerValue": "HP Imagepad; Precision Touchpad support"
+        },
+        {
+            "Component": "72N14AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "72X64AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "72X65AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "72X66AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "730Y4AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "730Y5AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "730Y7AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "733X1AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "750J1AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "750S5AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "753U6AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "753X3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "755J9AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "755K1AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "755K2AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "755K3AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "757L2AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "757P0AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "758T6AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "758T8AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "75J40AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "75M82AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "75P59AV",
+            "ContainerValue": "HP Imagepad; Precision Touchpad support"
+        },
+        {
+            "Component": "75P60AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "75Q42AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "75Q44AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "761D4AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "761D5AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "761D6AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "761D7AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "761D8AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "762S7AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "762S8AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "762S9AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "762T1AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "769B2AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "769B3AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "769B4AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "77W59AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "77Y06AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "788J1AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "788J3AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "78J04AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "78J05AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "78U91AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "78U92AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "78U93AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "793G9AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "793H0AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "793H2AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "799X1AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "799X2AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7A269AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7A270AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7A271AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7A272AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7B476AV",
+            "ContainerValue": "HP Wired Desktop 320M Mouse"
+        },
+        {
+            "Component": "7B5Y6AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7B5Y7AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "7B7Y1AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "7E0R8AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "7E0R9AV",
+            "ContainerValue": "HP Wired Desktop 128 Laser Mouse"
+        },
+        {
+            "Component": "7L2W7AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "7L5Z4AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7L5Z5AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7M1S5AV",
+            "ContainerValue": "Haptic touchpad"
+        },
+        {
+            "Component": "7M1S7AV",
+            "ContainerValue": "Haptic touchpad"
+        },
+        {
+            "Component": "7M3M8AV",
+            "ContainerValue": "Haptic touchpad"
+        },
+        {
+            "Component": "7M3N1AV",
+            "ContainerValue": "Haptic touchpad"
+        },
+        {
+            "Component": "7P997AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7Q7H4AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "7S3G6AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "7S3G8AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "7S3K1AV",
+            "ContainerValue": "HP 125 USB White Wired Mouse"
+        },
+        {
+            "Component": "7S3K7AV",
+            "ContainerValue": "HP 125 USB Black Wired Mouse"
+        },
+        {
+            "Component": "7Y2E2AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7Y2E3AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7Y2E4AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7Y9S9AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7Y9T0AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7Y9T1AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7Z0C7AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7Z0C8AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "7ZZ68AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "7ZZ69AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "877C8AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8C8D8AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8K0T3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8K0T4AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8K0T6AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8K8S7AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8M367AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8M368AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8M369AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8M578AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support; Microsoft Precision Touchpad"
+        },
+        {
+            "Component": "8M579AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support; Microsoft Precision Touchpad"
+        },
+        {
+            "Component": "8N3G3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default; Microsoft Precision Touchpad"
+        },
+        {
+            "Component": "8N3G5AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8Q646AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8R6D6AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8R6D7AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8R6D9AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8T6E1AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8T6E2AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8X5D1AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "8Y2G0AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8Y2G1AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8Y5L7AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "8Y5L8AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "8Y5L9AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "8Y5M0AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "8Y5S3AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "8Y6E9AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "8Y6F0AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "8Y8V4AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8Y8V5AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8Z419AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "8Z4K2AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8Z4K3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8Z4K8AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8Z5B2AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8Z5B3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8Z786AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "8Z787AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8ZE36AV",
+            "ContainerValue": "HP Imagepad with multi-touch gesture support"
+        },
+        {
+            "Component": "900T3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "900T4AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "901B8AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "901C0AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "901C1AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "902X3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "902X4AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "910Y4AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "911A8AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "911D4AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "911H0AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "911H1AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "913R2AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "914P3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "91D55AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "91U43AV",
+            "ContainerValue": "HP 125 USB White Wired Mouse"
+        },
+        {
+            "Component": "92A17AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "92A66AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "941M2AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "950U0AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "950U3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "950U5AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support; Microsoft Precision Touchpad with default gesture support"
+        },
+        {
+            "Component": "955J7AV",
+            "ContainerValue": "HP Imagepad; Precision Touchpad support"
+        },
+        {
+            "Component": "955J8AV",
+            "ContainerValue": "HP Imagepad; Precision Touchpad support"
+        },
+        {
+            "Component": "977Z3AV",
+            "ContainerValue": "HP Imagepad; Precision Touchpad support"
+        },
+        {
+            "Component": "977Z4AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "979H9AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "97T43AV",
+            "ContainerValue": "HP Imagepad; Precision Touchpad support"
+        },
+        {
+            "Component": "9A6H8AV",
+            "ContainerValue": "ClickPad Glass with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9A6H9AV",
+            "ContainerValue": "ClickPad Glass with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9A6J0AV",
+            "ContainerValue": "ClickPad Glass with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9A6J1AV",
+            "ContainerValue": "ClickPad Glass with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9A8D4AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9C1F8AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "9C1F9AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "9C641AV",
+            "ContainerValue": "Extra large, QuietKey, 3-button touchpad"
+        },
+        {
+            "Component": "9E8E4AV",
+            "ContainerValue": "Haptic touchpad"
+        },
+        {
+            "Component": "9G973AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9G974AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9G975AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9J1S1AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "9J1U0AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "9Q5Q9AV",
+            "ContainerValue": "Clickpad with image sensor, supporting multi-touch gestures and taps"
+        },
+        {
+            "Component": "9S707AV",
+            "ContainerValue": "Image sensor clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "9W5G7AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "9W5G9AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "9WY87AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "9WY91AV",
+            "ContainerValue": "HP Imagepad"
+        },
+        {
+            "Component": "9X4G6AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "9Y092AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "A09WLAV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "A09WNAV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "A27J5AV",
+            "ContainerValue": "Haptic touchpad"
+        },
+        {
+            "Component": "8K8S6AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9Q5R2AV",
+            "ContainerValue": "Clickpad with image sensor, supporting multi-touch gestures and taps"
+        },
+        {
+            "Component": "911J3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "6Z162AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4W5E8AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "57G90AV",
+            "ContainerValue": "HP Wired Desktop 128 Laser Mouse"
+        },
+        {
+            "Component": "7D190AV",
+            "ContainerValue": "ClickPad Glass with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8K8S8AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "6Z171AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "A8VH0AV",
+            "ContainerValue": "Image sensor clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "4B4A5AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "8C8Q6AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "953N2AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "531S8AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "911J2AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "7C2R7AV",
+            "ContainerValue": "ClickPad Glass with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "913R4AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "75N80AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "4G3D6AV",
+            "ContainerValue": "HP PS/2 mouse"
+        },
+        {
+            "Component": "4G4V4AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "4N7V2AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "2SJ78AV",
+            "ContainerValue": "HP PS/2 mouse"
+        },
+        {
+            "Component": "71D06AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9A8D5AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4G0F5AV",
+            "ContainerValue": "HP 125 Antimicrobial Wired Mouse"
+        },
+        {
+            "Component": "7B7Y3AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support"
+        },
+        {
+            "Component": "9C643AV",
+            "ContainerValue": "Extra large, QuietKey, 3-button touchpad"
+        },
+        {
+            "Component": "7C2R8AV",
+            "ContainerValue": "ClickPad Glass with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "7C2S0AV",
+            "ContainerValue": "ClickPad Glass with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "757L3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "7E393AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "7E394AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "534X4AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "534X3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "537N4AV",
+            "ContainerValue": "Touchpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4F2S8AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4F003AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "537N5AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8T6E3AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "950U1AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "9A8D7AV",
+            "ContainerValue": "ClickPad Mylar with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "8C8A1AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "5U0Z0AV",
+            "ContainerValue": "HP 128 Laser Wired Mouse"
+        },
+        {
+            "Component": "7C2R9AV",
+            "ContainerValue": "ClickPad Glass with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "74B17AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "74A00AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "4Z6F1AV",
+            "ContainerValue": "HP 125 Wired Mouse"
+        },
+        {
+            "Component": "701R0AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support"
+        },
+        {
+            "Component": "4E7L7AV",
+            "ContainerValue": "HP Wired 320M Mouse"
+        },
+        {
+            "Component": "7B477AV",
+            "ContainerValue": "HP 125 USB Wired Mouse"
+        },
+        {
+            "Component": "6Z4D9AV",
+            "ContainerValue": "Clickpad with multi-touch gesture support, taps enabled as default"
+        },
+        {
+            "Component": "9C642AV",
+            "ContainerValue": "Extra large, QuietKey, 3-button touchpad"
+        }
+    ]
+}

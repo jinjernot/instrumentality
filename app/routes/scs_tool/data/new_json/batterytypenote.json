@@ -1,0 +1,504 @@
+{
+    "batterytypenote": [
+        {
+            "Component": "1AY96AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DJ85AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DP30AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DP31AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DQ51AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DR17AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DR87AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DS14AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DS15AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DU32AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DV61AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DV68AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EH66AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EH67AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EJ16AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EJ17AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EK60AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1ER69AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1ER70AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EZ47AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EZ48AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1FJ81AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1FJ82AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1FR89AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1GZ55AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1JS46AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1JS47AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1KB59AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1MK98AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1PF41AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1PF70AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1WD15AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2FS56AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2FW60AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2HV16AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2UF99AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2WL86AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2YY25AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2ZS30AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2ZX17AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3AG88AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3BJ29AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3BJ30AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3BS55AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3BU01AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3BY60AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3CA60AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3DQ73AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3DW46AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3EZ58AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3FU86AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3GG09AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3GG41AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3GM47AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3GW88AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JE73AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JQ24AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JW51AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3KS86AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3KS87AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3PP09AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3QN23AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3XL28AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4CJ11AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4CJ38AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4DC19AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4PX38AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4TJ72AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5DK32AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5LJ77AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5LR73AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5MV71AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5MW51AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5NA39AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5NE31AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5NV08AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5PC68AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5PX24AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5TG98AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5VX29AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5VZ02AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5WC39AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5XE50AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5ZQ90AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6AF71AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6HP18AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6KN08AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6LX67AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6XL28AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7FT18AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7HR28AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7LV17AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7MQ39AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7ZW10AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8JN77AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8JU14AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8JV00AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8KD08AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8KG01AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8NN51AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8SS09AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8YH00AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9EK02AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9LK54AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9VR19AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9WG00AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "J3F20AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "N6D20AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "T5K81AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "T5M56AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "V0A25AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "V3A15AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "V6X80AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "V8C04AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "V8M78AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "W3A21AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "W7V63AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X2J04AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X6W99AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X6X16AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X7Q73AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X7R26AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "Z4D39AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "Z8H93AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "Z8J02AV",
+            "ContainerValue": "[BLANK]"
+        }
+    ]
+}

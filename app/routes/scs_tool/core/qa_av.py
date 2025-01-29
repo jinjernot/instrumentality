@@ -1,7 +1,6 @@
 #Importar librería
-import sys
-
 import pandas as pd
+import sys
 
 def av_check(file):
     #Cargar la informacion de los archivos en data frames
@@ -17,9 +16,14 @@ def av_check(file):
     #Validacion de datos de ambos dataframes ya limpios
     MS4_len=len(ms4sku_df.drop_duplicates())
     SKUAcc_len=len(SkuAcc["SKU"].drop_duplicates())
-    if (MS4_len!=SKUAcc_len):
-        print("Data of one of both tabs are corrupted, please verify the file and try again")
-        # sys.exit()
+    #if (MS4_len!=SKUAcc_len):
+    #    print("Data of one of both tabs are corrupted, please verify the file and try again")
+    #   sys.exit()
+    
+    if MS4_len != SKUAcc_len:
+        error_message = "Data of one of both tabs are corrupted, please verify the file and try again"
+        error_df = pd.DataFrame({"ERROR": [error_message]})
+        return error_df
 
     #Crear nuevos data frames para el análisis
     #DataFrame de SCS (Sku Accuracy)
@@ -40,9 +44,9 @@ def av_check(file):
     filter_df=lookup_df[lookup_df["BOM_SKU"].isnull()]
 
     #DataFrame que guarda los resultados del filtro
-    final_df=pd.DataFrame(filter_df["SCS_SKU"]).join(pd.DataFrame(filter_df["ComponentGroup"]).join(filter_df["Component_SCS"]))
+    df_s_final=pd.DataFrame(filter_df["SCS_SKU"]).join(pd.DataFrame(filter_df["ComponentGroup"]).join(filter_df["Component_SCS"]))
     #Eliminar registros duplicados del DataFrame resultante
-    final_df=final_df.drop_duplicates()
+    df_s_final=df_s_final.drop_duplicates()
 
 
     #Escribir el DataFrame resultante en un archivo nuevo de excel
@@ -53,6 +57,6 @@ def av_check(file):
         #filter_df.to_excel(writer, index=False, sheet_name='FILTER')
         #final_df.to_excel(writer, index=False, sheet_name='DUPLICATED_LIST')
     
-    return final_df
+    return df_s_final
     #Armar todos los DF para escribirlos al final, es poco eficiente modificar el contenido directamente en excel
     #Evitar guardar el excel (Sólo guardar para control)

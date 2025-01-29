@@ -1,0 +1,2232 @@
+{
+    "a_battery_life": [
+        {
+            "Component": "166M1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "167C7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1A2F0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1B024AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1G3T7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LL52AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2EM01AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2MB92AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2WK41AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2XD20AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2YN51AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2YN52AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2YS46AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2YS47AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2YW98AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "30F67AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "30M92AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "33D82AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "352T3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "354R1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "355T7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "359V7AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3D5Q4AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JL57AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "3JL58AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4C3U1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4C764AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4C764AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4C765AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4CG02AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4CG03AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4T4Z7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4YP05AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4YW42AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4Z8P8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5B954AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5LK21AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5Z8L3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5Z9H0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "609L1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "632Y7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6CJ00AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6CK19AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6CL89AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6FT10AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "739L7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "740H6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "740H7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "752M9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7B6P8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7C9N8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7F3J4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7F3J7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7G659AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7G6A2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7Z212AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8K0G0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8K9N0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8K9N1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8L858AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8VK68AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8XX73AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8Y0N0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8YP35AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8YP88AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9A659AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9A812AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9C5U0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9D356AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9NA77AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9UY31AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9VS22AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "M6G79AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "M6W21AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "M9M53AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "M9S19AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "V2X89AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X7J51AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X7T18AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y1F29AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y1F30AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y3J78AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y4E86AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "10N57AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "165S0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "166J1AV",
+            "ContainerValue": "Long life"
+        },
+        {
+            "Component": "17N13AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "182Z0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "182Z1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "18H12AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "18V48AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "191D4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "191F0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "195R1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "19C71AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "19X34AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1AJ66AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1BG61AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1BG62AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1BG63AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DV48AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DV49AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DV95AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1ED06AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1EQ51AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EQ52AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EW72AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EW73AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EY50AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EY51AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EY90AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1FU92AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1G2K6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1G4F9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1G4G0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1J1P6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1J1P7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LQ75AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LQ76AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1LR30AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LR32AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LR33AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1LR34AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LR35AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1LR38AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LR90AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1LR91AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LR92AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1LU50AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LU51AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LU52AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LU53AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1LU55AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LU56AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1LU57AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1LU58AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1M9K5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1MJ72AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1MJ74AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1MJ76AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1MJ77AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1MJ79AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1MJ81AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1MJ83AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1P1X7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1P1X8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1P2V2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1QL67AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1QL68AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1QL69AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1T4J3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1TZ51AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1TZ52AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1UL20AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1W2Y0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1W2Y1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1W9Z2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1WB83AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1WB84AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1Y6P8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1Z9U4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1ZD70AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1ZE78AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1ZG01AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1ZS92AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1ZT30AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "1ZY45AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "20B54AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "21N20AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "25U35AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "26Y24AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "26Y25AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2AD20AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2EM49AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2EU17AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2F8G1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2FA49AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2FH24AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2GA79AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2GL93AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2GM59AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2GZ43AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2H2C2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2HB47AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2J6D9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2J8S0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2K8B9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2KN74AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2LG20AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2LZ18AV",
+            "ContainerValue": "Long life"
+        },
+        {
+            "Component": "2M023AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2NR91AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2NR95AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2NS90AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2NS91AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2NS92AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2NS93AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2NS95AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2P1K1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2P2J8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2PD83AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2PD91AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2Q010AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2Q118AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2RW42AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2RY06AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2SD24AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2UB43AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2UD14AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2UF72AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2UK83AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2UM25AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2VK02AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2W3M8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2WK06AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2WK07AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "2YV89AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "3E6J4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "3E789AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "3EU61AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JB74AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JB76AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JB77AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JB79AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JM13AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "3M047AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "3RL41AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3SH42AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "3TN92AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "3TN93AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "3TV04AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "473R2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "473R3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "47C93AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "47C94AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "47Y94AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "48B38AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "48C73AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "48G43AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4A1X4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4A1X5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4A5C7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4A5C8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4B5R6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4B5R7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4B847AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4B848AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4B921AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4B922AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4C047AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4C048AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4C144AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4C145AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4D1K3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4D3W4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4D3W5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4D825AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4D826AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4DZ71AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4DZ72AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4F2E4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4F2E5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4G5Y7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4H4B6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4J030AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4J031AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4L389AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4L390AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4QP73AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4RZ58AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4S109AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4S110AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4SP90AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4SZ57AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4T934AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4U6T2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4VP06AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4W5B9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4W5C0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4WE05AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4WG15AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4X927AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4X928AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4YK54AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4Z7D9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "4ZC05AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "501Y1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "50J77AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "511U5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "51H15AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "51H16AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "51L49AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "51L50AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "52T02AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "554X1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "554Z7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "562D4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "589S4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5A2N0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5DC70AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5DP78AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5FC23AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5FR01AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5FZ32AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5GA96AV",
+            "ContainerValue": "Long life"
+        },
+        {
+            "Component": "5HC85AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5HM14AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5HT35AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5HU37AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5LC26AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5LF75AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5LF93AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5LM85AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5LV81AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5MG03AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5MZ47AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5MZ83AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5PE02AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5SC64AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5SG22AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5UN93AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5UV34AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5VT98AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5VU35AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5WC79AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "5ZP09AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "65M18AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6CF18AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6FW19AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6G7G0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6G7L4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6GS07AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6H3E7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6J2K1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6K8S4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6K8S5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6L147AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6MJ70AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6NQ65AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6PQ80AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6Q248AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V2G8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V4U0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V4U1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V4U2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V5W2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V5W3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V6U5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V7R9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V8U4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6V8U5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6XJ45AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6XN47AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6XN48AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6Y0Y2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6YX10AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "6YY16AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "702C5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "70K52AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "70K53AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "70K54AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "711J7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "711J8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "717Z7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "717Z8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "719Q1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "719Q2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "71C95AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "727N6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "727N7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "73B35AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "749L4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "749L6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "749X9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "749Y0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "74A94AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "74A95AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "74A97AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "74W86AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "752Y6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "756Y2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "75C28AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "75C29AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "75G95AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "75G96AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "75N65AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "75R01AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "75U33AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "772K8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "77S35AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "786W3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "788F1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "78H64AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "78U71AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "78Y33AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "790V4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "790W8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "795U6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "79B91AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7C1Z3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7CB73AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7E5Y4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7E727AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7G8B0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7H0E5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7HB77AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7JN36AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7K1P3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7K5G6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7K6D0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7NP27AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7NX07AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7P177AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7PA99AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7QT09AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7RX14AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7UT44AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7Z2C8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "7Z393AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "85J37AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8AJ12AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8C7X8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8C8A8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8C8M8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8EM41AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8L6T4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8M2V5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8M4V8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8MM98AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8MQ80AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8N351AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8N401AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8NK51AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8NK63AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8PV70AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8PZ95AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8Q5U5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8QL34AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8R627AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8RA76AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8RG86AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8RN49AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8T638AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8TF77AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8TP51AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8WA54AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8WA55AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8WJ79AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8WX96AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8Z547AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8Z548AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8Z5Z4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8Z5Z5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8Z6R1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "8Z6R2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "900G7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "900G8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "902H0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "902H1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "903L9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "903M0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "903W0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "903W1AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "907M2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "907M3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "909M4AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "909M5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "90B97AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "90B98AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "90G29AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "90G30AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "92U22AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "942C8AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "942T3AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "94Z72AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "974L7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "983X9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9A6T7AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9AF01AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9D031AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9F2Q2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9KZ29AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9MV67AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9R674AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9R696AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9R823AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9S5J2AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9WL10AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9X9U9AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9X9V0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9Y0W5AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9Y0W6AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "9Y2V0AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "L3C97AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "L3L57AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "L4C33AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "L4U39AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "L6F28AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "L8Z94AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "L9Q51AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "L9Y09AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "M0D20AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "M0D54AV",
+            "ContainerValue": "Long life"
+        },
+        {
+            "Component": "M5R94AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "M6U51AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "P0J15AV",
+            "ContainerValue": "Long life"
+        },
+        {
+            "Component": "P2C88AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "P2C89AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "P2C90AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "T0G02AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "T0J97AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "T4E85AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "T4E86AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "V1Z05AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "V6F39AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "W5G88AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "W5Z88AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "W6N85AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "W6P93AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "W6P96AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "W6Q51AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X3T43AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X3U18AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X3U19AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X3U20AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X3U21AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X3U22AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X3V65AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X3W15AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X3W16AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X4B90AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X4C18AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X4C19AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X4C20AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X4C21AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X4C22AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X4J16AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X4N02AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X5N93AV",
+            "ContainerValue": "Long life"
+        },
+        {
+            "Component": "X6U17AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X7Y49AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X7Y53AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X7Y55AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "X9F34AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y1F96AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "Y3K63AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y5E16AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y5E17AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y5E19AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y5E20AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y5E21AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y5E22AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y5E23AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y5E27AV",
+            "ContainerValue": "Long Life"
+        },
+        {
+            "Component": "Y6K61AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "Z4R55AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "Z4R56AV",
+            "ContainerValue": "[BLANK]"
+        }
+    ]
+}

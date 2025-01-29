@@ -1,0 +1,484 @@
+{
+    "prodnetinterface": [
+        {
+            "Component": "17Q30AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "182S5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1X7C6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1Y4D6AV",
+            "ContainerValue": "Integrated Realtek RTL8111HSH-CG GbE"
+        },
+        {
+            "Component": "1Y4G1AV",
+            "ContainerValue": "Intel® I210-T1 PCIe® GbE NIC"
+        },
+        {
+            "Component": "2K4Z8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2T3R7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2T3R8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2X9A6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "388N5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "39V62AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "3B8E4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "46Q47AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "46W35AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "490T1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4E7U6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4F3X7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4F5Z8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4G0N9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4G0P0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4H562AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4N4S0AV",
+            "ContainerValue": "Intel® Ethernet Network Adapter I225-T1"
+        },
+        {
+            "Component": "4Q376AV",
+            "ContainerValue": "Intel® Ethernet Network Adapter I225-T1"
+        },
+        {
+            "Component": "4Q508AV",
+            "ContainerValue": "Intel® Ethernet Network Adapter I225-T1"
+        },
+        {
+            "Component": "4T813AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4U3U8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Y623AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "50C46AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "52U92AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "534F5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "54B45AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "54B46AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "552G1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "565W3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "56D95AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "570J8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "57M56AV",
+            "ContainerValue": "Intel® Ethernet Network Adapter I225-T1"
+        },
+        {
+            "Component": "57M57AV",
+            "ContainerValue": "Intel® X550-T2 dual-port GbE NIC"
+        },
+        {
+            "Component": "580M8AV",
+            "ContainerValue": "Intel® Ethernet Network Adapter I225-T1"
+        },
+        {
+            "Component": "589Y8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "598X2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "599L9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "599M0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "617F7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "62F59AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "62F60AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "636H9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "636J0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6C068AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6C069AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6C0B8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6G6F1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6G6F2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6GU57AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6J6G7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6J6L7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6K701AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6K703AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6K704AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6LX96AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6M068AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6M9M7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6MY56AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6N0C0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "70C75AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "70D60AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "70Y36AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "734X3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "74G12AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "74G14AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "74G15AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "74G16AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "755J4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "755J5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "75D30AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "75L14AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "75L16AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "75P57AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "760Z5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "760Z6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "765T8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "77G05AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "799W9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7B4C7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7C128AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7C1C0AV",
+            "ContainerValue": "Realtek RTL8111HSH GbE"
+        },
+        {
+            "Component": "7F131AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "843L5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "843M2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "8X3U9AV",
+            "ContainerValue": "Integrated Realtek RTL8111HSH-CG GbE"
+        },
+        {
+            "Component": "8X4W1AV",
+            "ContainerValue": "Integrated Intel® I219-LM GbE"
+        },
+        {
+            "Component": "8Y4T8AV",
+            "ContainerValue": "Integrated Intel® I219LM GbE LOM"
+        },
+        {
+            "Component": "9A834AV",
+            "ContainerValue": "Realtek RTL8111EPP GbE"
+        },
+        {
+            "Component": "9J501AV",
+            "ContainerValue": "Intel® Ethernet Network Adapter I225-T1"
+        },
+        {
+            "Component": "9U6L5AV",
+            "ContainerValue": "Intel® I219-V GbE, non-vPro®"
+        },
+        {
+            "Component": "9V274AV",
+            "ContainerValue": "Intel® I219LM GbE"
+        },
+        {
+            "Component": "9Y0W7AV",
+            "ContainerValue": "Intel® I219-V GbE, non-vPro®"
+        },
+        {
+            "Component": "A0MA0AV",
+            "ContainerValue": "Intel® I219-LM GbE"
+        },
+        {
+            "Component": "7F167AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1Y4D7AV",
+            "ContainerValue": "Integrated Realtek RTL8111HSH-CG GbE"
+        },
+        {
+            "Component": "9A817AV",
+            "ContainerValue": "Realtek RTL8111EPP GbE"
+        },
+        {
+            "Component": "709R5AV",
+            "ContainerValue": "NVIDIA®️ ConnectX®️-6 Dx dual-port 10/25 GbE SFP28 NIC"
+        },
+        {
+            "Component": "564F6AV",
+            "ContainerValue": "Integrated Intel® I219-LM GbE"
+        },
+        {
+            "Component": "7F0E3AV",
+            "ContainerValue": "Integrated Intel® I219-LM GbE"
+        },
+        {
+            "Component": "9L7D0AV",
+            "ContainerValue": "Integrated Realtek RTL8111HSH-CG GbE"
+        },
+        {
+            "Component": "708C4AV",
+            "ContainerValue": "Integrated Intel® I219-LM GbE"
+        },
+        {
+            "Component": "57K36AV",
+            "ContainerValue": "Integrated Intel® I219-LM GbE"
+        },
+        {
+            "Component": "3F4J5AV",
+            "ContainerValue": "HP dual-port 10GBase-T NIC"
+        },
+        {
+            "Component": "57D37AV",
+            "ContainerValue": "Integrated Intel® I219-LM GbE"
+        },
+        {
+            "Component": "4N286AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7C116AV",
+            "ContainerValue": "Integrated Realtek RTL8111HSH-CG GbE"
+        },
+        {
+            "Component": "4Q377AV",
+            "ContainerValue": "Intel® X550-T2 dual-port GbE NIC"
+        },
+        {
+            "Component": "4X3V6AV",
+            "ContainerValue": "NVIDIA®️ ConnectX®️-6 Dx dual-port 10/25 GbE SFP28 NIC"
+        },
+        {
+            "Component": "4N242AV",
+            "ContainerValue": "Integrated Realtek RTL8111HSH-CG GbE"
+        },
+        {
+            "Component": "4Q509AV",
+            "ContainerValue": "Intel® X550-T2 dual-port GbE NIC"
+        },
+        {
+            "Component": "7A4B4AV",
+            "ContainerValue": "Integrated Realtek RTL8111HSH-CG GbE"
+        },
+        {
+            "Component": "4J4Q3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "709Q5AV",
+            "ContainerValue": "Intel® X550-T2 dual-port GbE NIC"
+        },
+        {
+            "Component": "9U6L9AV",
+            "ContainerValue": "Integrated Intel® I219-LM GbE"
+        },
+        {
+            "Component": "74B38AV",
+            "ContainerValue": "##BLANK##"
+        }
+    ]
+}

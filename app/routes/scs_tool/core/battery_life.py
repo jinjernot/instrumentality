@@ -1,5 +1,4 @@
 import pandas as pd
-
 from config import SCS_BATTERY_FILE_PATH
 
 def battery_life(file, file2):

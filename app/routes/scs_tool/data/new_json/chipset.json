@@ -1,0 +1,48 @@
+{
+    "chipset": [
+        {
+            "Component": "7CE02AV",
+            "ContainerValue": "Intel® H370"
+        },
+        {
+            "Component": "7TT91AV",
+            "ContainerValue": "AMD Integrated SoC"
+        },
+        {
+            "Component": "7TT92AV",
+            "ContainerValue": "AMD Integrated SoC"
+        },
+        {
+            "Component": "7UH42AV",
+            "ContainerValue": "AMD Integrated SoC"
+        },
+        {
+            "Component": "7UH92AV",
+            "ContainerValue": "AMD Integrated SoC"
+        },
+        {
+            "Component": "7UH93AV",
+            "ContainerValue": "AMD Integrated SoC"
+        },
+        {
+            "Component": "7UH96AV",
+            "ContainerValue": "AMD Integrated SoC"
+        },
+        {
+            "Component": "7UV55AV",
+            "ContainerValue": "Intel® B460"
+        },
+        {
+            "Component": "7UV57AV",
+            "ContainerValue": "Intel® Integrated SoC"
+        },
+        {
+            "Component": "7UV58AV",
+            "ContainerValue": "Intel® Integrated SoC"
+        },
+        {
+            "Component": "9KS50AV",
+            "ContainerValue": "Intel® Integrated SoC"
+        }
+    ]
+}

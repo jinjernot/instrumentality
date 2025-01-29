@@ -1,0 +1,100 @@
+{
+    "wirelesstech_nfc": [
+        {
+            "Component": "4B5V0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4B883AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6Q286AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6V4Y9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6V621AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6V628AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "6V908AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "70K74AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "74X05AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "757A3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "75C48AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "8K0M7AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "8K9Q1AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "8R679AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "8Y0S2AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "903N3AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "90G64AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "951L7AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "9A6B5AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "9C5X0AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "8Y293AV",
+            "ContainerValue": "NFC"
+        },
+        {
+            "Component": "749U0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "74A57AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9A870AV",
+            "ContainerValue": "NFC"
+        }
+    ]
+}

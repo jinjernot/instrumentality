@@ -1,0 +1,6000 @@
+{
+    "camera": [
+        {
+            "Component": "10N59AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "10N60AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "10N61AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "10N62AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "165U3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "166L3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "166P1AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "167J4AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "167J5AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "17N37AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "17N38AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "17N39AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "17N40AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "17N41AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "17N42AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "17N43AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "17N44AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "17N45AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "182Z8AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "182Z9AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "18V35AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "18V36AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "19D46AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "19D47AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "19Y10AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "19Y11AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "1A2H8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1A2M7AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "1A2M8AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "1B024AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1BG61AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "1BG62AV",
+            "ContainerValue": "8 MP camera"
+        },
+        {
+            "Component": "1BG63AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "1BH03AV",
+            "ContainerValue": "HP Wide Vision FHD IR Camera with integrated dual array digital microphone"
+        },
+        {
+            "Component": "1CA45AV",
+            "ContainerValue": "16 MP rear-facing camera, 8 MP front facing camera and Iris camera"
+        },
+        {
+            "Component": "1CN93AV",
+            "ContainerValue": "HP Wide Vision FHD IR Camera with integrated dual array digital microphone"
+        },
+        {
+            "Component": "1DV19AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "1DV20AV",
+            "ContainerValue": "HP VGA Camera"
+        },
+        {
+            "Component": "1DV21AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1DV22AV",
+            "ContainerValue": "HP VGA Camera"
+        },
+        {
+            "Component": "1DV23AV",
+            "ContainerValue": "720p camera (front-facing)"
+        },
+        {
+            "Component": "1DV26AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1DV99AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1DW07AV",
+            "ContainerValue": "1080p camera (world-facing)"
+        },
+        {
+            "Component": "1EC54AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1ED13AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "1ED14AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "1ED16AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "1EJ33AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "1EJ35AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "1EJ36AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "1EJ37AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "1EJ38AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "1EQ46AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "1EX17AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1EY37AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1FU90AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "1FU91AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "1FU92AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "1FU93AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "1G2D0AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "1G2D1AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "1G3X8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1G4B7AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "1G4B8AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "1G4G5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1G4G6AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1G4G7AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "1HJ81AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "1J1U9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1J1V0AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "1K718AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1K736AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1K776AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "1K777AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "1LL80AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1LM01AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1LR01AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1LR20AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1LR42AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1LR60AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1LR74AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1LR75AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "1LR96AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "1LS15AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1LU62AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1LU85AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1LU99AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1LV00AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "1M0D2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1M0D3AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "1M9W7AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1M9W8AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "1MD29AV",
+            "ContainerValue": "HP VGA camera"
+        },
+        {
+            "Component": "1MF49AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "1MF51AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1MJ84AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1MK03AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1MK04AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1MK05AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "1MY79AV",
+            "ContainerValue": "World-facing FHD camera (on keyboard deck)"
+        },
+        {
+            "Component": "1MZ03AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "1MZ05AV",
+            "ContainerValue": "720p camera (front-facing)"
+        },
+        {
+            "Component": "1N1A0AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1NV28AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "1PS28AV",
+            "ContainerValue": "720p camera (front-facing)"
+        },
+        {
+            "Component": "1QL67AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "1QL68AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "1QL69AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "1RS44AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1RS45AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1TD46AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1TZ51AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "1TZ52AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "1V3X4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1V4A7AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "1V4A8AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "1V7R3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1V7R5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1V7R7AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "1WB83AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "1WB84AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "1WB90AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "1WB91AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "1X6N9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1X6Q0AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "1X6Q1AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "1X7F1AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1X7F2AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "1X7F3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1X7F4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "1X7F5AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "1Y7N3AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "1Y7N4AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "1Y9H3AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "1Z0K9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1Z0Q7AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "1Z0Q8AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "1Z9V6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "1Z9W6AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "1ZD70AV",
+            "ContainerValue": "1080p with LED (front-facing)"
+        },
+        {
+            "Component": "1ZY45AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "20B79AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "20C27AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "20C28AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "21N30AV",
+            "ContainerValue": "720p HD privacy camera 5 MP camera (front-facing)"
+        },
+        {
+            "Component": "21N31AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "21N68AV",
+            "ContainerValue": "5 MP camera (front-facing)"
+        },
+        {
+            "Component": "232G0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "276W2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "276W3AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "276W4AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "28M01AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "28M10AV",
+            "ContainerValue": "5 MP camera (rear-facing)720p HD privacy camera"
+        },
+        {
+            "Component": "28R52AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "28R53AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "28R54AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "28R55AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "28R56AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "28R57AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "28R59AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "28R62AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "28R64AV",
+            "ContainerValue": "8 MP camera"
+        },
+        {
+            "Component": "297Z0AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "297Z1AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "297Z2AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "297Z3AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "297Z4AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "297Z5AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "298A9AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "298B0AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "298B1AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "298B2AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "298B3AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2B013AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2D2A0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2D2A1AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2D2A2AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2D2A3AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2E5G1AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2EC76AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2EG82AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2F1T7AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2F1T8AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "2FB00AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2FB24AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "2FB25AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2FB91AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "2FB92AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "2FH56AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2FH80AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "2FH81AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2GA80AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2GA81AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "2GA82AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2GM27AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2GM52AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2GN31AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2GN61AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2GS96AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2GT06AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2GY17AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2GY47AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2GY48AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2GY49AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2H2D4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2HB89AV",
+            "ContainerValue": "720p HD Camera + IR Camera"
+        },
+        {
+            "Component": "2HB90AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "2HC29AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "2HD88AV",
+            "ContainerValue": "HD camera"
+        },
+        {
+            "Component": "2J005AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2J006AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2J007AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2J008AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2J6E5AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2J6E6AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2J8T0AV",
+            "ContainerValue": "720p HD camera 8 MP camera (rear-facing)"
+        },
+        {
+            "Component": "2J8T1AV",
+            "ContainerValue": "720p HD camera8 MP camera (rear-facing, select models)"
+        },
+        {
+            "Component": "2J8T2AV",
+            "ContainerValue": "8 MP camera (rear-facing)"
+        },
+        {
+            "Component": "2K3W2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2K3W3AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "2KN60AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "2KN61AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "2KN62AV",
+            "ContainerValue": "8 MP camera (rear-facing)"
+        },
+        {
+            "Component": "2KN63AV",
+            "ContainerValue": "5 MP camera with LED indicator (front-facing)"
+        },
+        {
+            "Component": "2KN64AV",
+            "ContainerValue": "5 MP camera (front-facing)"
+        },
+        {
+            "Component": "2KN65AV",
+            "ContainerValue": "5 MP camera with LED indicator (front-facing)"
+        },
+        {
+            "Component": "2KN66AV",
+            "ContainerValue": "5 MP camera (world-facing)8 MP camera (rear-facing)"
+        },
+        {
+            "Component": "2KP01AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "2L9K3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2L9K4AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "2LG50AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2LG51AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2LZ16AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2M027AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2M028AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2M098AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2M099AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2MG61AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2MG91AV",
+            "ContainerValue": "720p HD Camera + IR Camera"
+        },
+        {
+            "Component": "2MG92AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "2MN53AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2MN83AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "2MN84AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2NS90AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "2NS91AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "2NS92AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "2NS93AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "2NS94AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "2NS95AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "2NT95AV",
+            "ContainerValue": "5 MP FHD 1080p webcam with LED indicator (front-facing)"
+        },
+        {
+            "Component": "2P1K6AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2P1K7AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2P2C5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2P2C8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2P2C9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2P2K3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2P2K4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2P2M0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2P2M1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2P2M2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2P2M3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2P2M4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2PC26AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "2PD83AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "2PE10AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Q095AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2Q096AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2Q206AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2Q207AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2Q535AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Q536AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2Q537AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2Q543AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2SD50AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2SD82AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "2U754AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2U798AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2U799AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2UK83AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "2V666AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2V667AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "2V730AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2V731AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2V732AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2VJ68AV",
+            "ContainerValue": "720p HD Camera + IR Camera"
+        },
+        {
+            "Component": "2VN44AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "2VU91AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "2W3P3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2W3P4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2W6L6AV",
+            "ContainerValue": "1080p FHD IR camera8 MP camera"
+        },
+        {
+            "Component": "2W6L7AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "2W6L8AV",
+            "ContainerValue": "1080p FHD IR camera8 MP camera"
+        },
+        {
+            "Component": "2WL06AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2WL07AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2XD40AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2XD58AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2XD59AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2YN84AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "2YP44AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2YP45AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "2YS74AV",
+            "ContainerValue": "1080p FHD IR camera for face authentication with Windows Hello"
+        },
+        {
+            "Component": "2YT30AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2YT31AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2YX20AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "2YX90AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2YX91AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z2Z3AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z2Z4AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z2Z5AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z2Z6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z2Z7AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z2Z8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z2Z9AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3A0AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3A1AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3A2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3A3AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3A4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3A5AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3A6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3A7AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3A8AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3A9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3B0AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3B2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3B3AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3B4AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3B5AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3B6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3B7AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3B8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3B9AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3C0AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3C1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3C2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3C3AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3C4AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3C5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3C6AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3C7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3C8AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3C9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3D0AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3D1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3N8AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3N9AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3P0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3P1AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3P2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3P3AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3P4AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3P5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3P6AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3P7AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3P8AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3P9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3Q0AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3Q1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3Q2AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3Q3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3Q4AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3Q5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3Q6AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3Q7AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3Q8AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3Q9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3R0AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3R1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3R2AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3R3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3R4AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3R5AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3R6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3R7AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3R8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3R9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3S0AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3S1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3S2AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3S3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3S4AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3S5AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3S6AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2Z3S7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "2Z3S8AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "2ZV62AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "2ZV64AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "2ZV65AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "2ZV66AV",
+            "ContainerValue": "1080p HD IR webcam"
+        },
+        {
+            "Component": "2ZV67AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "2ZV69AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "30M94AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30M95AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30M97AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30M98AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30M99AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30N00AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30N01AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30N02AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30N03AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30N04AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30N06AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30N07AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30N08AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "30N09AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "33F61AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "33F62AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "353F4AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "353F5AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "355C6AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "355C7AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "355V1AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "359V7AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "38T95AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "39D31AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "3AF54AV",
+            "ContainerValue": "HD camera"
+        },
+        {
+            "Component": "3AQ45AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3BD73AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "3BD74AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "3BD75AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "3BD76AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "3BD77AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3BF55AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3CC33AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "3D5T4AV",
+            "ContainerValue": "HP True Vision 720p HD camera with integrated dual array digital microphones"
+        },
+        {
+            "Component": "3D6B9AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "3D6C0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3D6C1AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3E3F7AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3E3F8AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "3E3F9AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3E3G3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3E853AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "3E854AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "3GS36AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3GS53AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3GS54AV",
+            "ContainerValue": "720p HD Camera + IR Camera"
+        },
+        {
+            "Component": "3JB76AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "3JB77AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "3JB79AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "3JL59AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3JL61AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3JL62AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "3JL63AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3JL64AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "3JL71AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3JL95AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "3K0R8AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "3K0R9AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "3K0S0AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "3K0S1AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "3K0S2AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "3K0S3AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "3K0S4AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "3M066AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "3Q5L4AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "3RC02AV",
+            "ContainerValue": "1080p FHD IR  privacy camera"
+        },
+        {
+            "Component": "3TP08AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "3TU44AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "3TU45AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "3TU46AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "3TV04AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "3UA90AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "3UA91AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "3VH84AV",
+            "ContainerValue": "HD camera"
+        },
+        {
+            "Component": "3VP16AV",
+            "ContainerValue": "HD camera"
+        },
+        {
+            "Component": "3VP17AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "3Y1M0AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "3Y1M1AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "3Y1M2AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "3Y1M3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "3Z9Z8AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "3Z9Z9AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "408C2AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "408C9AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "408D0AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "408D1AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "425D3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "425D4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "432U5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "432U6AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "435U5AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "43G41AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "43Q79AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "43Q80AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "43Q81AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "43Q82AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "43Q83AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "43Q84AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "443K4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "443K5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "443K6AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "443K7AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "443K8AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "443K9AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "443L0AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "445L7AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "445L8AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "456N2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "456N3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "457F0AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "45S53AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "45S54AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "462L8AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "462L9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "46N45AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "46N46AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "46N47AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "46N48AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "46N49AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "46N50AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "46N51AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "46N52AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "46N53AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "46N54AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "473S0AV",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "Component": "473S1AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "473T9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "47C96AV",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "Component": "47C97AV",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "Component": "47D00AV",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "Component": "47D01AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "47D05AV",
+            "ContainerValue": "5 MP HD auto framing camera IR camera"
+        },
+        {
+            "Component": "47Z06AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "48B47AV",
+            "ContainerValue": "720p HD camera5 MP camera"
+        },
+        {
+            "Component": "48B50AV",
+            "ContainerValue": "720p HD camera5 MP camera"
+        },
+        {
+            "Component": "48B51AV",
+            "ContainerValue": "720p HD camera5 MP camera (rear-facing)"
+        },
+        {
+            "Component": "48B52AV",
+            "ContainerValue": "720p HD privacy camera5 MP camera (rear-facing)"
+        },
+        {
+            "Component": "48B53AV",
+            "ContainerValue": "720p HD camera5 MP camera (rear-facing)"
+        },
+        {
+            "Component": "48C79AV",
+            "ContainerValue": "720p HD camera 5 MP camera (front-facing)"
+        },
+        {
+            "Component": "48C81AV",
+            "ContainerValue": "720p HD privacy camera 5 MP camera (front-facing)"
+        },
+        {
+            "Component": "48C82AV",
+            "ContainerValue": "720p HD camera 5 MP camera (front-facing)"
+        },
+        {
+            "Component": "48F26AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "48F27AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "48F28AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "48F29AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "48F30AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "48F31AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "48G45AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "48G46AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "48G48AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "48G52AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "48G53AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "48G54AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "48T28AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T29AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T30AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T31AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T32AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T33AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T34AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T35AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T46AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T47AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T48AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T49AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "48T50AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4A1Y1AV",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "Component": "4A1Y2AV",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "Component": "4A5D5AV",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "Component": "4A5D6AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "4A5F2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4B099AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4B5T1AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "4B5T2AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "4B5V2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4B864AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "4B865AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "4B885AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4B936AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4C067AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "4C069AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4C071AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4C072AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4C161AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "4C162AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "4C182AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4C3V7AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "4C3V8AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "4C3Y1AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4C781AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "4C782AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "4C7A2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4CG20AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4CG21AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4CG24AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4CG50AV",
+            "ContainerValue": "1080p FHD IR  privacy camera"
+        },
+        {
+            "Component": "4CG51AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4D0F4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D0F5AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4D0F6AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4D0F7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D0F8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D0F9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D0G0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D0G1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D0G2AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4D0G3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D1K5AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4D1K7AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4D1K8AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4D1M3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D3Y3AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4D3Y4AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4D7V2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4D7V3AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4D7V4AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4D8Z1AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4D8Z2AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4D8Z3AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4D8Z4AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4D8Z5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D8Z6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D8Z7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D8Z8AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4D8Z9AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4D9B8AV",
+            "ContainerValue": "720p HD camera5 MP camera (rear-facing)"
+        },
+        {
+            "Component": "4F2E9AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4F2F0AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4F2H0AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4G5Z1AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4G5Z2AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4G610AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4H1N3AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4H1N4AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4HP27AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "4JD30AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4L3A1AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4L3A2AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4L3B9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4P7P1AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4QL88AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4QP84AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4QP85AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "4RY15AV",
+            "ContainerValue": "5 MP camera (rear-facing)"
+        },
+        {
+            "Component": "4RZ59AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4RZ70AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4RZ71AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4RZ88AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4S0R8AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4S0R9AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4S0T2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4SP94AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4SQ25AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "4SQ26AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "4SZ61AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4SZ94AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4SZ95AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4T9M8AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4U4E0AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4V7W8AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4V7X0AV",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "Component": "4V7X5AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4V7X6AV",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "Component": "4VP24AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4VP25AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "4VP28AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "4W4Y8AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4W5D0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4WD96AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "4WF03AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4WF04AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4WG49AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4WG60AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4WH02AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4WH03AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4X6Z4AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4X6Z5AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4YE29AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4YE30AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4YH39AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "4YH40AV",
+            "ContainerValue": "HP VGA Camera"
+        },
+        {
+            "Component": "4YP36AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "4YP78AV",
+            "ContainerValue": "720p HD IR privacy camera for face authentication with Windows Hello"
+        },
+        {
+            "Component": "4YP79AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4YW73AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4YX15AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "4YX16AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4Z272AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4Z273AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4Z274AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4Z4C1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4C2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4C3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4C4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4C5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4C6AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4C7AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4C8AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4C9AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4D0AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4D1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4D2AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4D3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4D4AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4D5AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4D6AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4D7AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4D8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4D9AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4E0AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4E1AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4E2AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4E3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4E4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4E5AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4E6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4E8AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4E9AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4F0AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4F1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4F2AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4F3AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4F4AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4F5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4F6AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4F7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "4Z4F8AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4F9AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4G0AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4G1AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z4G2AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4Z4G3AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "4Z4G4AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "4Z7E3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4Z7E4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4Z8S3AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "4ZC12AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4ZC13AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "4ZC29AV",
+            "ContainerValue": "5 MP camera (rear-facing)"
+        },
+        {
+            "Component": "500A0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "502A6AV",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "Component": "502A8AV",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "Component": "502D5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "50G31AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "50G40AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "50G43AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "50G46AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "50G48AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "50G49AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "50G58AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "50G60AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "511X1AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "511X2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "511X3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "511X4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "511X5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "51H19AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "51H20AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "51H46AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "51L53AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "51L54AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "51L73AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "51Z38AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "526B3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "526B5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "52X81AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "52X83AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "530G1AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "54P09AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "551D0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "551D1AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "551D2AV",
+            "ContainerValue": "8 MP camera (rear-facing)"
+        },
+        {
+            "Component": "554X9AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "57U43AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "581B2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "585M1AV",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "Component": "585M3AV",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "Component": "589S7AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "589S8AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "589T1AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "58M53AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "58M54AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "58M56AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "58N90AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "58N91AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "58N92AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "59F27AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "59F28AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "5A2N5AV",
+            "ContainerValue": "8 MP camera"
+        },
+        {
+            "Component": "5A2N7AV",
+            "ContainerValue": "8 MP camera"
+        },
+        {
+            "Component": "5DP86AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "5DP95AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5FR77AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5FZ56AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "5GA02AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5HD75AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5HM32AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5HU41AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5HU56AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5HU93AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5HU94AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5KX47AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5KX48AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "5KX49AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5KX50AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5KX51AV",
+            "ContainerValue": "HP VGA Camera"
+        },
+        {
+            "Component": "5KX52AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "5LC39AV",
+            "ContainerValue": "5 MP camera (world-facing)"
+        },
+        {
+            "Component": "5LG16AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5LG17AV",
+            "ContainerValue": "HD camera"
+        },
+        {
+            "Component": "5LJ47AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5LJ48AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "5LJ49AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5LJ50AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5LJ51AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "5LJ52AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "5LK13AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5LK14AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5LK15AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5LK16AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5LN76AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5LN77AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "5LN78AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5LN79AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5LV88AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5LV89AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5MG10AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5MV15AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5MV27AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5MV28AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5MV99AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5MW11AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5MW12AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5NA32AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5NA33AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5NW83AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5NY21AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5PB90AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "5PE09AV",
+            "ContainerValue": "HD camera"
+        },
+        {
+            "Component": "5PE10AV",
+            "ContainerValue": "HD camera"
+        },
+        {
+            "Component": "5PE11AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5PE12AV",
+            "ContainerValue": "HD Privacy IR webcam"
+        },
+        {
+            "Component": "5PE13AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "5PE14AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "5PE15AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5PE16AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5PE18AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5PE25AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5PE26AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5PE28AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5PE29AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5PE30AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5PE31AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5R7U8AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5SC68AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "5SC69AV",
+            "ContainerValue": "HD camera"
+        },
+        {
+            "Component": "5SG44AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "5SN66AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5SN78AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "5SP11AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5SP12AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5UN69AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "5UN71AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "5UN72AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "5UN74AV",
+            "ContainerValue": "FHD 1080p IR camera"
+        },
+        {
+            "Component": "5UN78AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "5UV76AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5UV77AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5VU69AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "5VV21AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "5VV22AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5Z8M5AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "5Z9H8AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "5ZP10AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "5ZP11AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "5ZP12AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "5ZP13AV",
+            "ContainerValue": "1080p HD IR webcam"
+        },
+        {
+            "Component": "609N1AV",
+            "ContainerValue": "5 MP IR camera"
+        },
+        {
+            "Component": "60N04AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "60N05AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "60N06AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "60N07AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "60N08AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "60N09AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "60N10AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "60N11AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "60N12AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "60N13AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "613T4AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "633B3AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "64T68AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "65M22AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "664P8AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "664P9AV",
+            "ContainerValue": "5 MP privacy camera"
+        },
+        {
+            "Component": "6BQ34AV",
+            "ContainerValue": "720p HD cameraIR Camera"
+        },
+        {
+            "Component": "6BQ51AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "6CB58AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6CB59AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6CB60AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "6CJ48AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6CK07AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "6CK08AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6CK59AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6CL24AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "6CL25AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "6DA56AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6DA70AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "6DA71AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6FE44AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "6FE45AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "6FE46AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "6FE47AV",
+            "ContainerValue": "HP True Vision 720p HD camera with integrated dual array digital microphone"
+        },
+        {
+            "Component": "6FT10AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6FW20AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "6GC23AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6GC24AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6J2M0AV",
+            "ContainerValue": "720p HD camera 5 MP auto-focus camera (rear-facing, select models)"
+        },
+        {
+            "Component": "6J2M1AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "6J2M4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6J2M5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6J2M6AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6J2M7AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6JX40AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6JX41AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6K8T1AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6K8T2AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "6K8U4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6N829AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6N830AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6N831AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6P6H5AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "6PQ88AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6Q263AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6Q264AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6Q265AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6Q267AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6Q268AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6Q269AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6Q270AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6Q271AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6Q272AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6QH35AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "6QH36AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "6QH38AV",
+            "ContainerValue": "1080p FHD IR  privacy camera"
+        },
+        {
+            "Component": "6QH39AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "6QH40AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "6V4W9AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "6V4X0AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "6V4Z1AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6V5Z6AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "6V5Z7AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "6V623AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6V7V0AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "6V7V3AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "6V7V5AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "6V7V6AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "6V8X8AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "6V8X9AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "6V903AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6W580AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6W581AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "6XF85AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6XF86AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6XF87AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6XF88AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6XF89AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6XF90AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6XF91AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6XF94AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6XJ62AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6XJ87AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6XK49AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6XK50AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6XN47AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6XN48AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "6YX36AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6YX52AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6YX53AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "6YY39AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "6YY41AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "6YY46AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "6YY54AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "6YY70AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "6YY71AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "70K59AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "70K60AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "70K63AV",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "Component": "70K64AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "70K68AV",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "Component": "70Z75AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "70Z76AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "711K2AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "711K5AV",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "Component": "711K6AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "711K7AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "711K8AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "711K9AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "711L0AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "717S1AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "717S2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "717S3AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "717U7AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "717U8AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "717U9AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "719F8AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "719G1AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "719G5AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "719G8AV",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "Component": "719G9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "719H0AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "719K3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "719K4AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "71C21AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "71C23AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "71C25AV",
+            "ContainerValue": "720p HD camera (front-facing) IR camera"
+        },
+        {
+            "Component": "71C27AV",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "Component": "71C28AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "71C42AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "71C43AV",
+            "ContainerValue": "720p HD camera (front-facing) IR camera"
+        },
+        {
+            "Component": "71C48AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "726U1AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "726U2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "726U3AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "726V6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "726V7AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "726V8AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "739Q3AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "739Q4AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "739S9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "73B46AV",
+            "ContainerValue": "720p HD camera 5 MP auto-focus camera (rear-facing, select models)"
+        },
+        {
+            "Component": "73B47AV",
+            "ContainerValue": "720p HD camera5 MP camera"
+        },
+        {
+            "Component": "740L5AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "740L6AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "740N7AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "749F9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "749G0AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "749G1AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "749S3AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "749S4AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "749S5AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "74A39AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "74A40AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "74A41AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "74A42AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "74W88AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "74W89AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "74W90AV",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "Component": "74X04AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "74X07AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "752P0AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "752P1AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "752Y8AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "752Y9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "752Z0AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "752Z1AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "753B1AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "756Y4AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "756Y5AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "756Y6AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "756Y7AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "757A5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "75C31AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "75C32AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "75C33AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "75C50AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "75G98AV",
+            "ContainerValue": "720p HD camera with temporal noise reduction IR camera"
+        },
+        {
+            "Component": "75G99AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "75H00AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "75H15AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "772Q2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "772Q3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "780W8AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "780W9AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "780X0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "780X1AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "780X3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "788F8AV",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "Component": "788F9AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "788G0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "788G1AV",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "Component": "788G2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "788G3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "78H81AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "78H82AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "78H83AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "78H84AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "78H86AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "790Z2AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "790Z3AV",
+            "ContainerValue": "5 MP HD auto framing camera"
+        },
+        {
+            "Component": "790Z4AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "791U2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "791Z2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "791Z4AV",
+            "ContainerValue": "720p HD camera with temporal noise reduction"
+        },
+        {
+            "Component": "792Y0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "792Y1AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "792Y2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "792Y3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "792Y4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "792Y5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "795N7AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "795N8AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "795N9AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "795P0AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "795U0AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "795U1AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "795U3AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "79Y52AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7AK22AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7AK32AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7B6Q0AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "7C200AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "7C209AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "7C3N8AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "7C3N9AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7C3Q4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7C9P1AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "7CB80AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7CB81AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7CC11AV",
+            "ContainerValue": "720p HD privacy camera 5 MP camera (front-facing)"
+        },
+        {
+            "Component": "7D208AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "7D217AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "7E6M5AV",
+            "ContainerValue": "5 MP IR camera"
+        },
+        {
+            "Component": "7E6M6AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7E6P2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7E739AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "7E740AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "7F020AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7FQ33AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "7G663AV",
+            "ContainerValue": "5MP IR Camera"
+        },
+        {
+            "Component": "7H0N4AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "7H5A7AV",
+            "ContainerValue": "720p HD camera with temporal noise reduction"
+        },
+        {
+            "Component": "7H5G3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7H5G4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7H5G5AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7H5K0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7H5K1AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7H5K2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7HB80AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7HB81AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7HB97AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7HB98AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7HB99AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7JN04AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7JN15AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7JN16AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7NP37AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7NX08AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "7NX09AV",
+            "ContainerValue": "HP TrueVision HD Camera VGA webcam"
+        },
+        {
+            "Component": "7NX10AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7QP98AV",
+            "ContainerValue": "FHD 1080p IR camera"
+        },
+        {
+            "Component": "7QT13AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7QT41AV",
+            "ContainerValue": "720p HD privacy camera 5 MP camera (front-facing)"
+        },
+        {
+            "Component": "7RX22AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "7RX79AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7RX80AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "7VJ75AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "7WV28AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7WV29AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7WV30AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7WV31AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7WV32AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7WV33AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "7YW18AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7YW19AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7YZ40AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7YZ41AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7YZ42AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "7Z7A0AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "7Z7C1AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "85J41AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "86F51AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "86F52AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "88Y27AV",
+            "ContainerValue": "5MP Camera"
+        },
+        {
+            "Component": "8AZ34AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8C8B7AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8C8B8AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "8C8B9AV",
+            "ContainerValue": "8 MP camera"
+        },
+        {
+            "Component": "8C8C0AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8C8N7AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8C8N8AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "8FK54AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8FK55AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8K0J5AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "8K0J6AV",
+            "ContainerValue": "5 MP IR camera"
+        },
+        {
+            "Component": "8K9N5AV",
+            "ContainerValue": "5 MP IR camera"
+        },
+        {
+            "Component": "8L1K9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8L688AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "8M2Z1AV",
+            "ContainerValue": "5 MP camera (front-facing)"
+        },
+        {
+            "Component": "8M2Z2AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "8M4Y8AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "8M4Y9AV",
+            "ContainerValue": "5 MP camera IR camera"
+        },
+        {
+            "Component": "8MN03AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8MN04AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8MN11AV",
+            "ContainerValue": "5 MP camera (world-facing)720p HD camera"
+        },
+        {
+            "Component": "8N382AV",
+            "ContainerValue": "5 MP camera IR camera"
+        },
+        {
+            "Component": "8NK52AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8NK53AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8NN79AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8NT34AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8PV85AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "8PV87AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "8PV89AV",
+            "ContainerValue": "FHD 1080p IR camera"
+        },
+        {
+            "Component": "8PV90AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "8PV92AV",
+            "ContainerValue": "FHD 1080p IR camera"
+        },
+        {
+            "Component": "8PV94AV",
+            "ContainerValue": "FHD 1080p IR camera"
+        },
+        {
+            "Component": "8PV95AV",
+            "ContainerValue": "FHD 1080p IR camera"
+        },
+        {
+            "Component": "8PV96AV",
+            "ContainerValue": "1080p FHD IR camera"
+        },
+        {
+            "Component": "8PW05AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "8PW42AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "8PW43AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "8Q5W8AV",
+            "ContainerValue": "5 MP camera IR camera"
+        },
+        {
+            "Component": "8Q5W9AV",
+            "ContainerValue": "5 MP camera IR camera"
+        },
+        {
+            "Component": "8QA26AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "8QA72AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "8QA73AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "8QL37AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8QL40AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8QT55AV",
+            "ContainerValue": "HP True Vision 720p HD camera with integrated dual array digital microphone"
+        },
+        {
+            "Component": "8R646AV",
+            "ContainerValue": "5 MP camera IR camera"
+        },
+        {
+            "Component": "8R647AV",
+            "ContainerValue": "5 MP camera IR camera"
+        },
+        {
+            "Component": "8RA63AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "8RA67AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8RB25AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8RB32AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8RB33AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "8RB34AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8RB35AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8RG91AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8RH13AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8RN68AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "8RN91AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "8RN92AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "8RY28AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8T655AV",
+            "ContainerValue": "5 MP camera IR camera"
+        },
+        {
+            "Component": "8T656AV",
+            "ContainerValue": "5 MP camera IR camera"
+        },
+        {
+            "Component": "8TG15AV",
+            "ContainerValue": "FHD 1080p IR camera"
+        },
+        {
+            "Component": "8TG31AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "8TG84AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8TG85AV",
+            "ContainerValue": "720p HD Camera + IR Camera"
+        },
+        {
+            "Component": "8TQ22AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "8TQ23AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "8TQ24AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "8VK89AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "8VK90AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "8VL24AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "8WJ84AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8WJ85AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "8WY06AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "8X023AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8XY39AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "8XY40AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "8Y0N8AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "8Y0N9AV",
+            "ContainerValue": "5 MP IR camera"
+        },
+        {
+            "Component": "8Z4W2AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "8Z4W3AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "8Z4W4AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8Z4W5AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8Z4X4AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8Z4X5AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8Z4X6AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "8Z5F1AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8Z5F2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8Z5F3AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8Z6R4AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8Z6R5AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8Z6R6AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "8Z6R7AV",
+            "ContainerValue": "FHD camera (select models)"
+        },
+        {
+            "Component": "8Z6S9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "8ZT80AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "900H0AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "900H1AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "900H2AV",
+            "ContainerValue": "FHD camera (select models)"
+        },
+        {
+            "Component": "900J4AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "902H3AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "902H4AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "902H5AV",
+            "ContainerValue": "FHD camera (select models)"
+        },
+        {
+            "Component": "902H5AV",
+            "ContainerValue": "FHD camera (select models)"
+        },
+        {
+            "Component": "902J6AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "903M2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "903M3AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "903M5AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "903M6AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "903M9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "909M7AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "909M8AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "909M9AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "909N0AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "909N1AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "909Q5AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "90C00AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "90C01AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "90C02AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "90C03AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "90C04AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "90C31AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "90G32AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "90G34AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "90G35AV",
+            "ContainerValue": "5 MP camera IR camera"
+        },
+        {
+            "Component": "90G36AV",
+            "ContainerValue": "FHD camera (select models)"
+        },
+        {
+            "Component": "952G3AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "952V0AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "97Y95AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "97Y96AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "97Y97AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "97Y98AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "982K2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "982K3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "982K4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "984B2AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "984B3AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "984B4AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9A0C8AV",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "Component": "9A0F3AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9A0G1AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9A0G2AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9A688AV",
+            "ContainerValue": "5 MP IR camera"
+        },
+        {
+            "Component": "9A689AV",
+            "ContainerValue": "FHD camera"
+        },
+        {
+            "Component": "9A6M9AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "9A6N0AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "9A6N1AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "9A6N2AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "9A6N3AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "9A844AV",
+            "ContainerValue": "5 MP IR camera"
+        },
+        {
+            "Component": "9A845AV",
+            "ContainerValue": "FHD camera"
+        },
+        {
+            "Component": "9AW13AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9AW14AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "9AW15AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9AW16AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "9AW17AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9AW19AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9C5U8AV",
+            "ContainerValue": "5MP HD IR camera"
+        },
+        {
+            "Component": "9D1L5AV",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "Component": "9DB35AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "9DF39AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9DR37AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9DR39AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9EC04AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9EC05AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9EC06AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "9EC07AV",
+            "ContainerValue": "1 MP HD camera (user-facing)"
+        },
+        {
+            "Component": "9G354AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9G355AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9JX12AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9JX13AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "9KS26AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9KS27AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9KS28AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9KS29AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "9KS30AV",
+            "ContainerValue": "VGA camera"
+        },
+        {
+            "Component": "9KS32AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9KZ67AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9L649AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9L650AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9L651AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9LA19AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "9LA20AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "9LY92AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9NA77AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "9NH75AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9P819AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9P820AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "9P821AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9Q635AV",
+            "ContainerValue": "720p HD IR camera"
+        },
+        {
+            "Component": "9R1P4AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9R1P5AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9R1P6AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9R4M6AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9R4M7AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9R4M8AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9R4M9AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9R681AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9R682AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9S0S6AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9S0S7AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9S0S8AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9S0S9AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9S5J3AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "9SP34AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "9TZ99AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9UA00AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "9UA04AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "9UL31AV",
+            "ContainerValue": "720p HD IR privacy camera"
+        },
+        {
+            "Component": "9UZ32AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "9V265AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9V267AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9V268AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9V272AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9V280AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "9VT27AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "9WN96AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "L3C75AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "L3C76AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "L3D32AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "L3D33AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "L4Z20AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "L4Z21AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "L5B67AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "L5B68AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "L6F22AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "L6K94AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "L8X74AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "L8X75AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "L8X76AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "L8X77AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "L9U52AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "L9U53AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "M5S11AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "M5S12AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "M6G55AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "M6G56AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "M6U40AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "M6V97AV",
+            "ContainerValue": "720p HD privacy camera"
+        },
+        {
+            "Component": "M9M10AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "M9M11AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "M9R83AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "M9R84AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "P2C98AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "T0J85AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "T4E94AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "V1Y91AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "V2A03AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "V2J98AV",
+            "ContainerValue": "HP camera"
+        },
+        {
+            "Component": "V5X66AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "V5X67AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "V5X68AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "W1A15AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "W1A16AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "W2N56AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "W2N57AV",
+            "ContainerValue": "IR camera"
+        },
+        {
+            "Component": "W2N58AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "W5H13AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "W5H35AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "W5P92AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "W5Q36AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "W5R12AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "W5R50AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "W5T69AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "W5U11AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "W6A09AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "W6A51AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "W6N72AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "W6Q37AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "W6Q88AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "X3T70AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "X3T71AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "X3U18AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "X3U19AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "X3U20AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "X3U21AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "X3U22AV",
+            "ContainerValue": "HD IR webcam"
+        },
+        {
+            "Component": "X3U70AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "X3U88AV",
+            "ContainerValue": "720p HD IR privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "X3V26AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "X3V27AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "X3W87AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "X3W88AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "X4B52AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "X4B53AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "X4C18AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "X4C19AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "X4C20AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "X4C21AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "X4C22AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "X4J53AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "X4J95AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "X4N37AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "X4N79AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "X5N90AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "X5N91AV",
+            "ContainerValue": "HP TrueVision HD Camera5 MP camera (world-facing)"
+        },
+        {
+            "Component": "X5N92AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "X5N95AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "X6V07AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "X6V46AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "X7S82AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "X7S83AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "X8Y10AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "X8Y11AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "Y0G21AV",
+            "ContainerValue": "[BLANK]"
+        },
+        {
+            "Component": "Y0G22AV",
+            "ContainerValue": "HD webcam"
+        },
+        {
+            "Component": "Y1F52AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "Y1F76AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "Y1F96AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Y3K45AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "Y3K46AV",
+            "ContainerValue": "720p HD camera with integrated dual array microphones"
+        },
+        {
+            "Component": "Y3K70AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "Y3K71AV",
+            "ContainerValue": "720p HD webcam"
+        },
+        {
+            "Component": "Y3K78AV",
+            "ContainerValue": "1080p camera (world-facing)"
+        },
+        {
+            "Component": "Y4F08AV",
+            "ContainerValue": "##BLANK##"
+        },
+        {
+            "Component": "Y4F40AV",
+            "ContainerValue": "720p HD privacy camera with integrated dual array microphones"
+        },
+        {
+            "Component": "Y5E16AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Y5E17AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Y5E18AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "Y5E19AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Y5E20AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Y5E21AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Y5E22AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Y5E23AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Y5E27AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Y5E52AV",
+            "ContainerValue": "VGA webcam"
+        },
+        {
+            "Component": "Y6K61AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "Z5V11AV",
+            "ContainerValue": "720p HD camera"
+        },
+        {
+            "Component": "Z6W89AV",
+            "ContainerValue": "HP TrueVision HD Webcam (front-facing) with integrated dual array digital microphone"
+        },
+        {
+            "Component": "A8VU5AV",
+            "ContainerValue": "5MP IR camera"
+        },
+        {
+            "Component": "8Z4X7AV",
+            "ContainerValue": "1080p FHD camera"
+        },
+        {
+            "Component": "8N381AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "8K9N4AV",
+            "ContainerValue": "5 MP camera"
+        },
+        {
+            "Component": "9L879AV",
+            "ContainerValue": "5 MP IR camera (select models)"
+        }
+    ]
+}

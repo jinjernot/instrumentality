@@ -1,0 +1,44 @@
+{
+    "wirelesstechnonoteftntnbr": [
+        {
+            "Component": "534F5AV",
+            "ContainerValue": "[44,45]"
+        },
+        {
+            "Component": "54B46AV",
+            "ContainerValue": "[44,45]"
+        },
+        {
+            "Component": "552G1AV",
+            "ContainerValue": "[44,45]"
+        },
+        {
+            "Component": "56D95AV",
+            "ContainerValue": "[45]"
+        },
+        {
+            "Component": "599L9AV",
+            "ContainerValue": "[11,12,46]"
+        },
+        {
+            "Component": "910H6AV",
+            "ContainerValue": "[12,46]"
+        },
+        {
+            "Component": "92A16AV",
+            "ContainerValue": "[12,46]"
+        },
+        {
+            "Component": "9J3A1AV",
+            "ContainerValue": "[12,46]"
+        },
+        {
+            "Component": "9X4H2AV",
+            "ContainerValue": "[11,12,13]"
+        },
+        {
+            "Component": "A27RRAV",
+            "ContainerValue": "[11,12,13]"
+        }
+    ]
+}

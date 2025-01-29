@@ -1,0 +1,984 @@
+{
+    "powersupply": [
+        {
+            "Component": "1Y4E0AV",
+            "ContainerValue": "180 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "1Y4L0AV",
+            "ContainerValue": "180 W external power adapter, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "1Y4L1AV",
+            "ContainerValue": "310 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "2H2C1AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "2J6D8AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "3A7E1AV",
+            "ContainerValue": "65 W USB Type-C™ AC adapter"
+        },
+        {
+            "Component": "4A5C6AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "4B424AV",
+            "ContainerValue": "120 W external power adapter, up to 88% efficiency, active PFC"
+        },
+        {
+            "Component": "4B426AV",
+            "ContainerValue": "180 W external AC power adapter"
+        },
+        {
+            "Component": "4B427AV",
+            "ContainerValue": "90 W external power adapter, up to 89% efficiency, active PFC"
+        },
+        {
+            "Component": "4B5R4AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "4B846AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "4C5J5AV",
+            "ContainerValue": "120 W external power adapter, up to 88% efficiency, active PFC"
+        },
+        {
+            "Component": "4C5J6AV",
+            "ContainerValue": "90 W external power adapter, up to 89% efficiency, active PFC"
+        },
+        {
+            "Component": "4D822AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "4E7Q4AV",
+            "ContainerValue": "260 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "4F2E1AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "4F6P5AV",
+            "ContainerValue": "65 W external power adapter, up to 89% efficiency"
+        },
+        {
+            "Component": "4G3M3AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "4G4N5AV",
+            "ContainerValue": "90 W external power adapter, up to 89% efficiency, active PFC"
+        },
+        {
+            "Component": "4H0C7AV",
+            "ContainerValue": "260 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4J373AV",
+            "ContainerValue": "180 W external AC power adapter"
+        },
+        {
+            "Component": "4J374AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "4J375AV",
+            "ContainerValue": "400 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "4J4L8AV",
+            "ContainerValue": "180 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "4J4L9AV",
+            "ContainerValue": "240 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "4N268AV",
+            "ContainerValue": "180 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "4N269AV",
+            "ContainerValue": "180 W internal power supply, up to 85% efficiency, active PFC"
+        },
+        {
+            "Component": "4N3T7AV",
+            "ContainerValue": "260 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4N3U9AV",
+            "ContainerValue": "350 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4N4T7AV",
+            "ContainerValue": "180 W external power adapter, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "4N4T8AV",
+            "ContainerValue": "260 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "4N4U0AV",
+            "ContainerValue": "500 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "4N758AV",
+            "ContainerValue": "180 W external AC power adapter"
+        },
+        {
+            "Component": "4Q3B0AV",
+            "ContainerValue": "550 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4Q540AV",
+            "ContainerValue": "350 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4Q541AV",
+            "ContainerValue": "450 W 90% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4Q542AV",
+            "ContainerValue": "700 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4V6C8AV",
+            "ContainerValue": "240 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "4W5X8AV",
+            "ContainerValue": "180 W external AC power adapter"
+        },
+        {
+            "Component": "4Y0G1AV",
+            "ContainerValue": "450 W 90% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4Y0G3AV",
+            "ContainerValue": "550 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4Y0H6AV",
+            "ContainerValue": "450 W 90% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4Y0H8AV",
+            "ContainerValue": "700 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4Y2D1AV",
+            "ContainerValue": "1450 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "4Z6C2AV",
+            "ContainerValue": "280 W external power adapter, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "501X6AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "511U0AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "526G1AV",
+            "ContainerValue": "240 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "54K52AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "54K57AV",
+            "ContainerValue": "260 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "565L5AV",
+            "ContainerValue": "120 W external power adapter, up to 88% efficiency, active PFC"
+        },
+        {
+            "Component": "565L6AV",
+            "ContainerValue": "150 W external power adapter, up to 89% efficiency, active PFC"
+        },
+        {
+            "Component": "56X56AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "57K33AV",
+            "ContainerValue": "1125 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "57K35AV",
+            "ContainerValue": "775 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "57M87AV",
+            "ContainerValue": "775 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "5B952AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "5B953AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "5Z8L1AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "5Z8L2AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "612M7AV",
+            "ContainerValue": "500 W 90% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "64N77AV",
+            "ContainerValue": "240 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "64Q78AV",
+            "ContainerValue": "350 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "68F01AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "68F43AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "6J2J6AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "6Q246AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "6V4T5AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "6V4T8AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "6V5V7AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "6V5W0AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "6V8U1AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "6Y8C9AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "709S0AV",
+            "ContainerValue": "675 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "70K49AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "70W15AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "70W19AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "70W20AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "70W21AV",
+            "ContainerValue": "HP Smart 65 W External AC power adapter"
+        },
+        {
+            "Component": "717Y9AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "717Z1AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "717Z3AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "717Z4AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "717Z5AV",
+            "ContainerValue": "HP Smart 65 W External AC power adapter"
+        },
+        {
+            "Component": "719P5AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "719P7AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "719P9AV",
+            "ContainerValue": "HP Smart 65 W External AC power adapter"
+        },
+        {
+            "Component": "71C89AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "71C91AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "727M8AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "727N0AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "727N2AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "727N3AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "727N4AV",
+            "ContainerValue": "HP Smart 65 W External AC power adapter"
+        },
+        {
+            "Component": "74W79AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "74W80AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "74W82AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "74W83AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "752Y1AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "752Y2AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "752Y3AV",
+            "ContainerValue": "HP Smart 65 W External AC power adapter"
+        },
+        {
+            "Component": "756X8AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "756X9AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "756Y0AV",
+            "ContainerValue": "HP Smart 65 W External AC power adapter"
+        },
+        {
+            "Component": "75C84AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "77N12AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "77S30AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "77S32AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "788D8AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "788F0AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "78H59AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "78H61AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "78U68AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "78U70AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "7B6P6AV",
+            "ContainerValue": "200 W external AC power adapter"
+        },
+        {
+            "Component": "7B6P7AV",
+            "ContainerValue": "230 W external AC power adapter"
+        },
+        {
+            "Component": "7C3L7AV",
+            "ContainerValue": "150 W external AC power adapter"
+        },
+        {
+            "Component": "7D8B9AV",
+            "ContainerValue": "1125 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "7D8C1AV",
+            "ContainerValue": "775 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "7E0T1AV",
+            "ContainerValue": "1125 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "7E0T2AV",
+            "ContainerValue": "1450 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "7E5C9AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "7E5D1AV",
+            "ContainerValue": "400 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "7E5P9AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "7E5Q0AV",
+            "ContainerValue": "400 W external power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "7E5Q1AV",
+            "ContainerValue": "550 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "7E8X8AV",
+            "ContainerValue": "180 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "7E8Y0AV",
+            "ContainerValue": "240 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "7E951AV",
+            "ContainerValue": "180 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "7E953AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "7E9G9AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "7F0E1AV",
+            "ContainerValue": "550 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "7K293AV",
+            "ContainerValue": "180 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "7K294AV",
+            "ContainerValue": "260 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "7L2U1AV",
+            "ContainerValue": "90 W smart external power adapter"
+        },
+        {
+            "Component": "7WX23AV",
+            "ContainerValue": "65 W Smart external AC power adapter, up to 89% efficiency"
+        },
+        {
+            "Component": "7WX24AV",
+            "ContainerValue": "65 W external AC power adapter"
+        },
+        {
+            "Component": "7Z1K4AV",
+            "ContainerValue": "65 W external power adapter, up to 89% efficiency"
+        },
+        {
+            "Component": "7Z1K5AV",
+            "ContainerValue": "65 W external power adapter, up to 89% efficiency"
+        },
+        {
+            "Component": "7Z1K6AV",
+            "ContainerValue": "90 W external power adapter"
+        },
+        {
+            "Component": "7Z1L9AV",
+            "ContainerValue": "90 W external power adapter"
+        },
+        {
+            "Component": "8C7X7AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8C8A7AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8K0F6AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8K0F7AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8K0F8AV",
+            "ContainerValue": "65 W USB Type-C® slim adapter"
+        },
+        {
+            "Component": "8K9M5AV",
+            "ContainerValue": "65 W USB Type-C® adapter"
+        },
+        {
+            "Component": "8K9M6AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8K9M9AV",
+            "ContainerValue": "100 W USB Type-C® adapter"
+        },
+        {
+            "Component": "8L6T0AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8L6T1AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8M2V1AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8M2V2AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8M4V4AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8M4V5AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8N346AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8N347AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8N350AV",
+            "ContainerValue": "HP 100 W USB Type-C® slim adapter"
+        },
+        {
+            "Component": "8Q5U1AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8R623AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8R624AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8R626AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8T633AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8T637AV",
+            "ContainerValue": "HP 100 W USB Type-C® slim adapter"
+        },
+        {
+            "Component": "8X3V5AV",
+            "ContainerValue": "260 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "8Y0M6AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Y0M7AV",
+            "ContainerValue": "65 W USB Type-C® slim adapter"
+        },
+        {
+            "Component": "8Y265AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Y266AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Y269AV",
+            "ContainerValue": "HP 100 W USB Type-C® slim adapter"
+        },
+        {
+            "Component": "8Y4Q3AV",
+            "ContainerValue": "180 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "8Y4Q5AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "8Y4R0AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "8Y4R1AV",
+            "ContainerValue": "400 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "8Y4T3AV",
+            "ContainerValue": "180 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "8Y4T6AV",
+            "ContainerValue": "240 W internal power supply, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "8Y8L9AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Y8M0AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Y8M1AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Y8M3AV",
+            "ContainerValue": "HP 100 W USB Type-C® slim adapter"
+        },
+        {
+            "Component": "8Z4W6AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Z4W8AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Z4X0AV",
+            "ContainerValue": "HP 100 W USB Type-C® slim adapter"
+        },
+        {
+            "Component": "8Z545AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Z6Q5AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Z6Q7AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8Z6Q9AV",
+            "ContainerValue": "100 W external AC power adapter"
+        },
+        {
+            "Component": "900G3AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "900G5AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "902G6AV",
+            "ContainerValue": "45 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "902G8AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "903L7AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "909M2AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "90B95AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "90G25AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "951J3AV",
+            "ContainerValue": "HP 65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "951J4AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "974L5AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "983X7AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "9A658AV",
+            "ContainerValue": "150 W external AC power adapter"
+        },
+        {
+            "Component": "9A811AV",
+            "ContainerValue": "150 W Slim Smart external AC power adapter"
+        },
+        {
+            "Component": "9C5T7AV",
+            "ContainerValue": "150 W Slim Smart external AC power adapter"
+        },
+        {
+            "Component": "9C5T9AV",
+            "ContainerValue": "230 W external AC power adapter"
+        },
+        {
+            "Component": "9D030AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "9D2S8AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "9F3E5AV",
+            "ContainerValue": "100 W USB Type-C® adapter"
+        },
+        {
+            "Component": "9G3R3AV",
+            "ContainerValue": "HP Smart 65 W EM External AC power adapter"
+        },
+        {
+            "Component": "9Q665AV",
+            "ContainerValue": "150 W external AC power adapter"
+        },
+        {
+            "Component": "9R3Q5AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "9R3R8AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "9R3S2AV",
+            "ContainerValue": "HP Smart 65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "9R3S6AV",
+            "ContainerValue": "HP Smart 65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "9S5J1AV",
+            "ContainerValue": "HP Smart 65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "9S879AV",
+            "ContainerValue": "HP 65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "9UK21AV",
+            "ContainerValue": "280 W external Smart AC power adapter, up to 89% efficiency, active PFC (advance hub)"
+        },
+        {
+            "Component": "9W5C0AV",
+            "ContainerValue": "65 W Smart external AC power adapter, up to 89% efficiency"
+        },
+        {
+            "Component": "9W5C1AV",
+            "ContainerValue": "65 W external AC power adapter"
+        },
+        {
+            "Component": "9X9K7AV",
+            "ContainerValue": "200 W Slim Smart external AC power adapter"
+        },
+        {
+            "Component": "9Z5Y1AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "A09V7AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "A09XLAV",
+            "ContainerValue": "180 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "A09XMAV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "A19VVAV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "63G17AV",
+            "ContainerValue": "1125 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "57D35AV",
+            "ContainerValue": "1125 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "6E455AV",
+            "ContainerValue": "1450 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "90G27AV",
+            "ContainerValue": "100 W external AC power adapter"
+        },
+        {
+            "Component": "A8VU3AV",
+            "ContainerValue": "HP Smart 65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "7D8C0AV",
+            "ContainerValue": "1450 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "70W17AV",
+            "ContainerValue": "HP Smart 45 W External AC power adapter"
+        },
+        {
+            "Component": "40X19AV",
+            "ContainerValue": "65 W external power adapter, up to 89% efficiency"
+        },
+        {
+            "Component": "749X4AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "74A91AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "3F0Q3AV",
+            "ContainerValue": "1125 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "4Q3A9AV",
+            "ContainerValue": "450 W 90% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "517A1AV",
+            "ContainerValue": "1125 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "7C9N6AV",
+            "ContainerValue": "150 W external AC power adapter"
+        },
+        {
+            "Component": "8Q5U2AV",
+            "ContainerValue": "65 W USB Type-C™ adapter"
+        },
+        {
+            "Component": "8L8K5AV",
+            "ContainerValue": "180 W internal power supply, up to 90% efficiency, active PFC"
+        },
+        {
+            "Component": "4H0C9AV",
+            "ContainerValue": "550 W 92% efficient, wide-ranging, active PFC"
+        },
+        {
+            "Component": "4E7Q6AV",
+            "ContainerValue": "550 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "9UK20AV",
+            "ContainerValue": "230 W external power adapter, up to 89% efficiency, active PFC"
+        },
+        {
+            "Component": "7E5Q3AV",
+            "ContainerValue": "260 W internal power adapter, up to 92% efficiency, active PFC"
+        },
+        {
+            "Component": "4E7Q5AV",
+            "ContainerValue": "400 W internal power supply, up to 92% efficiency, active PFC"
+        }
+    ]
+}
