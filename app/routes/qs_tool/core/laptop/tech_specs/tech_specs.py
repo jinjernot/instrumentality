@@ -14,6 +14,8 @@ from app.routes.qs_tool.core.laptop.tech_specs.power import power_section
 from app.routes.qs_tool.core.laptop.tech_specs.dimensions import dimensions_section
 from app.routes.qs_tool.core.laptop.tech_specs.ports import ports_section
 from app.routes.qs_tool.core.laptop.tech_specs.service import service_section
+from config import QS_TECHSPECS_PATH
+
 
 import pandas as pd
 
@@ -31,7 +33,7 @@ def tech_specs_section(doc, file):
         df_filtered = df.dropna(subset=[df.columns[1]])
 
         # Save the filtered DataFrame to a new Excel file
-        output_file = '/home/garciagi/qs/filtered_tech_specs.xlsx'
+        output_file = QS_TECHSPECS_PATH
         df_filtered.to_excel(output_file, index=False)
 
         # Read the filtered DataFrame

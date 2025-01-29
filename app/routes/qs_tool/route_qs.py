@@ -4,7 +4,7 @@ from app.routes.qs_tool.core.laptop.build_laptop import create_docx
 
 import config
 
-from config import QS_APP_PATH, QS_ZIP_FILE_PATH
+from config import QS_APP_PATH
 
 # Create a Flask app
 app = Flask(__name__)
@@ -24,7 +24,7 @@ def qs_tool():
             try:
                 if allowed_file(file.filename):  # Check if the file has a valid extension
                     create_docx(file)  # Process the file
-                    return send_from_directory(QS_APP_PATH, filename=QS_ZIP_FILE_PATH, as_attachment=True)  # Serve file for download
+                    return send_from_directory(QS_APP_PATH, filename='qs_file.zip', as_attachment=True)  # Serve file for download
                 else:
                     return render_template('error.html', error_message='Invalid file extension'), 400
             except Exception as e:

@@ -5,16 +5,13 @@ from app.routes.qs_tool.core.format.format import format_document
 
 from docx import Document
 from zipfile import ZipFile
-from config import QS_DOCX_FILE_PATH, QS_ZIP_FILE_PATH
+from config import QS_DOCX_FILE_PATH, QS_ZIP_FILE_PATH, QS_IMAGE_PATH
 
 
-imgs_path = "/home/garciagi/qs/imgs/"
+imgs_path = QS_IMAGE_PATH
 #imgs_path = "./imgs/"
 
-def createdocx(file):
-    """Table Secion"""
-    
-    # Variables
+def create_docx(file):
     doc = Document()
 
     # Quickspecs sections
