@@ -5,6 +5,7 @@ from app.routes.qs_tool.core.format.format import format_document
 
 from docx import Document
 from zipfile import ZipFile
+from config import QS_DOCX_FILE_PATH, QS_ZIP_FILE_PATH
 
 
 imgs_path = "/home/garciagi/qs/imgs/"
@@ -22,7 +23,7 @@ def createdocx(file):
     table_section(doc, file)
 
     format_document(doc, file, imgs_path)
-    docx_file = '/home/garciagi/qs/quickspecs.docx'
+    docx_file = QS_DOCX_FILE_PATH
     #docx_file = 'quickspecs.docx'
 
     doc.save(docx_file)
@@ -31,7 +32,7 @@ def createdocx(file):
     #convert(docx_file)
 
     # Create a zip file and add specific files to it
-    zip_file_name = '/home/garciagi/qs/quickspecs.zip'
+    zip_file_name = QS_ZIP_FILE_PATH
     #zip_file_name = 'quickspecs.zip'
 
     with ZipFile(zip_file_name, 'w') as zipf:
