@@ -1,13 +1,12 @@
-import pandas as pd
-
-from docx.enum.text import WD_BREAK
-
 from app.routes.qs_tool.core.blocks.paragraph import *
 from app.routes.qs_tool.core.blocks.title import *
 from app.routes.qs_tool.core.blocks.table import *
 from app.routes.qs_tool.core.format.hr import *
+import pandas as pd
 
-def displays_section(doc, file, html_file):
+from docx.enum.text import WD_BREAK
+
+def displays_section(doc, file):
     """Displays QS Only Section"""
 
     try:
@@ -15,10 +14,10 @@ def displays_section(doc, file, html_file):
         df = pd.read_excel(file.stream, sheet_name='QS-Only Displays', engine='openpyxl')
 
         # Add title: Displays
-        insert_title(doc, "DISPLAYS", html_file)
+        insert_title(doc, "DISPLAYS")
 
         # Add table
-        insert_table(doc, df, html_file)
+        insert_table(doc, df)
 
         # Insert HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)

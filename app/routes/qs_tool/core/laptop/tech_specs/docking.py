@@ -1,26 +1,26 @@
-from docx.enum.text import WD_BREAK
-from docx.shared import Inches
-
 from app.routes.qs_tool.core.format.table import table_column_widths
 from app.routes.qs_tool.core.blocks.paragraph import *
 from app.routes.qs_tool.core.blocks.title import *
 from app.routes.qs_tool.core.format.hr import *
+
+from docx.enum.text import WD_BREAK
+from docx.shared import Inches
 
 def table_column_widths(table, widths):
     """Set the column widths for a table."""
     for idx, width in enumerate(widths):
         table.columns[idx].width = width
 
-def docking_section(doc, html_file, df):
+def docking_section(doc, df):
     """Docking Table"""
 
     try:
         # Add title: DOCKING
-        insert_title(doc, "Docking (Sold Separately)", html_file)
+        insert_title(doc, "Docking (Sold Separately)")
 
         for index, row in df.iterrows():
             # Check if the content in column 0 is "Docking"
-            if row[1] == "Docking":
+            if row[1] == "Docking (sold separately)":
                 # Add a table with 2 columns to the Word document
                 table = doc.add_table(rows=1, cols=2)
 
@@ -51,7 +51,6 @@ def docking_section(doc, html_file, df):
 
         # Insert HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)
-        insert_html_horizontal_line(html_file)
         
         doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
 

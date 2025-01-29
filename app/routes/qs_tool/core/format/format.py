@@ -1,18 +1,30 @@
-import json
-
 from app.routes.qs_tool.core.format.header import header
 from app.routes.qs_tool.core.format.footer import footer
+import json
 
 from docx.shared import Pt
 
 def read_bold_words_from_json(json_file):
-    """Read bold words from a JSON file"""
+    """
+    Read bold words from a JSON file.
+
+    Parameters:
+        json_file (str): The path to the JSON file.
+
+    Returns:
+        list: A list of bold words.
+    """
     with open(json_file, 'r') as f:
         data = json.load(f)
         return data.get('bold_words', [])
 
 def set_margins(doc):
-    """Set document margins"""
+    """
+    Set document margins.
+
+    Parameters:
+        doc (docx.Document): The Word document object.
+    """
     sections = doc.sections
     for section in sections:
         section.left_margin = Pt(20)
@@ -21,7 +33,12 @@ def set_margins(doc):
         section.bottom_margin = Pt(20)
 
 def set_default_font(doc):
-    """Set default font for the document"""
+    """
+    Set default font for the document.
+
+    Parameters:
+        doc (docx.Document): The Word document object.
+    """
     styles = doc.styles
     default_style = styles['Normal']
     font = default_style.font
@@ -30,7 +47,12 @@ def set_default_font(doc):
 
 def apply_bold_font(doc, bold_words):
     """
-    Apply bold font to specific words in the document"""
+    Apply bold font to specific words in the document.
+
+    Parameters:
+        doc (docx.Document): The Word document object.
+        bold_words (list): A list of words to be bolded.
+    """
     for paragraph in doc.paragraphs:
         for run in paragraph.runs:
             for word in bold_words:
@@ -42,7 +64,14 @@ def apply_bold_font(doc, bold_words):
                             run.bold = True
 
 def format_document(doc, file, imgs_path):
-    """Apply formatting to the document"""
+    """
+    Apply formatting to the document.
+
+    Parameters:
+        doc (docx.Document): The Word document object.
+        file (str): The path to the Word document.
+        imgs_path (str): The path to the images directory.
+    """
     bold_words = read_bold_words_from_json('/home/garciagi/qs/app/core/format/bold_words.json')
     #bold_words = read_bold_words_from_json('app/core/format/bold_words.json')
     header(doc, file)

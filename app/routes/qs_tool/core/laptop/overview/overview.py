@@ -1,8 +1,8 @@
-import pandas as pd
-
 from app.routes.qs_tool.core.laptop.overview.callouts import callout_section
 
-def overview_section(doc, file, html_file):
+import pandas as pd
+
+def overview_section(doc, file):
     """Add Overview section"""
     
     # Load sheet into df
@@ -11,4 +11,4 @@ def overview_section(doc, file, html_file):
 
     prod_name = df.columns[1]
     # Run the functions to build the overview section
-    callout_section(doc, file, html_file, prod_name, df)
+    callout_section(doc, file, prod_name, df)

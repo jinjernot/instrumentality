@@ -1,10 +1,10 @@
-import pandas as pd
+from app.routes.qs_tool.core.format.hr import *
 
 from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.shared import Pt, Inches
 
-from app.routes.qs_tool.core.format.hr import *
+import pandas as pd
 
 def header(doc,file):
     """Generate the Word Header"""

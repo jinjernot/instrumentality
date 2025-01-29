@@ -1,6 +1,5 @@
 QS_APP_PATH = '/home/garciagi/frame/app/routes/qs_tool/'
 QS_IMAGE_PATH = '/home/garciagi/frame/app/routes/qs_tool/imgs/'
-QS_HTML_FILE_PATH = '/home/garciagi/frame/app/routes/qs_tool/quickspecs.html'
 QS_DOCX_FILE_PATH = '/home/garciagi/frame/app/routes/qs_tool/quickspecs.docx'
 QS_ZIP_FILE_PATH = '/home/garciagi/frame/app/routes/qs_tool/qs_file.zip'
 QS_CENTER_FACING_IMAGE_PATH = '/home/garciagi/frame/app/routes/qs_tool/image001.png'

@@ -1,14 +1,13 @@
+from app.routes.qs_tool.core.blocks.paragraph import *
+from app.routes.qs_tool.core.blocks.title import *
+from app.routes.qs_tool.core.blocks.table import *
+from app.routes.qs_tool.core.format.hr import *
 import pandas as pd
 
 from docx.enum.text import WD_BREAK
 from docx.shared import Inches
 
-from app.routes.qs_tool.core.blocks.paragraph import *
-from app.routes.qs_tool.core.blocks.title import *
-from app.routes.qs_tool.core.blocks.table import *
-from app.routes.qs_tool.core.format.hr import *
-
-def fingerprint_section(doc, file, html_file):
+def fingerprint_section(doc, file):
     """Fingerprint Reader QS Only Section"""
 
     try:
@@ -16,11 +15,11 @@ def fingerprint_section(doc, file, html_file):
         df = pd.read_excel(file.stream, sheet_name='QS-Only Fingerprint Reader', engine='openpyxl')
 
         # Add title: Fingerprint Reader
-        insert_title(doc, "FINGERPRINT READER", html_file)
+        insert_title(doc, "FINGERPRINT READER")
 
         start_col_idx = 0
         end_col_idx = 1
-        start_row_idx = 0
+        start_row_idx = 3
         end_row_idx = 30
 
         data_range = df.iloc[start_row_idx:end_row_idx + 1, start_col_idx:end_col_idx + 1]
@@ -45,18 +44,6 @@ def fingerprint_section(doc, file, html_file):
             for paragraph in cell.paragraphs:
                 for run in paragraph.runs:
                     run.font.bold = True
-
-        html_table = '<table class="MsoNormalTable" cellSpacing="3" cellPadding="0" width="728" border="0">\n'
-        for row_idx in range(num_rows):
-            html_table += "  <tr>\n"
-            for col_idx in range(num_cols):
-                value = data_range.iat[row_idx, col_idx]
-                html_table += f"    <td>{value}</td>\n"
-            html_table += "  </tr>\n"
-        html_table += "</table>"
-
-        with open(html_file, 'a', encoding='utf-8') as txt:
-            txt.write(html_table)
 
         # Insert HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)

@@ -1,11 +1,12 @@
+from app.routes.qs_tool.core.format.hr import *
+from app.routes.qs_tool.core.format.table import table_column_widths
+
 from docx.enum.table import WD_TABLE_ALIGNMENT
 from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement, ns
 from docx.shared import Pt, Inches
 from datetime import datetime
 
-from app.routes.qs_tool.core.format.table import table_column_widths
-from app.routes.qs_tool.core.format.hr import *
 
 def create_element(name):
     return OxmlElement(name)

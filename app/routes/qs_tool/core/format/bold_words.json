@@ -6,6 +6,7 @@
       "Integrated",
       "Non-Touch",
       "Touch",
+      "Storage",
       "Primary Storage",
       "Primary M.2 Storage",
       "Maximum Memory",
@@ -24,6 +25,7 @@
       "Manageability Features",
       "Security Management",
       "Security- TPM",
+      "Security Feature ",
       "1st Source",
       "BIOS",
       "IPv6 Support",
@@ -42,6 +44,11 @@
       "Product Dimensions (w x d x h)",
       "Pallet Dimensions (w x d x h)",
       "Left side",
-      "Right side"
+      "Right side",
+      "Processor Family",
+      "Speaker Power",
+      "Smartcard Reader",
+      "Does the BIOS implement the ISO/IEC 19678:2015 (formerly NIST 800-147) guidelines?:s",
+      "Class:"
     ]
   }

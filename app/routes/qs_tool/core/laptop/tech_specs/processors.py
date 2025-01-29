@@ -1,11 +1,11 @@
-import pandas as pd
-import docx
-
-from docx.enum.text import WD_BREAK
 
 from app.routes.qs_tool.core.blocks.paragraph import *
 from app.routes.qs_tool.core.blocks.title import *
 from app.routes.qs_tool.core.format.hr import *
+
+from docx.enum.text import WD_BREAK
+import pandas as pd
+import docx
 
 def table_column_widths(table, widths):
     """Set the column widths for a table."""
@@ -13,33 +13,29 @@ def table_column_widths(table, widths):
         for idx, width in enumerate(widths):
             row.cells[idx].width = width
 
-def processors_section(doc, file, html_file):
+def processors_section(doc, file):
     """Processors techspecs section"""
 
     try:
-
         # Read Excel file
-        df = pd.read_excel(file.stream, sheet_name='QS-Only Processors', engine='openpyxl')
+        df = pd.read_excel(file.stream, sheet_name='Processors', engine='openpyxl')
 
         # Add title
-        insert_title(doc, "Processors", html_file)
+        insert_title(doc, "Processors")
 
-        # Filtering and processing data
+        # Dynamically fetch the column names from the third row (index 2) that have data
+        third_row = df.iloc[3]  # Selecting the third row (index 2, but 1-based)
 
-        # Define the criteria to filter the rows
-        criteria_values = ["Processor", "Cores", "Threads", "L3 Cache", "Max Boost\nFrequency", "Base Frequency", "Pro"]
+        # Filter to keep columns that have data in the third row
+        filtered_df = df.loc[:, ~third_row.isna()]
 
-        # Filter the dataframe based on the values in the third row
-        third_row = df.iloc[1]  # Selecting the third row
-        filtered_df = df.loc[:, third_row.isin(criteria_values)]  # Filtering columns based on criteria
-
-        # Remove the first row
-        filtered_df = filtered_df.iloc[1:]
+        # Remove the rows
+        filtered_df = filtered_df.iloc[3:]
 
         # Replace "NaN" string values with an empty string
         filtered_df = filtered_df.fillna('')
 
-        # Convert filtered dataframe to a list of lists (data) for table
+        # Convert filtered dataframe to a list of lists (data) for the table
         data = filtered_df.values.tolist()
 
         # Add the data as a table to the document
@@ -49,20 +45,28 @@ def processors_section(doc, file, html_file):
         # Add table data
         for row in data:
             # Check if the row is empty
-            if not any(row):
-                break  # Exit the loop if the row is empty
+            if 'Footnotes' in row:
+                break  # Exit the loop if footnote row is reached
             
             row_cells = table.add_row().cells
             for i, cell in enumerate(row):
                 row_cells[i].text = str(cell)
+                
+                # Bold the text if the cell contains "Processor Family"
+                if str(cell) == "Processor Family":
+                    for paragraph in row_cells[i].paragraphs:
+                        for run in paragraph.runs:
+                            run.font.bold = True
 
         # Remove the first row
         if len(table.rows) > 1:  # Ensure there are rows to delete
             table.rows[0]._element.getparent().remove(table.rows[0]._element)
 
-        # Set the column widths of the table
-        table_column_widths(table, [docx.shared.Inches(2)] * len(data[0]))  # Set each column width to 2 inches
-
+        for cell in table.rows[0].cells:
+            for paragraph in cell.paragraphs:
+                for run in paragraph.runs:
+                    run.font.bold = True
+                    
         doc.add_paragraph()
 
         # After adding the table, continue processing the DataFrame
@@ -83,10 +87,15 @@ def processors_section(doc, file, html_file):
 
         # HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)
-        insert_html_horizontal_line(html_file)
 
         doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
 
     except Exception as e:
         print(f"An error occurred: {e}")
         return str(e)
+    
+def table_column_widths(table, widths):
+    """Set the column widths for a table."""
+    for row in table.rows:
+        for idx, width in enumerate(widths):
+            row.cells[idx].width = width

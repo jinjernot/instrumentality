@@ -1,13 +1,12 @@
-import pandas as pd
-
-from docx.enum.text import WD_BREAK
-
 from app.routes.qs_tool.core.blocks.paragraph import *
 from app.routes.qs_tool.core.blocks.title import *
 from app.routes.qs_tool.core.blocks.table import *
 from app.routes.qs_tool.core.format.hr import *
 
-def storage_section(doc, file, html_file):
+from docx.enum.text import WD_BREAK
+import pandas as pd
+
+def storage_section(doc, file):
     """Storage QS Only Section"""
 
     try:
@@ -15,10 +14,10 @@ def storage_section(doc, file, html_file):
         df = pd.read_excel(file.stream, sheet_name='QS-Only Storage', engine='openpyxl')
 
         # Add title: Storage 
-        insert_title(doc, "STORAGE", html_file)
+        insert_title(doc, "STORAGE")
 
         # Add table
-        insert_table(doc, df, html_file)
+        insert_table(doc, df)
 
         # Insert HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)
