@@ -91,8 +91,16 @@ def processors_section(doc, file):
         doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
 
     except Exception as e:
-        print(f"An error occurred: {e}")
+        error_msg = f"An error occurred: {e}"
+        print(error_msg)
+
+        error_paragraph = doc.add_paragraph()
+        error_run = error_paragraph.add_run(error_msg)
+        error_run.bold = True
+        error_run.font.color.rgb = RGBColor(255, 0, 0)
+
         return str(e)
+
     
 def table_column_widths(table, widths):
     """Set the column widths for a table."""

@@ -46,7 +46,7 @@ def insert_error(doc, error_message):
     """
     paragraph = doc.add_paragraph()
     run = paragraph.add_run(f"Error: {error_message}")
-    run.font.color.rgb = RGBColor(255, 0, 0)  # Set font color to red
+    run.font.color.rgb = RGBColor(255, 0, 0)
     run.font.bold = True
     run.add_break(WD_BREAK.LINE)
 
