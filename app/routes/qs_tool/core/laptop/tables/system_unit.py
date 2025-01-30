@@ -18,7 +18,7 @@ def system_unit_section(doc, file):
 
         start_col_idx = 0
         end_col_idx = 1
-        start_row_idx = 2
+        start_row_idx = 4
         end_row_idx = 41
 
         data_range = df.iloc[start_row_idx:end_row_idx+1, start_col_idx:end_col_idx+1]
