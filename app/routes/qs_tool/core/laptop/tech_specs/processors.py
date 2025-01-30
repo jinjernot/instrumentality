@@ -7,31 +7,23 @@ from docx.shared import RGBColor
 import pandas as pd
 import docx
 
-def table_column_widths(table, widths):
-    """Set the column widths for a table."""
-    for row in table.rows:
-        for idx, width in enumerate(widths):
-            row.cells[idx].width = width
-
-def processors_section(doc, file, sheet_name):
+def processors_section(doc, file):
     """Processors techspecs section"""
 
     try:
-        # Define possible sheet names
-        valid_sheets = ["Processors", "QS-Only Processors"]
+        # Load Excel file and check if the "Processors" sheet exists
+        xls = pd.ExcelFile(file.stream, engine='openpyxl')
+        if "Processors" not in xls.sheet_names:
+            raise ValueError("Sheet 'Processors' not found in the Excel file.")
 
-        # Validate sheet name
-        if sheet_name not in valid_sheets:
-            raise ValueError(f"Invalid sheet name: {sheet_name}. Expected one of {valid_sheets}.")
+        # Read the sheet
+        df = pd.read_excel(file.stream, sheet_name='Processors', engine='openpyxl')
 
-        # Read Excel file
-        df = pd.read_excel(file.stream, sheet_name=sheet_name, engine='openpyxl')
-
-        # Add title with the correct sheet name
-        insert_title(doc, sheet_name)
+        # Add title
+        insert_title(doc, "Processors")
 
         # Dynamically fetch the column names from the third row (index 2) that have data
-        third_row = df.iloc[3]
+        third_row = df.iloc[3]  # Selecting the third row (index 2, but 1-based)
 
         # Filter to keep columns that have data in the third row
         filtered_df = df.loc[:, ~third_row.isna()]
@@ -79,9 +71,9 @@ def processors_section(doc, file, sheet_name):
         # Process Footnotes if available
         footnotes_index = df[df.eq('Footnotes').any(axis=1)].index.tolist()
         if footnotes_index:
-            footnotes_index = footnotes_index[0] 
-            footnotes_data = df.iloc[footnotes_index + 1:]
-            footnotes_data = footnotes_data.dropna(how='all')
+            footnotes_index = footnotes_index[0]  
+            footnotes_data = df.iloc[footnotes_index + 1:]  
+            footnotes_data = footnotes_data.dropna(how='all')  
             
             # Iterate over rows of footnotes_data and add them to the document
             for _, row in footnotes_data.iterrows():
@@ -90,7 +82,7 @@ def processors_section(doc, file, sheet_name):
                     # Add row values as a paragraph with specified font color
                     paragraph = doc.add_paragraph(" - ".join(map(str, row_values)))
                     for run in paragraph.runs:
-                        run.font.color.rgb = RGBColor(0, 0, 153)   
+                        run.font.color.rgb = RGBColor(0, 0, 153)  # Set font color to blue    
 
         # Insert Horizontal Line
         insert_horizontal_line(doc.add_paragraph(), thickness=3)
@@ -99,10 +91,10 @@ def processors_section(doc, file, sheet_name):
         doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
 
     except Exception as e:
-        error_msg = f"An error occurred in sheet '{sheet_name}': {e}"
+        error_msg = f"An error occurred: {e}"
         print(error_msg)  # Log error to console
 
-        # Add error message to Word document in red
+        # Add error message to Word document in red bold text
         error_paragraph = doc.add_paragraph()
         error_run = error_paragraph.add_run(error_msg)
         error_run.bold = True
