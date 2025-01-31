@@ -15,6 +15,11 @@ def power_section(doc, file):
 
         # Add title: Power
         insert_title(doc, "POWER")
+        
+        paragraph = doc.add_paragraph()
+        run = paragraph.add_run("Power supply availability may vary by country.")
+        run.font.color.rgb = RGBColor(0, 0, 153) 
+        paragraph.add_run().add_break(WD_BREAK.LINE)
 
         # Add table
         insert_table(doc, df)

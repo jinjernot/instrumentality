@@ -15,6 +15,15 @@ def displays_section(doc, file):
 
         # Add title: Displays
         insert_title(doc, "DISPLAYS")
+              
+        paragraph = doc.add_paragraph()
+
+        run = paragraph.add_run("Actual brightness will be lower with touchscreen or HP Sure View.")
+        run.font.color.rgb = RGBColor(0, 0, 153)
+        paragraph.add_run().add_break(WD_BREAK.LINE)
+        run = paragraph.add_run("Availability may vary by country")
+        run.font.color.rgb = RGBColor(0, 0, 153)
+        paragraph.add_run().add_break(WD_BREAK.LINE)
 
         # Add table
         insert_table(doc, df)
