@@ -73,7 +73,7 @@ def format_document(doc, file, imgs_path):
         imgs_path (str): The path to the images directory.
     """
     bold_words = read_bold_words_from_json('/home/garciagi/qs/app/core/format/bold_words.json')
-    #bold_words = read_bold_words_from_json('app/core/format/bold_words.json')
+
     header(doc, file)
     footer(doc, imgs_path)
     set_margins(doc)
