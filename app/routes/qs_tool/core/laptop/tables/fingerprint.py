@@ -34,16 +34,18 @@ def fingerprint_section(doc, file):
         # Set column widths
         table_column_widths(table, column_widths)
 
+        # Fill the table with data
         for row_idx in range(num_rows):
             for col_idx in range(num_cols):
                 value = data_range.iat[row_idx, col_idx]
                 cell = table.cell(row_idx, col_idx)
                 if not pd.isna(value):
                     cell.text = str(value)
-        for cell in table.rows[0].cells:
-            for paragraph in cell.paragraphs:
-                for run in paragraph.runs:
-                    run.font.bold = True
+
+        # Bold the first column
+        for row in table.rows:
+            row.cells[0].paragraphs[0].runs[0].font.bold = True
+
 
         # Insert HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)

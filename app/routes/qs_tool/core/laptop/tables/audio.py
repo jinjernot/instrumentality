@@ -40,6 +40,11 @@ def audio_section(doc, file):
                 if not pd.isna(value):
                     cell.text = str(value)
 
+        # Bold the first column
+        for row in table.rows:
+            row.cells[0].paragraphs[0].runs[0].font.bold = True
+
+
         # Insert HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)
 
