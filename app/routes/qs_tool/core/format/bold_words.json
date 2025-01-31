@@ -48,7 +48,7 @@
       "Processor Family",
       "Speaker Power",
       "Smartcard Reader",
-      "Does the BIOS implement the ISO/IEC 19678:2015 (formerly NIST 800-147) guidelines?:s",
+      "Does the BIOS implement the ISO/IEC 19678:2015 (formerly NIST 800-147) guidelines?:",
       "Class:"
     ]
   }
