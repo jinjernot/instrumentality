@@ -19,31 +19,36 @@ def options_section(doc, file):
 
         start_col_idx = 0
         end_col_idx = 2
-        start_row_idx = 2
+        start_row_idx = 1
         end_row_idx = 299
 
         data_range = df.iloc[start_row_idx:end_row_idx+1, start_col_idx:end_col_idx+1]
-        data_range = data_range.dropna(how='all')
+        data_range = data_range.dropna(how='all')  # Drop rows with all NaN values
 
         num_rows, num_cols = data_range.shape
-        table = doc.add_table(rows=num_rows+1, cols=num_cols)  # Adding 1 for the header row
+        table = doc.add_table(rows=0, cols=num_cols)  # Start with an empty table
 
-        table_column_widths(table, (Inches(2), Inches(4), Inches(2)))
+        # Populating table cells with data (dynamically stop at empty row)
+        for row_idx in range(num_rows):
+            row = data_range.iloc[row_idx]
+            if row.isna().all():  # Stop if the entire row is empty
+                break
 
-        # Adding table headers as the first row
-        for col_idx in range(num_cols):
-            header = df.columns[col_idx]
-            cell = table.cell(0, col_idx)
-            cell.text = header
-            cell.paragraphs[0].runs[0].font.bold = True
+            # Add a row to the table
+            table.add_row()
 
-        # Populating table cells with data
-        for row_idx in range(1, num_rows+1):  # Start from the second row for data
+            # Populate the row cells with data
             for col_idx in range(num_cols):
-                value = data_range.iat[row_idx-1, col_idx]  # Adjust row index
+                value = row[col_idx]
                 cell = table.cell(row_idx, col_idx)
                 if not pd.isna(value):
                     cell.text = str(value)
+
+                    # Bold the first row
+                    if row_idx == 0:
+                        cell.paragraphs[0].runs[0].font.bold = True
+                        
+        table_column_widths(table, (Inches(2), Inches(4), Inches(2)))
 
         # Insert HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)

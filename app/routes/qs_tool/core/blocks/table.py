@@ -2,7 +2,7 @@ from app.routes.qs_tool.core.format.hr import *
 from docx.enum.text import WD_BREAK
 from docx.shared import RGBColor
 from docx.shared import Inches
-
+from app.routes.qs_tool.core.format.table import table_column_widths
 
 def process_footnotes(doc, footnotes):
     """
@@ -79,3 +79,5 @@ def insert_table(doc, df):
                 process_footnotes(doc, footnotes)
                 footnotes = []
             doc.add_paragraph()
+
+    table_column_widths(table, (Inches(2), Inches(4), Inches(2)))
