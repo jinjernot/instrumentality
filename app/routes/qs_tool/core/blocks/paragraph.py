@@ -1,4 +1,6 @@
 from docx.enum.text import WD_BREAK
+
+import re
 from docx.shared import Pt
 from docx.shared import RGBColor
 from app.routes.qs_tool.core.format.hr import *
@@ -19,7 +21,8 @@ def insert_paragraph(doc, df, iloc_row, iloc_column):
 
 def process_footnotes(doc, footnotes):
     """
-    Add footnotes to the Word document with blue font color.
+    Add footnotes to the Word document with blue font color,
+    while replacing [x] with x. (number followed by a period).
 
     Parameters:
         doc (docx.Document): The Word document object.
@@ -29,13 +32,16 @@ def process_footnotes(doc, footnotes):
         return
 
     paragraph = doc.add_paragraph()
+    pattern = re.compile(r"\[(\d+)\]")  # Match [x] where x is a number
+
     for index, data in enumerate(footnotes):
-        run = paragraph.add_run(data)
-        run.font.color.rgb = RGBColor(0, 0, 153)
+        cleaned_data = pattern.sub(r"\1.", data)  # Replace [x] with x.
+
+        run = paragraph.add_run(cleaned_data)
+        run.font.color.rgb = RGBColor(0, 0, 153)  # Set font color to blue
         
         if index < len(footnotes) - 1:
             run.add_break(WD_BREAK.LINE)
-
 def insert_error(doc, error_message):
     """
     Insert an error message into the Word document with red font color.

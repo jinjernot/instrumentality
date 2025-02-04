@@ -2,25 +2,36 @@ from app.routes.qs_tool.core.format.hr import *
 from docx.enum.text import WD_BREAK
 from docx.shared import RGBColor
 from docx.shared import Inches
+import re
 from app.routes.qs_tool.core.format.table import table_column_widths
 
 def process_footnotes(doc, footnotes):
     """
-    Process footnotes and add them to the Word document with blue font color.
+    Process footnotes and add them to the Word document with blue font color,
+    while formatting [x] as x. and skipping unwanted values.
 
     Parameters:
         doc (docx.Document): The Word document object.
         footnotes (list): The list of footnotes to be added.
     """
+    if not footnotes:
+        return
+
     paragraph = doc.add_paragraph()
+    pattern = re.compile(r"\[(\d+)\]")  # Match [x] where x is a number
+
     for index, data in enumerate(footnotes):
         # Skip footnotes containing unwanted values
         if "Container Name" in data or "Wireless WAN" in data:
             continue
-        run = paragraph.add_run(data)
-        run.font.color.rgb = RGBColor(0, 0, 153)
         
-        if index < len(footnotes) - 1 and footnotes[index + 1].strip():  # Check if the next footnote is not empty
+        cleaned_data = pattern.sub(r"\1.", data)  # Replace [x] with x.
+
+        run = paragraph.add_run(cleaned_data)
+        run.font.color.rgb = RGBColor(0, 0, 153)  # Set font color to blue
+        
+        # Add a line break if the next footnote exists and is not empty
+        if index < len(footnotes) - 1 and footnotes[index + 1].strip():
             run.add_break(WD_BREAK.LINE)
 
 
