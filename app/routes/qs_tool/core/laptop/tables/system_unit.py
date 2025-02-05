@@ -2,13 +2,13 @@ from app.routes.qs_tool.core.blocks.paragraph import *
 from app.routes.qs_tool.core.blocks.title import *
 from app.routes.qs_tool.core.format.hr import *
 from docx.shared import Inches
-
 from docx.enum.text import WD_BREAK
+from docx.shared import RGBColor
 import pandas as pd
+import re
 
 def system_unit_section(doc, file):
     """System Unit table"""
-
     try:
         # Load xlsx
         df = pd.read_excel(file.stream, sheet_name='QS-Only System Unit', engine='openpyxl')
@@ -21,6 +21,12 @@ def system_unit_section(doc, file):
         start_row_idx = 4
         end_row_idx = 42
 
+        # Find the footnotes row index (if exists)
+        footnotes_index = df[df.eq('Footnotes').any(axis=1)].index.tolist()
+        if footnotes_index:
+            end_row_idx = footnotes_index[0] - 1  # Stop before the footnotes row
+
+        # Extract only the necessary rows
         data_range = df.iloc[start_row_idx:end_row_idx+1, start_col_idx:end_col_idx+1]
         data_range = data_range.dropna(how='all')
 
@@ -42,7 +48,8 @@ def system_unit_section(doc, file):
 
         # Bold the first column
         for row in table.rows:
-            row.cells[0].paragraphs[0].runs[0].font.bold = True
+            if row.cells[0].paragraphs and row.cells[0].paragraphs[0].runs:
+                row.cells[0].paragraphs[0].runs[0].font.bold = True
 
         for cell in table.rows[0].cells:
             for paragraph in cell.paragraphs:
@@ -51,27 +58,32 @@ def system_unit_section(doc, file):
                                
         doc.add_paragraph()
 
-        # After adding the table, continue processing the DataFrame
-        footnotes_index = df[df.eq('Footnotes').any(axis=1)].index.tolist()
+        # Process footnotes if they exist
         if footnotes_index:
             footnotes_index = footnotes_index[0]  # Assuming there's only one "Footnotes" row
-            footnotes_data = df.iloc[footnotes_index + 1:]  # Get data after "Footnotes" row
-            footnotes_data = footnotes_data.dropna(how='all')  # Drop rows with all NaN values
+            footnotes_data = df.iloc[footnotes_index + 1:].dropna(how='all')  # Drop rows with all NaN values
             
-            # Iterate over rows of footnotes_data and add them to the document
-            for _, row in footnotes_data.iterrows():
-                row_values = row.dropna().tolist()
-                if row_values:
-                    # Add row values as a paragraph with specified font color
-                    paragraph = doc.add_paragraph(" - ".join(map(str, row_values)))
-                    for run in paragraph.runs:
-                        run.font.color.rgb = RGBColor(0, 0, 153)  # Set font color to blue    
+            footnotes = [" - ".join(map(str, row.dropna().tolist())) for _, row in footnotes_data.iterrows() if row.dropna().tolist()]
+            
+            paragraph = doc.add_paragraph()
+            pattern = re.compile(r"\[(\d+)\]")  # Match [x] where x is a number
+
+            for index, data in enumerate(footnotes):
+                if "Container Name" in data or "Wireless WAN" in data:
+                    continue
+                
+                cleaned_data = pattern.sub(r"\1.", data)  # Replace [x] with x.
+                run = paragraph.add_run(cleaned_data)
+                run.font.color.rgb = RGBColor(0, 0, 153)  # Set font color to blue
+                
+                if index < len(footnotes) - 1 and footnotes[index + 1].strip():
+                    run.add_break(WD_BREAK.LINE)
 
         # Insert HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)
 
         doc.add_paragraph().add_run().add_break(WD_BREAK.PAGE)
-
+    
     except Exception as e:
         print(f"An error occurred: {e}")
         return str(e)
