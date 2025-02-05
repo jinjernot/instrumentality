@@ -70,15 +70,19 @@ def insert_list(doc, df, start_value):
         return
     
     start_index = df.index[df.iloc[:, 1] == start_value].tolist()[0]
-    next_value_indices = df.iloc[start_index:, 1][df.iloc[start_index:, 1] == 'Value'].index.tolist()
     
-    if not next_value_indices:
-        insert_error(doc, f"'Value' not found after '{start_value}'")
-        return
-    
-    next_value_index = next_value_indices[0]
-    items = df.iloc[start_index:next_value_index, 1].tolist()
-    
+    if start_value == "Service and Support":
+        items = df.iloc[start_index:, 1].tolist()  # Take everything till the end
+    else:
+        next_value_indices = df.iloc[start_index:, 1][df.iloc[start_index:, 1] == 'Value'].index.tolist()
+        
+        if not next_value_indices:
+            insert_error(doc, f"'Value' not found after '{start_value}'")
+            return
+
+        next_value_index = next_value_indices[0]
+        items = df.iloc[start_index:next_value_index, 1].tolist()
+        
     # Identify footnotes based on the content starting with '['
     footnotes_index = next(
         (i for i, item in enumerate(items) if item.startswith("[")),
