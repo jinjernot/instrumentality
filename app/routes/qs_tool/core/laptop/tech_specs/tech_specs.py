@@ -17,14 +17,30 @@ from app.routes.qs_tool.core.laptop.tech_specs.service import service_section
 from config import QS_TECHSPECS_PATH
 
 
+from docx.shared import RGBColor
+
 import pandas as pd
 
 def tech_specs_section(doc, file):
     """TechSpecs Section"""
 
     try:
-        # Load sheet into df
-        df = pd.read_excel(file.stream, sheet_name='Tech Specs & QS Features', engine='openpyxl')
+        # Load available sheet names
+        xls = pd.ExcelFile(file.stream, engine='openpyxl')
+        available_sheets = xls.sheet_names  # List of sheets in the file
+
+        # Possible sheet names
+        sheet_names = ["Tech Specs & QS Features", "QS Features"]
+        df = None
+
+        # Find the first matching sheet
+        for sheet in sheet_names:
+            if sheet in available_sheets:
+                df = pd.read_excel(xls, sheet_name=sheet)
+                break  # Exit loop once a valid sheet is found
+
+        if df is None:
+            raise ValueError(f"None of the specified sheets {sheet_names} were found. Available sheets: {available_sheets}")
 
         # Remove extra spaces from the end of each value and convert all columns to strings
         df = df.applymap(lambda x: str(x).strip() if isinstance(x, str) else x)
@@ -59,5 +75,12 @@ def tech_specs_section(doc, file):
         service_section(doc, df)
 
     except Exception as e:
-        print(f"An error occurred: {e}")
-        return str(e)
+        error_message = f"An error occurred: {e}"
+        print(error_message)
+
+        # Add error message to the document in red
+        para = doc.add_paragraph()
+        run = para.add_run(error_message)
+        run.font.color.rgb = RGBColor(255, 0, 0)  # Red color
+
+        return error_message
