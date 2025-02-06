@@ -1,9 +1,8 @@
 from app.routes.qs_tool.core.blocks.paragraph import *
 from app.routes.qs_tool.core.blocks.title import *
 from app.routes.qs_tool.core.format.hr import *
-from docx.shared import Inches
+from docx.shared import Inches, Pt, RGBColor
 from docx.enum.text import WD_BREAK
-from docx.shared import RGBColor
 import pandas as pd
 import re
 
@@ -35,16 +34,25 @@ def system_unit_section(doc, file):
 
         # Define column widths
         column_widths = (Inches(3), Inches(5))
-
-        # Set column widths
         table_column_widths(table, column_widths)
+
+        pattern = re.compile(r"\[(\d+)\]")  # Match [x] where x is a number
 
         for row_idx in range(num_rows):
             for col_idx in range(num_cols):
                 value = data_range.iat[row_idx, col_idx]
                 cell = table.cell(row_idx, col_idx)
+                
                 if not pd.isna(value):
-                    cell.text = str(value)
+                    data = str(value)
+                    split_data = pattern.split(data)  # Splitting text while keeping numbers
+                    paragraph = cell.paragraphs[0]  # Get the first paragraph in the cell
+
+                    for i, text_part in enumerate(split_data):
+                        run = paragraph.add_run(text_part)
+                        if i % 2 == 1:  # If it's a matched number
+                            run.font.superscript = True  # Apply superscript
+                            run.font.size = Pt(9)  # Adjust font size
 
         # Bold the first column
         for row in table.rows:
@@ -66,18 +74,18 @@ def system_unit_section(doc, file):
             footnotes = [" - ".join(map(str, row.dropna().tolist())) for _, row in footnotes_data.iterrows() if row.dropna().tolist()]
             
             paragraph = doc.add_paragraph()
-            pattern = re.compile(r"\[(\d+)\]")  # Match [x] where x is a number
 
             for index, data in enumerate(footnotes):
                 if "Container Name" in data or "Wireless WAN" in data:
                     continue
                 
-                cleaned_data = pattern.sub(r"\1.", data)  # Replace [x] with x.
-                run = paragraph.add_run(cleaned_data)
+                # Replace [x] with "x." for footnotes
+                formatted_text = pattern.sub(r"\1.", data)
+                run = paragraph.add_run(formatted_text)
                 run.font.color.rgb = RGBColor(0, 0, 153)  # Set font color to blue
-                
+
                 if index < len(footnotes) - 1 and footnotes[index + 1].strip():
-                    run.add_break(WD_BREAK.LINE)
+                    paragraph.add_run().add_break(WD_BREAK.LINE)
 
         # Insert HR
         insert_horizontal_line(doc.add_paragraph(), thickness=3)

@@ -1,18 +1,18 @@
 from app.routes.qs_tool.core.format.hr import *
 from docx.enum.text import WD_BREAK
-from docx.shared import RGBColor
-from docx.shared import Inches
+from docx.shared import RGBColor, Inches, Pt
 import re
 from app.routes.qs_tool.core.format.table import table_column_widths
 
+def clean_text(text):
+    """Remove bullet points (• ) from text."""
+    return re.sub(r"•\s*", "", text)  # Remove bullet points if present
+
 def process_footnotes(doc, footnotes):
     """
-    Process footnotes and add them to the Word document with blue font color,
-    while formatting [x] as x. and skipping unwanted values.
-
-    Parameters:
-        doc (docx.Document): The Word document object.
-        footnotes (list): The list of footnotes to be added.
+    Process footnotes and add them to the Word document with blue font color.
+    - Replace [x] with "x." (adding a period after the number).
+    - Skip unwanted values.
     """
     if not footnotes:
         return
@@ -21,69 +21,94 @@ def process_footnotes(doc, footnotes):
     pattern = re.compile(r"\[(\d+)\]")  # Match [x] where x is a number
 
     for index, data in enumerate(footnotes):
-        # Skip footnotes containing unwanted values
+        data = clean_text(data)  # Remove bullets if present
+
         if "Container Name" in data or "Wireless WAN" in data:
             continue
-        
-        cleaned_data = pattern.sub(r"\1.", data)  # Replace [x] with x.
 
-        run = paragraph.add_run(cleaned_data)
+        # Replace [x] with "x."
+        formatted_text = pattern.sub(r"\1.", data)
+
+        run = paragraph.add_run(formatted_text)  # Normal text
         run.font.color.rgb = RGBColor(0, 0, 153)  # Set font color to blue
-        
-        # Add a line break if the next footnote exists and is not empty
-        if index < len(footnotes) - 1 and footnotes[index + 1].strip():
-            run.add_break(WD_BREAK.LINE)
 
+        if index < len(footnotes) - 1 and footnotes[index + 1].strip():
+            paragraph.add_run().add_break(WD_BREAK.LINE)
 
 def insert_table(doc, df):
     """
-    Insert tables into the Word document.
-
-    Parameters:
-        doc (docx.Document): The Word document object.
-        df (pandas.DataFrame): The DataFrame containing the table data.
+    Insert tables into the Word document while formatting [x] as superscripted x.
     """
-    footnotes = []  # To store footnotes temporarily
+    footnotes = []
 
-    # Remove NaN values and empty rows from the DataFrame
     df.fillna('', inplace=True)
     df.dropna(how='all', inplace=True)
 
+    pattern = re.compile(r"\[(\d+)\]")  # Match [x] where x is a number
+
     for index, row in df.iterrows():
         if row[0] == "Table":
-            # Calculate page width
             page_width = doc.sections[0].page_width - doc.sections[0].left_margin - doc.sections[0].right_margin
 
-            # Add a table to the Word document
             table = doc.add_table(rows=1, cols=3)
             column_widths = (Inches(2), Inches(2), Inches(4))
             for column, width in zip(table.columns, column_widths):
                 column.width = width
+
             for i in range(index + 1, len(df)):
                 if df.iloc[i, 0] == "Table":
                     break
                 elif df.iloc[i, 0] == "Footnotes":
-                    # Extract footnotes from the second column when 'Footnotes' is found in the first column
                     footnotes = []
                     for j in range(i + 1, len(df)):
                         if df.iloc[j, 0] == "Table":
                             break
-                        footnotes.append(str(df.iloc[j, 1]))  # Extract from the second column
+                        footnotes.append(clean_text(str(df.iloc[j, 1])))  # Clean text
                     break
                 else:
+                    # Process first column (bold, superscript for non-footnotes)
                     cell_1 = table.add_row().cells[1]
-                    cell_1.text = str(df.iloc[i, 0])  # Data from the first column
-                    for paragraph in cell_1.paragraphs:
-                        for run in paragraph.runs:
-                            run.font.bold = True
-                    cell_2 = table.rows[-1].cells[2]
-                    cell_2.text = str(df.iloc[i, 1])  # Data from the second column
+                    paragraph_1 = cell_1.paragraphs[0]
 
+                    text_data = clean_text(str(df.iloc[i, 0]))
+                    split_data = pattern.split(text_data)
+
+                    for k, text_part in enumerate(split_data):
+                        run = paragraph_1.add_run(text_part)
+                        if k % 2 == 0:
+                            run.font.bold = True  # Apply bold
+                        else:
+                            run.font.superscript = True  # Apply superscript
+                            run.font.size = Pt(9)
+
+                    # Process second column (superscript for non-footnotes)
+                    cell_2 = table.rows[-1].cells[2]
+                    paragraph_2 = cell_2.paragraphs[0]
+
+                    text_data = clean_text(str(df.iloc[i, 1]))
+                    split_data = pattern.split(text_data)
+
+                    for k, text_part in enumerate(split_data):
+                        run = paragraph_2.add_run(text_part)
+                        if k % 2 == 1:  # Superscript only numbers
+                            run.font.superscript = True
+                            run.font.size = Pt(9)
+
+            # Process table title (bold, superscript for non-footnotes)
             cell_0 = table.cell(1, 0)
-            cell_0.text = str(row[1])
-            for paragraph in cell_0.paragraphs:
-                for run in paragraph.runs:
-                    run.font.bold = True
+            paragraph_0 = cell_0.paragraphs[0]
+
+            text_data = clean_text(str(row[1]))
+            split_data = pattern.split(text_data)
+
+            for k, text_part in enumerate(split_data):
+                run = paragraph_0.add_run(text_part)
+                if k % 2 == 0:
+                    run.font.bold = True  # Apply bold
+                else:
+                    run.font.superscript = True  # Apply superscript
+                    run.font.size = Pt(9)
+
             table.rows[0]._element.getparent().remove(table.rows[0]._element)
 
             if footnotes:
