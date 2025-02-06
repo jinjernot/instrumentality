@@ -100,7 +100,19 @@ def insert_list(doc, df, start_value):
     run.add_break(WD_BREAK.LINE)
 
     for index, data in enumerate(non_footnotes[1:], start=1):
-        run = paragraph.add_run(data)
+        pattern = re.compile(r"\[(\d+)\]")  # Match [number]
+
+        # Replace [x] with a placeholder so we can add superscript correctly
+        split_data = pattern.split(data)  # Splits text while keeping numbers separately
+        matches = pattern.findall(data)  # Extracts numbers inside brackets
+
+        for i, text_part in enumerate(split_data):
+            if i % 2 == 0:
+                run = paragraph.add_run(text_part)  # Normal text
+            else:
+                sup_run = paragraph.add_run(text_part)  # The extracted number
+                sup_run.font.superscript = True  # Apply superscript
+                sup_run.font.size = Pt(9)  # Adjust font size
         
         if index < len(non_footnotes) - 1:
             run.add_break(WD_BREAK.LINE)
