@@ -1,6 +1,6 @@
 from openpyxl.styles import PatternFill,Font
 
-from config import SCS_QA_FILE_PATH, SCS_GRANULAR_FILE_PATH
+from config import SCS_REGULAR_FILE_PATH, SCS_GRANULAR_FILE_PATH
 
 import openpyxl
 
@@ -8,7 +8,7 @@ def format_data():
     """This function is used to format the data in the Excel file, bold headers, adjust the column width, and highlight errors."""
 
     # Load Workbook and get the active sheet
-    wb = openpyxl.load_workbook(SCS_QA_FILE_PATH)  # Server
+    wb = openpyxl.load_workbook(SCS_REGULAR_FILE_PATH)  # Server
     worksheet = wb.active
 
     # Bold and color the headers
@@ -32,7 +32,7 @@ def format_data():
                     c.font = Font(color='FF0000', name=font.name, size=font.size)
 
     # Save the workbook
-    wb.save(SCS_QA_FILE_PATH)  # Server
+    wb.save(SCS_REGULAR_FILE_PATH)  # Server
     
 def format_data_granular():
     """This function is used to format the data in the Excel file, bold headers, adjust the column width, and highlight errors."""
