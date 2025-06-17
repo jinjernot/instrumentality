@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>URL Status Monitor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}">
+    <style>
+        .status-up { color: green; font-weight: bold; }
+        .status-down { color: red; font-weight: bold; }
+        .card-header-up { background-color: #d4edda; border-color: #c3e6cb; } /* Light green */
+        .card-header-down { background-color: #f8d7da; border-color: #f5c6cb; } /* Light red */
+        .card-body p { margin-bottom: 0.5rem; }
+        .card { margin-bottom: 1.5rem; }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="main-panel">
+            <div class="content">
+                <div class="container-fluid">
+                    <h4 class="page-title">URL Monitoring Dashboard</h4>
+                    <div class="row">
+                        {% if statuses %}
+                            {% for url, data in statuses.items() %}
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card">
+                                    <div class="card-header 
+                                        {% if data.is_up %}card-header-up{% else %}card-header-down{% endif %}
+                                        text-white">
+                                        <h5 class="card-title">{{ url }}</h5>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Status: 
+                                            <span class="
+                                                {% if data.is_up %}status-up{% else %}status-down{% endif %}
+                                            ">
+                                                {{ data.message }}
+                                            </span>
+                                        </p>
+                                        <p>Last Checked: {{ data.last_checked }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                            {% endfor %}
+                        {% else %}
+                            <div class="col-12">
+                                <p>No URL statuses available yet. Please wait or check the monitoring script logs.</p>
+                            </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+            <footer class="footer">
+                <div class="container-fluid">
+                    <div class="copyright ml-auto">
+                        </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='js/ready.min.js') }}"></script>
+    <script>
+        // Optional: Auto-refresh the page every 30 seconds
+        setTimeout(function(){
+            location.reload();
+        }, 30000); 
+    </script>
+</body>
+</html>
