@@ -80,7 +80,7 @@ async def clean_report_granular(file):
         file_content = file.read()
         file_buffer = BytesIO(file_content)
 
-        df_g = pd.read_excel(file_buffer, engine='openpyxl', sheet_name='GranularContentReport')
+        df_g = pd.read_excel(file_buffer, engine='openpyxl')
         df_g = df_g.drop(SCS_COLS_TO_DROP_GRANULAR, axis=1, errors='ignore')
         df_g[SCS_COLS_TO_ADD] = ''
 
@@ -100,10 +100,12 @@ async def clean_report_granular(file):
             df_g = process_data_granular(json_file_path, container_name, df_g)
 
         # --- 3. Final Checks and Save ---
-        df_g = check_missing_fields(df_g, SCS_COMPONENT_GROUPS_PATH)
+        df_g = check_missing_fields(df_g, SCS_GRANULAR_COMPONENT_GROUPS_PATH)
+       
 
         file_buffer.seek(0)
         with pd.ExcelFile(file_buffer, engine='openpyxl') as excel_file:
+            print(f"Available sheets: {excel_file.sheet_names}")
             if "ms4" in excel_file.sheet_names:
                 file_buffer.seek(0)
                 df_final = av_check(file_buffer)
