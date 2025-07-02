@@ -8,7 +8,6 @@
                 "processornameftntnbr",
                 "tsfootnote_06",
                 "facet_processortype",
-                "facet_graphics",
                 "graphicseg_01header",
                 "graphicseg_01card_01",
                 "intgcnote",
@@ -44,7 +43,6 @@
                 "tsfootnote_08",
                 "facet_graphics",
                 "graphicseg_02header",
-                "graphicseg_01header",
                 "specialfeat"
             ]
         },
@@ -252,8 +250,7 @@
                 "tsfootnote_21",
                 "tsfootnote_12",
                 "tsfootnote_13",
-                "tsfootnote_15",
-                ""
+                "tsfootnote_15"
             ]
         }
     ]

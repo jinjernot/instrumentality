@@ -1,132 +1,110 @@
 import pandas as pd
 import json
+import os
 
-def process_data(json_path, container_name, container_df, df):
+def process_data(json_path, container_name, df):
+    """
+    Processes a standard report, checks accuracy, and provides the correct value on error.
+    """
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            json_data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        mask = df['ContainerName'] == container_name
+        df.loc[mask, 'Accuracy'] = f'ERROR: {container_name} JSON not found or invalid'
+        return df
+
+    container_data = json_data.get(container_name, {})
     
-    # Open the JSON file and load the data into a dictionary.
-    with open(json_path, 'r', encoding='utf-8') as f:
-        json_data = json.load(f)
-    # Convert the list of containers into a DataFrame.
-    container_data = pd.DataFrame(json_data[container_name])
+    # Create an inverted map for very fast lookups of the correct value.
+    # Maps each component to its one correct container value.
+    component_to_value_map = {
+        component: value
+        for value, components in container_data.items()
+        for component in components
+    }
 
-    # Create an empty dictionary
-    container_accuracy_dict = {}
+    # Create a boolean mask for the rows that match the current container
+    mask = df['ContainerName'] == container_name
+    # Get a copy of the relevant subset to avoid SettingWithCopyWarning
+    relevant_df = df[mask].copy()
 
-    # Iterate over each container in the JSON data.
-    for container in container_data.itertuples(index=False):
-        # Create a mask using exact string matching.
-        maskContainer = (container_df['PhwebDescription'] == container.PhwebDescription) & \
-                        (container_df['ContainerValue'] == container.ContainerValue)
-        # Update the 'container_accuracy_dict' dictionary using boolean indexing.
-        container_accuracy_dict.update(container_df[maskContainer].index.to_series().map(lambda idx: (idx, f'SCS {container_name} OK')))
-    # Update the 'Accuracy' column of the 'container_df' DataFrame using boolean indexing.
-    container_df.loc[container_accuracy_dict.keys(), 'Accuracy'] = [value for _, value in container_accuracy_dict.values()]
-    # Update the 'Accuracy' column of the 'df' DataFrame using boolean indexing.
-    df.loc[container_df.index, 'Accuracy'] = container_df['Accuracy']
-
-    # Find the unmatched containers and set error messages
-    unmatched_containers = container_df[~container_df.index.isin(container_accuracy_dict.keys())]
-    unmatched_error_messages = [f'ERROR: {container_name}' for _ in range(len(unmatched_containers))]
-    unmatched_containers['Accuracy'] = unmatched_error_messages
-    # Update the 'Accuracy' column of the 'df' DataFrame for unmatched containers.
-    df.loc[unmatched_containers.index, 'Accuracy'] = unmatched_containers['Accuracy']
-
-    unmatched_container_values = []
-    for container in unmatched_containers.itertuples(index=False):
-        matching_containers = container_data[container_data['PhwebDescription'] == container.PhwebDescription]
-        if len(matching_containers) > 0:
-            correct_value = matching_containers.iloc[0]['ContainerValue']
-            unmatched_container_values.append(correct_value)
+    def check_accuracy_and_get_correct_value(row):
+        """
+        Checks a single row and returns a tuple of (status, correct_value).
+        """
+        component = row['Component']
+        current_value = row['ContainerValue']
+        
+        # Find the correct value for the component from our map.
+        correct_value = component_to_value_map.get(component)
+        
+        if correct_value is not None:
+            # A correct value exists for this component. Check if it matches.
+            if current_value == correct_value:
+                return (f'SCS {container_name} OK', '') # Status OK, no correct value needed.
+            else:
+                return (f'ERROR: {container_name}', correct_value) # Status ERROR, provide the correct value.
         else:
-            unmatched_container_values.append('N/A')
-    # Add 'Correct Value' column to the df DataFrame for unmatched containers
-    df.loc[unmatched_containers.index, 'Correct Value'] = unmatched_container_values
+            # This component was not found anywhere in the JSON for this container.
+            return (f'ERROR: {container_name}', 'Component Not Found in JSON')
 
+    # Only apply the check if there are relevant rows to process
+    if not relevant_df.empty:
+        # The result of .apply() will be a Series of tuples.
+        results = relevant_df.apply(check_accuracy_and_get_correct_value, axis=1)
+        # Efficiently assign the tuples to the two target columns.
+        relevant_df[['Accuracy', 'Correct Value']] = pd.DataFrame(results.tolist(), index=relevant_df.index)
+        # Update the original DataFrame with the results from the processed subset.
+        df.update(relevant_df)
+    
     return df
 
-def process_data_av(json_path, container_name, container_df_s, df_s):
+
+def process_data_granular(json_path, container_name, df_g):
+    """
+    Processes a granular report, checks accuracy, and provides the correct value on error.
+    """
+    try:
+        with open(json_path, 'r', encoding='utf-8') as f:
+            json_data = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        mask = df_g['Granular Container Tag'] == container_name
+        df_g.loc[mask, 'Accuracy'] = f'ERROR: {container_name} JSON not found or invalid'
+        return df_g
+
+    container_data = json_data.get(container_name, {})
     
-    # Open the JSON file and load the data into a dictionary.
-    with open(json_path, 'r', encoding='utf-8') as f:
-        json_data = json.load(f)
-    # Convert the list of containers into a DataFrame.
-    container_data = pd.DataFrame(json_data[container_name])
+    # Create the inverted map for fast lookups.
+    component_to_value_map = {
+        component: value
+        for value, components in container_data.items()
+        for component in components
+    }
+    
+    mask = df_g['Granular Container Tag'] == container_name
+    relevant_df = df_g[mask].copy()
 
-    # Create an empty dictionary
-    container_accuracy_dict = {}
-
-    # Iterate over each container in the JSON data.
-    for container in container_data.itertuples(index=False):
-        # Create a mask using exact string matching.
-        maskContainer = (container_df_s['Component'] == container.Component) & \
-                        (container_df_s['ContainerValue'] == container.ContainerValue)
-        # Update the 'container_accuracy_dict' dictionary using boolean indexing.
-        container_accuracy_dict.update(container_df_s[maskContainer].index.to_series().map(lambda idx: (idx, f'SCS {container_name} OK')))
-    # Update the 'Accuracy' column of the 'container_df' DataFrame using boolean indexing.
-    container_df_s.loc[container_accuracy_dict.keys(), 'Accuracy'] = [value for _, value in container_accuracy_dict.values()]
-    # Update the 'Accuracy' column of the 'df' DataFrame using boolean indexing.
-    df_s.loc[container_df_s.index, 'Accuracy'] = container_df_s['Accuracy']
-
-    # Find the unmatched containers and set error messages
-    unmatched_containers = container_df_s[~container_df_s.index.isin(container_accuracy_dict.keys())]
-    unmatched_error_messages = [f'ERROR: {container_name}' for _ in range(len(unmatched_containers))]
-    unmatched_containers['Accuracy'] = unmatched_error_messages
-    # Update the 'Accuracy' column of the 'df' DataFrame for unmatched containers.
-    df_s.loc[unmatched_containers.index, 'Accuracy'] = unmatched_containers['Accuracy']
-
-    unmatched_container_values = []
-    for container in unmatched_containers.itertuples(index=False):
-        matching_containers = container_data[container_data['Component'] == container.Component]
-        if len(matching_containers) > 0:
-            correct_value = matching_containers.iloc[0]['ContainerValue']
-            unmatched_container_values.append(correct_value)
+    def check_granular_accuracy_and_get_correct_value(row):
+        """
+        Checks a single granular row and returns a tuple of (status, correct_value).
+        """
+        component = row['Component']
+        current_granular_value = row['Granular Container Value']
+        
+        correct_value = component_to_value_map.get(component)
+        
+        if correct_value is not None:
+            if current_granular_value == correct_value:
+                return (f'SCS {container_name} OK', '')
+            else:
+                return (f'ERROR: {container_name}', correct_value)
         else:
-            unmatched_container_values.append('N/A')
-    # Add 'Correct Value' column to the df DataFrame for unmatched containers
-    df_s.loc[unmatched_containers.index, 'Correct Value'] = unmatched_container_values
+            return (f'ERROR: {container_name}', 'Component Not Found in JSON')
 
-    return df_s
-
-def process_data_granular(json_path, container_name, container_df_g, df_g):
+    if not relevant_df.empty:
+        results = relevant_df.apply(check_granular_accuracy_and_get_correct_value, axis=1)
+        relevant_df[['Accuracy', 'Correct Value']] = pd.DataFrame(results.tolist(), index=relevant_df.index)
+        df_g.update(relevant_df)
     
-    # Open the JSON file and load the data into a dictionary.
-    with open(json_path, 'r', encoding='utf-8') as f:
-        json_data = json.load(f)
-    # Convert the list of containers into a DataFrame.
-    container_data = pd.DataFrame(json_data[container_name])
-
-    # Create an empty dictionary
-    container_accuracy_dict = {}
-    # Iterate over each container in the JSON data.
-    for container in container_data.itertuples(index=False):
-        # Create a mask using exact string matching.
-        maskContainer = (container_df_g['Component'] == container.Component) & \
-                        (container_df_g['Granular Container Value'] == container.ContainerValue)
-        # Update the 'container_accuracy_dict' dictionary using boolean indexing.
-        container_accuracy_dict.update(container_df_g[maskContainer].index.to_series().map(lambda idx: (idx, f'SCS {container_name} OK')))
-    # Update the 'Accuracy' column of the 'container_df' DataFrame using boolean indexing.
-    container_df_g.loc[container_accuracy_dict.keys(), 'Accuracy'] = [value for _, value in container_accuracy_dict.values()]
-    
-    # Update the 'Accuracy' column of the 'df' DataFrame using boolean indexing.
-    df_g.loc[container_df_g.index, 'Accuracy'] = container_df_g['Accuracy']
-
-    # Find the unmatched containers and set error messages
-    unmatched_containers = container_df_g[~container_df_g.index.isin(container_accuracy_dict.keys())]
-    unmatched_error_messages = [f'ERROR: {container_name}' for _ in range(len(unmatched_containers))]
-    unmatched_containers['Accuracy'] = unmatched_error_messages
-    
-    # Update the 'Accuracy' column of the 'df' DataFrame for unmatched containers.
-    container_df_g.loc[unmatched_containers.index, 'Accuracy']  = unmatched_containers['Accuracy']
-
-    unmatched_container_values  = []
-    for container in unmatched_containers.itertuples(index=False):
-        matching_containers = container_data[container_data['Component'] == container.Component]
-        if len(matching_containers) > 0:
-            correct_value = matching_containers.iloc[0]['ContainerValue']
-            unmatched_container_values.append(correct_value)
-        else:
-            unmatched_container_values.append('N/A')
-    # Add 'Correct Value' column to the df DataFrame for unmatched containers
-    df_g.loc[unmatched_containers.index, 'Correct Value'] = unmatched_container_values
-
     return df_g

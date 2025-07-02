@@ -1,227 +1,121 @@
-from app.routes.scs_tool.core.process_data import process_data, process_data_av, process_data_granular
-from app.routes.scs_tool.core.format_data import format_data, format_data_granular
-from app.routes.scs_tool.core.product_line import pl_check
-from app.routes.scs_tool.core.qa_av import av_check
-from config import *
-
 import pandas as pd
 import json
 import os
+from config import *
+from io import BytesIO
 
+from app.routes.scs_tool.core.process_data import process_data, process_data_granular
+from app.routes.scs_tool.core.qa_av import av_check
+from app.routes.scs_tool.core.format_data import format_data, format_data_granular
+from app.routes.scs_tool.core.product_line import pl_check
+from app.routes.scs_tool.core.check_missing_fields import check_missing_fields
 
 def clean_report(file):
+    """
+    Processes a standard report using the new restructured JSON data.
+    """
     try:
-        # Read excel file
-        df = pd.read_excel(file.stream, engine='openpyxl')  # Server
-        #df = pd.read_excel(file, engine='openpyxl')  # Local
+        # --- 1. Initial Setup & Cleaning ---
+        file_content = file.read()
+        file_buffer = BytesIO(file_content)
 
-        # Drop a list of columns
-        cols_to_drop = SCS_COLS_TO_DROP
-        df = df.drop(cols_to_drop, axis=1)
-
-        # Add a list of columns
+        df = pd.read_excel(file_buffer, engine='openpyxl')
+        df = df.drop(SCS_COLS_TO_ADD, axis=1, errors='ignore')
         df[SCS_COLS_TO_ADD] = ''
         
-        # Call the pl_check
         pl_check(df)
 
-        # Filter out the rows where ContainerValue and ContainerName are '[BLANK]'
-        df = df[df['ContainerValue'] != '[BLANK]']
-        df = df[df['ContainerName'] != '[BLANK]']
-        
-        # Drop rows with NaN values
-        df = df.dropna(subset=['ContainerValue', 'ContainerName'])
-
-        # Replace unicode character '\u00A0' with space
+        # Basic data cleaning
+        df = df[df['ContainerValue'] != '[BLANK]'].dropna(subset=['ContainerValue', 'ContainerName'])
         df.replace('\u00A0', ' ', regex=True, inplace=True)
-        
-        # Removing ';' from end of ContainerValue
-        df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
-        
-        # Stripping leading whitespaces from PhwebDescription
+        df.loc[df['ContainerValue'].str.endswith(';', na=False), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
         df['PhwebDescription'] = df['PhwebDescription'].str.lstrip()
-        
-        # Converting ContainerValue column to string type
         df['ContainerValue'] = df['ContainerValue'].astype(str)
 
-        # Load JSON data
-        with open(SCS_COMPONENT_GROUPS_PATH, 'r') as json_file: # Server
-        #with open('app/data/component_groups.json', 'r') as json_file: # Local
+        # --- 2. Component Group Filtering ---
+        with open(SCS_COMPONENT_GROUPS_PATH, 'r', encoding='utf-8') as json_file:
             json_data = json.load(json_file)
         groups = json_data['Groups']
         
-        # Filter rows based on criteria from JSON data
         filtered_rows = df[df.apply(lambda row: any(row['ComponentGroup'] == group['ComponentGroup'] and row['ContainerName'] in group['ContainerName'] for group in groups), axis=1)]
-        rows_to_delete = df.index.difference(filtered_rows.index)
-        df = df.drop(rows_to_delete)
+        df = filtered_rows.copy()
 
-        # Process JSON files
-        for x in os.listdir(SCS_JSON_PATH): # Server
-        #for x in os.listdir('json'): # Local
-            if x.endswith('.json'):
-                container_name = x.split('.')[0]
-                container_df = df[df['ContainerName'] == container_name]
-                process_data(os.path.join(SCS_JSON_PATH, x), container_name, container_df, df) # Server 
-                #process_data(os.path.join('json', x), container_name, container_df, df) # Local
+        # --- 3. Main Data Processing Loop ---
+        # Using DB_TEST as per your updated code
+        json_files = [f for f in os.listdir(SCS_JSON_PATH) if f.endswith('.json')]
         
-        excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
-        # Check if "ms4" sheet exists
-        if "ms4" in excel_file.sheet_names:
-            df_final = av_check(file)
-            with pd.ExcelWriter(SCS_REGULAR_FILE_PATH) as writer:
-                df.to_excel(writer, sheet_name='qa', index=False)  # Server
-                df_final.to_excel(writer, sheet_name='duplicated', index=False)  # Server
-        else:
-            df.to_excel(SCS_REGULAR_FILE_PATH, index=False)  # Server
-    
-        # Formatting data
+        for json_file in json_files:
+            container_name = os.path.splitext(json_file)[0]
+            json_file_path = os.path.join(SCS_JSON_PATH, json_file)
+            
+            # This now calls the fixed process_data function
+            df = process_data(json_file_path, container_name, df)
+
+        # --- 4. Save Output ---
+        file_buffer.seek(0)
+        with pd.ExcelFile(file_buffer, engine='openpyxl') as excel_file:
+            if "ms4" in excel_file.sheet_names:
+                file_buffer.seek(0)
+                df_final = av_check(file_buffer)
+                with pd.ExcelWriter(SCS_REGULAR_FILE_PATH) as writer:
+                    df.to_excel(writer, sheet_name='qa', index=False)
+                    df_final.to_excel(writer, sheet_name='duplicated', index=False)
+            else:
+                df.to_excel(SCS_REGULAR_FILE_PATH, index=False)
+
         format_data()
-    
+        return df
+
     except Exception as e:
-        print(e)
+        print(f"An error occurred in clean_report: {e}")
+        return None
 
-    return
 
-def clean_report_av(file):
+async def clean_report_granular(file):
+    """
+    Processes a granular report asynchronously using the new restructured JSON data.
+    """
     try:
-        # Read excel file
-        df = pd.read_excel(file.stream, engine='openpyxl', sheet_name='SKU Accuracy')  # Server
-        #df = pd.read_excel(file, engine='openpyxl')  # Local
+        # --- 1. Initial Setup & Cleaning ---
+        file_content = file.read()
+        file_buffer = BytesIO(file_content)
 
-        # Drop a list of columns
-        cols_to_drop = SCS_COLS_TO_DROP
-        df = df.drop(cols_to_drop, axis=1)
+        df_g = pd.read_excel(file_buffer, engine='openpyxl', sheet_name='GranularContentReport')
+        df_g = df_g.drop(SCS_COLS_TO_DROP_GRANULAR, axis=1, errors='ignore')
+        df_g[SCS_COLS_TO_ADD] = ''
 
-        # Add a list of columns
-        df[SCS_COLS_TO_ADD] = ''
+        df_g = df_g.dropna(subset=['Granular Container Value', 'Granular Container Tag'])
+        df_g.replace('\u00A0', ' ', regex=True, inplace=True)
+        df_g.loc[df_g['Granular Container Value'].str.endswith(';', na=False), 'Granular Container Value'] = df_g['Granular Container Value'].str.slice(stop=-1)
+        df_g['Granular Container Value'] = df_g['Granular Container Value'].astype(str)
+
+        # --- 2. Data Processing Loop ---
+        # Using DB_TEST as per your updated code
+        json_files = [f for f in os.listdir(SCS_JSON_GRANULAR_PATH) if f.endswith('.json')]
         
-        # Call the pl_check
-        pl_check(df)
+        for json_file in json_files:
+            container_name = os.path.splitext(json_file)[0]
+            json_file_path = os.path.join(SCS_JSON_GRANULAR_PATH, json_file)
+            
+            df_g = process_data_granular(json_file_path, container_name, df_g)
 
-        # Filter out the rows where ContainerValue and ContainerName are '[BLANK]'
-        df = df[df['ContainerValue'] != '[BLANK]']
-        df = df[df['ContainerName'] != '[BLANK]']
-        
-        # Drop rows with NaN values
-        df = df.dropna(subset=['ContainerValue', 'ContainerName'])
+        # --- 3. Final Checks and Save ---
+        df_g = check_missing_fields(df_g, SCS_COMPONENT_GROUPS_PATH)
 
-        # Replace unicode character '\u00A0' with space
-        df.replace('\u00A0', ' ', regex=True, inplace=True)
-        
-        # Removing ';' from end of ContainerValue
-        df.loc[df['ContainerValue'].str.endswith(';'), 'ContainerValue'] = df['ContainerValue'].str.slice(stop=-1)
+        file_buffer.seek(0)
+        with pd.ExcelFile(file_buffer, engine='openpyxl') as excel_file:
+            if "ms4" in excel_file.sheet_names:
+                file_buffer.seek(0)
+                df_final = av_check(file_buffer)
+                with pd.ExcelWriter(SCS_GRANULAR_FILE_PATH) as writer:
+                    df_g.to_excel(writer, sheet_name='qa', index=False)
+                    df_final.to_excel(writer, sheet_name='duplicated', index=False)
+            else:
+                df_g.to_excel(SCS_GRANULAR_FILE_PATH, index=False)
 
-        # Stripping leading whitespaces from PhwebDescription
-        df['PhwebDescription'] = df['PhwebDescription'].str.lstrip()
-        
-        # Converting ContainerValue column to string type
-        df['ContainerValue'] = df['ContainerValue'].astype(str)
-
-        # Load JSON data
-        with open(SCS_COMPONENT_GROUPS_PATH, 'r') as json_file: # Server
-        #with open('app/data/component_groups.json', 'r') as json_file: # Local
-            json_data = json.load(json_file)
-        groups = json_data['Groups']
-        
-        # Filter rows based on criteria from JSON data
-        filtered_rows = df[df.apply(lambda row: any(row['ComponentGroup'] == group['ComponentGroup'] and row['ContainerName'] in group['ContainerName'] for group in groups), axis=1)]
-        rows_to_delete = df.index.difference(filtered_rows.index)
-        df = df.drop(rows_to_delete)
-
-        # Process JSON files
-        for x in os.listdir(SCS_JSON_PATH_AV): # Server
-        #for x in os.listdir('json'): # Local
-            if x.endswith('.json'):
-                container_name = x.split('.')[0]
-                container_df = df[df['ContainerName'] == container_name]
-                process_data_av(os.path.join(SCS_JSON_PATH_AV, x), container_name, container_df, df) # Server 
-                #process_data(os.path.join('json', x), container_name, container_df, df) # Local
-                
-        excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
-        # Check if "ms4" sheet exists
-        if "ms4" in excel_file.sheet_names:
-            df_final = av_check(file)
-            with pd.ExcelWriter(SCS_GRANULAR_FILE_PATH) as writer:
-                df.to_excel(writer, sheet_name='qa', index=False)  # Server
-                df_final.to_excel(writer, sheet_name='duplicated', index=False)  # Server
-        else:
-            df.to_excel(SCS_GRANULAR_FILE_PATH, index=False)  # Server
-    
-        # Formatting data
-        format_data()
-    
-    except Exception as e:
-        print(e)
-
-    return
-
-def clean_report_granular(file):
-    try:
-        # Read excel file
-        df = pd.read_excel(file.stream, engine='openpyxl', sheet_name='GranularContentReport')  # Server
-        #df = pd.read_excel(file, engine='openpyxl')  # Local
-
-        # Drop a list of columns
-        cols_to_drop = SCS_COLS_TO_DROP_GRANULAR
-        df = df.drop(cols_to_drop, axis=1)
-
-        # Add a list of columns
-        df[SCS_COLS_TO_ADD] = ''
-        
-        # Call the pl_check
-        #pl_check(df)
-
-        # Filter out the rows where ContainerValue and ContainerName are '[BLANK]'
-        df = df[df['Granular Container Value'] != '[BLANK]']
-        df = df[df['Granular Container Tag'] != '[BLANK]']
-        
-        # Drop rows with NaN values
-        df = df.dropna(subset=['Granular Container Value', 'Granular Container Tag'])
-
-        # Replace unicode character '\u00A0' with space
-        df.replace('\u00A0', ' ', regex=True, inplace=True)
-        
-        # Removing ';' from end of ContainerValue
-        df.loc[df['Granular Container Value'].str.endswith(';'), 'Granular Container Value'] = df['Granular Container Value'].str.slice(stop=-1)
-
-        # Stripping leading whitespaces from PhwebDescription
-        #df['PhwebDescription'] = df['PhwebDescription'].str.lstrip()
-        
-        # Converting ContainerValue column to string type
-        df['Granular Container Value'] = df['Granular Container Value'].astype(str)
-
-        # Load JSON data
-        #with open(COMPONENT_GROUPS_PATH, 'r') as json_file: # Server
-        #with open('app/data/component_groups.json', 'r') as json_file: # Local
-        #    json_data = json.load(json_file)
-        #groups = json_data['Groups']
-        
-        # Filter rows based on criteria from JSON data
-        #filtered_rows = df[df.apply(lambda row: any(row['ComponentGroup'] == group['ComponentGroup'] and row['ContainerName'] in group['ContainerName'] for group in groups), axis=1)]
-        #rows_to_delete = df.index.difference(filtered_rows.index)
-        #df = df.drop(rows_to_delete)
-        
-        # Process JSON files
-        for x in os.listdir(SCS_JSON_GRANULAR_PATH):
-            if x.endswith('.json'):
-                container_name = x.split('.')[0]
-                container_df = df[df['Granular Container Tag'] == container_name]
-                process_data_granular(os.path.join(SCS_JSON_GRANULAR_PATH, x), container_name, container_df, df)
-    
-        # Check if "ms4" sheet exists
-        excel_file = pd.ExcelFile(file.stream, engine='openpyxl')
-        if "ms4" in excel_file.sheet_names:
-            df_final = av_check(file.stream)
-            with pd.ExcelWriter(SCS_GRANULAR_FILE_PATH) as writer:
-                df.to_excel(writer, sheet_name='qa', index=False)
-                df_final.to_excel(writer, sheet_name='duplicated', index=False)
-        else:
-            df.to_excel(SCS_GRANULAR_FILE_PATH, index=False)
-
-        # Formatting data
         format_data_granular()
-    
-    except Exception as e:
-        print(e)
+        return df_g
 
-    return
+    except Exception as e:
+        print(f"An error occurred in clean_report_granular: {e}")
+        return None

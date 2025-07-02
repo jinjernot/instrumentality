@@ -1,0 +1,159 @@
+{
+    "Groups": [
+        {
+            "ComponentGroup": "Processor",
+            "ContainerName": [
+                "a_processor_brand",
+                "a_processor_generation",
+                "a_processor_familyshort",
+                "a_processor_model",
+                "a_processor_spdmax",
+                "a_processor_spdmaxuom",
+                "a_processor_freqtech",
+                "processorcache",
+                "processorcoreinstalled",
+                "a_processor_threads",
+                "a_processor_speed",
+                "a_processor_speeduom",
+                "a_processor_nputops"
+            ]
+        },
+        {
+            "ComponentGroup": "Memory",
+            "ContainerName": [
+                "a_memory_brand",
+                "a_memory_size",
+                "a_memory_sizeuom",
+                "a_memory_type",
+                "a_memory_speeduom",
+                "a_memory_moduletype",
+                "a_memory_slotsno",
+                "a_memory_profiletech",
+                "a_memory_lighting",
+                "a_memory_ecc",
+                "memlayout",
+                "a_memory_speed"
+            ]
+        },
+        {
+            "ComponentGroup": "Graphic card",
+            "ContainerName": [
+                "a_graphics_brand",
+                "a_graphics_family",
+                "a_graphics_modelno",
+                "gcformfactor",
+                "a_graphics_memorytype",
+                "a_graphics_memorysize",
+                "a_graphics_memorysizeuom"
+            ]
+        },
+        {
+            "ComponentGroup": "Appearance/WebCam",
+            "ContainerName": [
+                "a_camera_brand",
+                "a_camera_location",
+                "a_camera_resolution",
+                "a_camera_respix",
+                "a_camera_resvert",
+                "a_camera_respixuom",
+                "a_camera_micro",
+                "a_camera_ir",
+                "a_camera_security",
+                "a_camera_brand_02",
+                "a_camera_location_02",
+                "a_camera_resolution_02",
+                "a_camera_respix_02",
+                "a_camera_respixuom_02"
+            ]
+        },
+        {
+            "ComponentGroup": "Keyboard",
+            "ContainerName": [
+                "a_kbd_name",
+                "a_kbd_size",
+                "a_kbd_connect",
+                "a_kbd_color",
+                "a_kbd_material",
+                "a_kbd_blitzone",
+                "a_kbd_backlight",
+                "a_kbd_keypad",
+                "a_kbd_interface",
+                "a_kbd_features",
+                "a_kbd_technology",
+                "a_kbd_ptdevice",
+                "a_kbd_protection",
+                "a_kbd_codename"
+            ]
+        },
+        {
+            "ComponentGroup": "Battery",
+            "ContainerName": [
+                "a_battery_type",
+                "a_battery_nbcells",
+                "a_battery_capacity",
+                "a_battery_capacityuom",
+                "a_battery_brand",
+                "a_battery_life"
+            ]
+        },
+        {
+            "ComponentGroup": "Hard Drive",
+            "ContainerName": [
+                "a_storage_type_01",
+                "a_storage_brand_01",
+                "a_storage_capacity_01",
+                "a_storage_capacityuom_01",
+                "a_storage_interface_01",
+                "a_storage_interfaceprot_01",
+                "a_storage_ffactor_01",
+                "a_storage_memtech_01",
+                "a_storage_encypt_01",
+                "a_storage_speeduom_01",
+                "a_storage_speed_01"
+
+            ]
+        },
+        {
+            "ComponentGroup": "Display",
+            "ContainerName": [
+                "a_display_size",
+                "a_display_sizeuom",
+                "a_display_sizemet",
+                "a_display_sizemetuom",
+                "a_display_resolution",
+                "a_display_respixels",
+                "a_display_interface",
+                "a_display_paneltech",
+                "a_display_refresh",
+                "a_display_refreshuom",
+                "a_display_backlight",
+                "a_display_surftreat",
+                "displaycolorgamut",
+                "a_display_brightuom",
+                "a_display_touchscrtype",
+                "a_display_glass",
+                "a_display_bezel",
+                "a_display_sectech",
+                "a_display_technology",
+                "a_display_response",
+                "a_display_responseuom",
+                "a_display_glassedge",
+                "a_display_dynamrange",
+                "a_display_bright"
+            ]
+        },
+        {
+            "ComponentGroup": "Wireless Technologies",
+            "ContainerName": [
+                "a_wirelessnet_antenna",
+                "a_wirelessnet_bluetooth",
+                "a_wirelessnet_model",
+                "a_wirelessnet_standard",
+                "a_wirelessnet_supplier",
+                "a_wirelessnet_transfer",
+                "a_wirelessnet_vpro",
+                "a_wireless_technologies"
+            ]
+        }
+    ]
+}

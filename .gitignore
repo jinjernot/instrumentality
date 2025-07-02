@@ -5,3 +5,5 @@ config.py
 .venv
 xml
 .vscode
+db/
+db_granular/
