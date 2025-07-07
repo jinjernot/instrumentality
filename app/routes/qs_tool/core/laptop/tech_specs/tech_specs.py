@@ -14,6 +14,7 @@ from app.routes.qs_tool.core.laptop.tech_specs.power import power_section
 from app.routes.qs_tool.core.laptop.tech_specs.dimensions import dimensions_section
 from app.routes.qs_tool.core.laptop.tech_specs.ports import ports_section
 from app.routes.qs_tool.core.laptop.tech_specs.service import service_section
+from app.routes.qs_tool.core.laptop.tech_specs.certification_compliance import certification_section 
 from config import QS_TECHSPECS_PATH
 
 
@@ -73,7 +74,9 @@ def tech_specs_section(doc, file):
         dimensions_section(doc, df)
         ports_section(doc, df)
         service_section(doc, df)
-
+        certification_section(doc, df)
+        
+        
     except Exception as e:
         error_message = f"An error occurred: {e}"
         print(error_message)
