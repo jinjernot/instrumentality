@@ -52,11 +52,10 @@ async def main_async(df_s, df_g):
         process_all_granular_files(df_g)
     )
 
-# Fallback for Python 3.6 to run asyncio tasks
 def run_asyncio_task(task):
     try:
         loop = asyncio.get_event_loop()
-    except RuntimeError:  # If there's no event loop in the current thread
+    except RuntimeError: 
         loop = asyncio.new_event_loop()
         asyncio.set_event_loop(loop)
     loop.run_until_complete(task)

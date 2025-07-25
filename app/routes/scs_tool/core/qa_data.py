@@ -41,14 +41,11 @@ def clean_report(file):
         df = filtered_rows.copy()
 
         # --- 3. Main Data Processing Loop ---
-        # Using DB_TEST as per your updated code
         json_files = [f for f in os.listdir(SCS_JSON_PATH) if f.endswith('.json')]
         
         for json_file in json_files:
             container_name = os.path.splitext(json_file)[0]
             json_file_path = os.path.join(SCS_JSON_PATH, json_file)
-            
-            # This now calls the fixed process_data function
             df = process_data(json_file_path, container_name, df)
 
         # --- 4. Save Output ---
@@ -90,7 +87,6 @@ async def clean_report_granular(file):
         df_g['Granular Container Value'] = df_g['Granular Container Value'].astype(str)
 
         # --- 2. Data Processing Loop ---
-        # Using DB_TEST as per your updated code
         json_files = [f for f in os.listdir(SCS_JSON_GRANULAR_PATH) if f.endswith('.json')]
         
         for json_file in json_files:
