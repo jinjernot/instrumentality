@@ -5,28 +5,11 @@ from app.routes.scs_tool.route_scs import scs_tool
 from app.routes.qs_tool.route_qs import qs_tool
 from app.routes.ds_tool.route_ds import ds_tool
 
-from app.utils.url_monitor_background import start_monitor_thread, url_statuses, status_lock, URLS_TO_MONITOR
-
 import config
 
 app = Flask(__name__)
 app.static_folder = 'static'
 app.config.from_object(config)
-
-
-with status_lock: #
-    for url in URLS_TO_MONITOR: #
-        url_statuses[url] = {"is_up": None, "message": "N/A (Pending Check)", "last_checked": "N/A"} #
-
-
-start_monitor_thread()
-
-@app.route('/status')
-def status_page():
-    with status_lock: #
-        current_statuses = dict(url_statuses) #
-    
-    return render_template('status_tool.html', statuses=current_statuses)
 
 @app.route('/main')
 def index():

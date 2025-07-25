@@ -9,6 +9,8 @@ from app.routes.scs_tool.core.qa_av import av_check
 from app.routes.scs_tool.core.format_data import format_data, format_data_granular
 from app.routes.scs_tool.core.product_line import pl_check
 from app.routes.scs_tool.core.check_missing_fields import check_missing_fields
+from app.routes.scs_tool.core.npu_check import npu_check
+
 
 def clean_report(file):
     """
@@ -48,7 +50,15 @@ def clean_report(file):
             json_file_path = os.path.join(SCS_JSON_PATH, json_file)
             df = process_data(json_file_path, container_name, df)
 
-        # --- 4. Save Output ---
+        # --- 4. NEW: NPU Validation Step ---
+        # Call the dedicated function to perform the NPU check.
+        # This is clean and keeps the logic separated.
+        # Assuming NPU_JSON_PATH is defined in your config.py
+        df = npu_check(df, NPU_JSON_PATH)
+        
+        
+        
+        # --- 5. Save Output ---
         file_buffer.seek(0)
         with pd.ExcelFile(file_buffer, engine='openpyxl') as excel_file:
             if "ms4" in excel_file.sheet_names:
