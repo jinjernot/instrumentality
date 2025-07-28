@@ -1,163 +1,67 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>FRAME - SCS QA Tool</title>
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
-		name="viewport" />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}" />
-	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRAME - SCS QA Tool</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
 </head>
-
 <body>
-	<div class="wrapper">
-		<div class="main-header">
-			<div class="logo-header">
-				<img src="{{ url_for('static', filename='images/favicon.png') }}" class="img-header" />
-				FRAME
-			</div>
-		</div>
-		<div class="sidebar">
-			<div class="scrollbar-inner sidebar-wrapper">
-				<ul class="nav">
-					<li class="nav-item">
-						<a href="{{ url_for('index') }}">
-							<i class="bi bi-house"></i>
-							<p>Home</p>
-						</a>
-					</li>
-					<li class="nav-item active">
-						<a href="{{ url_for('scs_tool_route') }}">
-							<i class="bi bi-file-text"></i>
-							<p>SCS QA Tool</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('qs_tool_route') }}">
-							<i class="bi bi-file-richtext"></i>
-							<p>Quickspecs Builder</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('image_tool_route') }}">
-							<i class="bi bi-file-image"></i>
-							<p>Image Toolbox</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('ds_tool_route') }}">
-							<i class="bi bi-file-text"></i>
-							<p>CROME</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://g8t11912g.inc.hpicorp.net/app/pccs/app5">
-							<i class="bi bi-file-text"></i>
-							<p>PCCS Tool</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://g8t11912g.inc.hpicorp.net/app/contentcraft/main">
-							<i class="bi bi-file-code"></i>
-							<p>Content Craft</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('faq_route') }}">
-							<i class="bi bi-question-circle"></i>
-							<p>FAQ</p>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="logo-header">
+                <img src="{{ url_for('static', filename='images/favicon.png') }}" class="logo-img" alt="Logo">
+                FRAME
+            </div>
+            <nav class="nav">
+                <a href="{{ url_for('index') }}" class="nav-item"><i class="bi bi-house"></i> Home</a>
+                <a href="{{ url_for('scs_tool_route') }}" class="nav-item active"><i class="bi bi-file-text"></i> SCS QA Tool</a>
+                <a href="{{ url_for('qs_tool_route') }}" class="nav-item"><i class="bi bi-file-richtext"></i> Quickspecs Builder</a>
+                <a href="{{ url_for('image_tool_route') }}" class="nav-item"><i class="bi bi-file-image"></i> Image Toolbox</a>
+                <a href="{{ url_for('ds_tool_route') }}" class="nav-item"><i class="bi bi-file-text"></i> CROME</a>
+                <a href="https://g8t11912g.inc.hpicorp.net/app/pccs/app5" class="nav-item"><i class="bi bi-file-text"></i> PCCS Tool</a>
+                <a href="https://g8t11912g.inc.hpicorp.net/app/contentcraft/main" class="nav-item"><i class="bi bi-file-code"></i> Content Craft</a>
+                <a href="{{ url_for('faq_route') }}" class="nav-item"><i class="bi bi-question-circle"></i> FAQ</a>
+            </nav>
+        </aside>
 
-		<div class="main-panel">
-			<div class="content">
-				<div class="container-fluid">
-					<h4 class="page-title">SCS Quality Assurance Tool</h4>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="card">
-								<div class="card-header">
-									<div class="card-title">Regular Report</div>
-								</div>
-								<div class="card-body">
-									<form action="scs_tool" method="POST" enctype="multipart/form-data">
-										<div class="form-group">
-											<label for="scs_regular">Please upload XLSX file</label>
-											<input type="file" class="form-control-file" id="scs_regular"
-												name="scs_regular">
-										</div>
-										<div class="card-action">
-											<button type="submit" class="btn btn-success">Submit</button>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
+<main class="main-panel">
+    <div class="content">
+        <h1 class="page-title">SCS Quality Assurance Tool</h1>
 
-						<div class="col-md-4">
-							<div class="card">
-								<div class="card-header">
-									<div class="card-title">Granular Report</div>
-								</div>
-								<div class="card-body">
-									<form action="scs_tool" method="POST" enctype="multipart/form-data">
-										<div class="form-group">
-											<label for="scs_granular">Please upload XLSX file</label>
-											<input type="file" class="form-control-file" id="scs_granular"
-												name="scs_granular">
-										</div>
-										<div class="card-action">
-											<button type="submit" class="btn btn-success">Submit</button>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
+        <div class="card-container">
+            <div class="card form-card">
+                <div class="card-header">
+                    <h2 class="card-title"><i class="bi bi-file-earmark-spreadsheet"></i> Regular Report</h2>
+                </div>
+                <div class="card-body">
+                    <form action="scs_tool" method="POST" enctype="multipart/form-data">
+                        <label for="scs_regular">Please upload XLSX file</label>
+                        <input type="file" id="scs_regular" name="scs_regular" class="file-input">
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
 
-
-					<div class="row">
-						<div class="col-md-12">
-							<div class="card">
-								<div class="card-header">
-									<div class="card-title">User Guide</div>
-								</div>
-								<div class="card-body">
-									<div class="">
-										The SCS QA Tool is a software solution designed to enhance the accuracy data
-										acquired by SCS Team.<br>
-										This tool streamlines the process of cleaning and
-										verifying SKU Accuracy Reports, ensuring that the acquired content aligns
-										seamlessly with HP's content database.<br>
-										The tool first comprehensively cleans the SKU Accuracy Report, addressing common
-										data inconsistencies, formatting errors, and duplications.<br>
-										After cleaning the data, the tool performs a robust comparison with the product
-										database. It identifies discrepancies, inconsistencies, and mismatches between
-										the acquired content and the existing records.
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<footer class="footer">
-				<div class="container-fluid">
-					<nav class="pull-left">
-						<ul class="nav">
-						</ul>
-					</nav>
-					<div class="copyright ml-auto">
-						HP Inc. Restricted, Copyright 2024 HP Inc. Company.
-					</div>
-				</div>
-			</footer>
-		</div>
-	</div>
+            <div class="card form-card">
+                <div class="card-header">
+                    <h2 class="card-title"><i class="bi bi-file-earmark-zip"></i> Granular Report</h2>
+                </div>
+                <div class="card-body">
+                    <form action="scs_tool" method="POST" enctype="multipart/form-data">
+                        <label for="scs_granular">Please upload XLSX file</label>
+                        <input type="file" id="scs_granular" name="scs_granular" class="file-input">
+                        <button type="submit" class="btn-submit">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        HP Inc. Restricted, Copyright 2024 HP Inc. Company.
+    </footer>
+</main>    </div>
 </body>
 </html>

@@ -1,215 +1,100 @@
+<!DOCTYPE html>
 <html lang="en">
-
 <head>
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<title>FRAME</title>
-	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no"
-		name="viewport" />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}" />
-	<link rel="stylesheet" href="{{ url_for('static', filename='css/ready.css') }}" />
-	<link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FRAME</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ url_for('static', filename='images/favicon.ico') }}">
 </head>
-
 <body>
-	<div class="wrapper">
-		<div class="main-header">
-			<div class="logo-header">
-				<img src="{{ url_for('static', filename='images/favicon.png') }}" class="img-header" />
-				FRAME
-			</div>
-		</div>
-		<div class="sidebar">
-			<div class="scrollbar-inner sidebar-wrapper">
-				<ul class="nav">
-					<li class="nav-item active">
-						<a href="{{ url_for('index') }}">
-							<i class="bi bi-house"></i>
-							<p>Home</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('scs_tool_route') }}">
-							<i class="bi bi-file-text"></i>
-							<p>SCS QA Tool</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('qs_tool_route') }}">
-							<i class="bi bi-file-richtext"></i>
-							<p>Quickspecs Builder</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('image_tool_route') }}">
-							<i class="bi bi-file-image"></i>
-							<p>Image Toolbox</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('ds_tool_route') }}">
-							<i class="bi bi-file-text"></i>
-							<p>CROME</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://g8t11912g.inc.hpicorp.net/app/pccs/app5">
-							<i class="bi bi-file-text"></i>
-							<p>PCCS Tool</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="https://g8t11912g.inc.hpicorp.net/app/contentcraft/main">
-							<i class="bi bi-file-code"></i>
-							<p>Content Craft</p>
-						</a>
-					</li>
-					<li class="nav-item">
-						<a href="{{ url_for('faq_route') }}">
-							<i class="bi bi-question-circle"></i>
-							<p>FAQ</p>
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
-		<div class="main-panel">
-			<div class="content">
-				<div class="container-fluid">
-					<h4 class="page-title">
-						Welcome to FRAME: Your Arsenal for Content Mastery
-					</h4>
-					<div class="row">
-						<div class="col-md-6">
-							<div class="card">
-								<div class="card-header">
-									<h4 class="card-title">SCS Quality Assurance Tool</h4>
-									<p class="card-category">Data processing</p>
-								</div>
-								<div class="card-body">
-									<div class="mapcontainer">
-										This app is designed to perform comprehensive quality assurance by loading
-										reports from SCS and validating their content against a database. It highlights
-										errors and suggests corrective actions, ensuring data accuracy and reliability.
-									</div>
-									<img class="image-main"
-										src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c06122612.png"
-										alt="Image" />
-								</div>
-							</div>
-						</div>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <div class="logo-header">
+                <img src="{{ url_for('static', filename='images/favicon.png') }}" class="logo-img" alt="Logo">
+                FRAME
+            </div>
+            <nav class="nav">
+                <a href="{{ url_for('index') }}" class="nav-item active"><i class="bi bi-house"></i> Home</a>
+                <a href="{{ url_for('scs_tool_route') }}" class="nav-item"><i class="bi bi-file-text"></i> SCS QA Tool</a>
+                <a href="{{ url_for('qs_tool_route') }}" class="nav-item"><i class="bi bi-file-richtext"></i> Quickspecs Builder</a>
+                <a href="{{ url_for('image_tool_route') }}" class="nav-item"><i class="bi bi-file-image"></i> Image Toolbox</a>
+                <a href="{{ url_for('ds_tool_route') }}" class="nav-item"><i class="bi bi-file-text"></i> CROME</a>
+                <a href="https://g8t11912g.inc.hpicorp.net/app/pccs/app5" class="nav-item"><i class="bi bi-file-text"></i> PCCS Tool</a>
+                <a href="https://g8t11912g.inc.hpicorp.net/app/contentcraft/main" class="nav-item"><i class="bi bi-file-code"></i> Content Craft</a>
+                <a href="{{ url_for('faq_route') }}" class="nav-item"><i class="bi bi-question-circle"></i> FAQ</a>
+            </nav>
+        </aside>
 
-						<div class="col-md-6">
-							<div class="card">
-								<div class="card-header">
-									<h4 class="card-title">Quickspecs Builder</h4>
-									<p class="card-category">Automated Document Generation</p>
-								</div>
-								<div class="card-body">
-									<div class="mapcontainer">
-										This tool instantly generates Quickspecs documents, saving time and
-										reducing the manual effort typically involved in document creation. Streamline
-										your workflow and improve efficiency with automated documentation.
-									</div>
-									<img class="image-main"
-										src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c08226575.png"
-										alt="Image" />
-								</div>
-							</div>
-						</div>
-					</div>
+        <main class="main-panel">
+            <div class="content">
+                
 
-					<div class="row">
-						<div class="col-md-6">
-							<div class="card">
-								<div class="card-header">
-									<h4 class="card-title">Image Toolbox</h4>
-									<p class="card-category">Data Scrapping</p>
-								</div>
-								<div class="card-body">
-									<div class="mapcontainer">
-										Equipped with a range of scripts, this app assists in troubleshooting and
-										resolving common image-related issues, streamlining the process of data
-										extraction and image maintenance.
-									</div>
-									<img class="image-main"
-										src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03905376.png"
-										alt="Image" />
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="card">
-								<div class="card-header">
-									<h4 class="card-title">CROME</h4>
-									<p class="card-category">Automated Document Generation</p>
-								</div>
-								<div class="card-body">
-									<div class="mapcontainer">
-										Effortlessly generate easily readable documents for content reviewers. This tool
-										facilitates smoother review processes and enhances clear communication, making
-										document handling more efficient.
-									</div>
-									<img class="image-main"
-										src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c08226575.png"
-										alt="Image" />
-								</div>
-							</div>
-						</div>
-					</div>
+                <div class="card-container">
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title"><i class="bi bi-check2-square"></i> SCS Quality Assurance Tool</h2>
+                            <p class="card-category">Data processing</p>
+                        </div>
+                        <div class="card-body">
+                            <p>This app is designed to perform comprehensive quality assurance by loading reports from SCS and validating their content against a database. It highlights errors and suggests corrective actions, ensuring data accuracy and reliability.</p>
+                        </div>
+                    </div>
 
-					<div class="row">
-						<div class="col-md-6">
-							<div class="card">
-								<div class="card-header">
-									<h4 class="card-title">PCCS Tool</h4>
-									<p class="card-category">Data processing</p>
-								</div>
-								<div class="card-body">
-									<div class="mapcontainer">
-										Automate CAS file management for the PCCS team with this tool, which integrates
-										seamlessly with SCS and MS4 reports to streamline data processing and enhance
-										efficiency.
-									</div>
-									<img class="image-main"
-										src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c03905130.png"
-										alt="Image" />
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6">
-							<div class="card">
-								<div class="card-header">
-									<h4 class="card-title">Content Craft</h4>
-									<p class="card-category">API-Powered Page Builder</p>
-								</div>
-								<div class="card-body">
-									<div class="mapcontainer">
-										Fetch and integrate data from the Hermes API to create custom webpages. This
-										tool facilitates the seamless incorporation of API data into your web content,
-										simplifying the creation process.
-									</div>
-									<img class="image-main"
-										src="https://h10003.www1.hp.com/digmedialib/prodimg/lowres/c08169282.png"
-										alt="Image" />
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<footer class="footer">
-				<div class="container-fluid">
-					<nav class="pull-left">
-						<ul class="nav"></ul>
-					</nav>
-					<div class="copyright ml-auto">
-						HP Inc. Restricted, Copyright 2024 HP Inc. Company.
-					</div>
-				</div>
-			</footer>
-		</div>
-	</div>
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title"><i class="bi bi-file-earmark-text"></i> Quickspecs Builder</h2>
+                            <p class="card-category">Automated Document Generation</p>
+                        </div>
+                        <div class="card-body">
+                            <p>This tool instantly generates Quickspecs documents, saving time and reducing the manual effort typically involved in document creation. Streamline your workflow and improve efficiency with automated documentation.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title"><i class="bi bi-images"></i> Image Toolbox</h2>
+                            <p class="card-category">Data Scrapping</p>
+                        </div>
+                        <div class="card-body">
+                            <p>Equipped with a range of scripts, this app assists in troubleshooting and resolving common image-related issues, streamlining the process of data extraction and image maintenance.</p>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h2 class="card-title"><i class="bi bi-pencil-square"></i> CROME</h2>
+                            <p class="card-category">Automated Document Generation</p>
+                        </div>
+                        <div class="card-body">
+                            <p>Effortlessly generate easily readable documents for content reviewers. This tool facilitates smoother review processes and enhances clear communication, making document handling more efficient.</p>
+                        </div>
+                    </div>
+                     <div class="card">
+                        <div class="card-header">
+                           <h2 class="card-title"><i class="bi bi-gear"></i> PCCS Tool</h2>
+                           <p class="card-category">Data processing</p>
+                        </div>
+                        <div class="card-body">
+                           <p>Automate CAS file management for the PCCS team with this tool, which integrates seamlessly with SCS and MS4 reports to streamline data processing and enhance efficiency.</p>
+                        </div>
+                     </div>
+                     <div class="card">
+                        <div class="card-header">
+                           <h2 class="card-title"><i class="bi bi-braces"></i> Content Craft</h2>
+                           <p class="card-category">API-Powered Page Builder</p>
+                        </div>
+                        <div class="card-body">
+                           <p>Fetch and integrate data from the Hermes API to create custom webpages. This tool facilitates the seamless incorporation of API data into your web content, simplifying the creation process.</p>
+                        </div>
+                     </div>
+                </div>
+            </div>
+            <footer class="footer">
+                HP Inc. Restricted, Copyright 2024 HP Inc. Company.
+            </footer>
+        </main>
+    </div>
 </body>
-
 </html>
