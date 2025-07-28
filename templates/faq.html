@@ -25,6 +25,15 @@
                 <a href="https://g8t11912g.inc.hpicorp.net/app/contentcraft/main" class="nav-item"><i class="bi bi-file-code"></i> Content Craft</a>
                 <a href="{{ url_for('faq_route') }}" class="nav-item active"><i class="bi bi-question-circle"></i> FAQ</a>
             </nav>
+                            <div class="theme-switch-wrapper">
+        <label class="theme-switch" for="theme-checkbox">
+            <input type="checkbox" id="theme-checkbox" />
+            <div class="slider round">
+                <i class="bi bi-sun-fill light-icon"></i>
+                <i class="bi bi-moon-fill dark-icon"></i>
+            </div>
+        </label>
+    </div>
         </aside>
 
         <main class="main-panel">
@@ -43,9 +52,10 @@
                 </div>
             </div>
             <footer class="footer">
-                HP Inc. Restricted, Copyright 2024 HP Inc. Company.
+                HP Inc. Restricted, Copyright 2025 HP Inc. Company.
             </footer>
         </main>
     </div>
+        <script src="{{ url_for('static', filename='js/theme-toggle.js') }}"></script>
 </body>
 </html>

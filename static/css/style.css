@@ -187,6 +187,35 @@ body {
     background-color: #0095D9;
 }
 
+
+/* =================================================================
+   ERROR PAGE STYLES
+   ================================================================= */
+
+.error-card .card-header .card-title i {
+    color: #e74c3c; /* A distinct red for the error icon */
+}
+
+.dark-theme .error-card .card-header .card-title i {
+    color: #ff6b6b;
+}
+
+.error-message {
+    font-size: 1.1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgba(231, 76, 60, 0.1);
+    border-radius: 5px;
+    color: #c0392b;
+}
+
+.dark-theme .error-message {
+    background-color: rgba(255, 107, 107, 0.15);
+    color: #ff8c8c;
+}
+
+
 /* =================================================================
    DARK THEME STYLES
    Add this entire block to the end of your style.css file
@@ -265,11 +294,11 @@ body {
 }
 
 .dark-theme .btn-submit {
-    background-color: #208338;
+    background-color: #0095D9;
 }
 
 .dark-theme .btn-submit:hover {
-    background-color: #28a745;
+    background-color: #0095D9;
 }
 
 .dark-theme a {
@@ -279,8 +308,6 @@ body {
 .dark-theme a:hover {
     color: #5dade2;
 }
-
-
 
 /* =================================================================
    THEME TOGGLE SWITCH STYLES
