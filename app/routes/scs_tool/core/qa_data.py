@@ -56,12 +56,10 @@ def clean_report(file):
         # Assuming NPU_JSON_PATH is defined in your config.py
         df = npu_check(df, NPU_JSON_PATH)
         
-        
-        
         # --- 5. Save Output ---
         file_buffer.seek(0)
         with pd.ExcelFile(file_buffer, engine='openpyxl') as excel_file:
-            if "ms4" in excel_file.sheet_names:
+            if "ms4" in excel_file.sheet_names or "MS4" in excel_file.sheet_names:
                 file_buffer.seek(0)
                 df_final = av_check(file_buffer)
                 with pd.ExcelWriter(SCS_REGULAR_FILE_PATH) as writer:
