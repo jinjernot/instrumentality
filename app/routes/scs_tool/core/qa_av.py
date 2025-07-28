@@ -3,7 +3,6 @@ import pandas as pd
 import sys
 
 def av_check(file):
-    print("entro a av_check")
     #Cargar la informacion de los archivos en data frames
     try:
         SkuAcc=pd.read_excel(file, sheet_name="SKU Accuracy", engine='openpyxl')
@@ -13,7 +12,6 @@ def av_check(file):
         error_message = f"Could not read the Excel file. Please ensure it contains 'SKU Accuracy' and 'ms4' sheets. Original error: {e}"
         return pd.DataFrame({"ERROR": [error_message]})
         
-    print("encontrados los dataframes")
     #Eliminar expacios excesivos y separar los SKUs y AVs de MS4 de sus regiones
     ms4sku_df=pd.DataFrame(MS4_report["SKU                                     "].str.split('#').str[0])
     ms4av_df=pd.DataFrame(MS4_report["SKU AV                                  "].str.split('#').str[0])
@@ -79,6 +77,5 @@ def av_check(file):
     df_s_final=pd.DataFrame(filter_df["SCS_SKU"]).join(pd.DataFrame(filter_df["ComponentGroup"]).join(filter_df["Component_SCS"]))
     #Eliminar registros duplicados del DataFrame resultante
     df_s_final=df_s_final.drop_duplicates()
-    print("termino? antes de mandar return")
     
     return df_s_final
