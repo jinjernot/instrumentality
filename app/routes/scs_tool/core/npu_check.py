@@ -3,71 +3,68 @@ import pandas as pd
 
 def npu_check(df, npu_json_path):
     """
-    Validates NPU data only for processors explicitly found in the JSON file.
-    If a processor from the report is not in the JSON, it is skipped entirely,
-    leaving its "Additional Information" column untouched.
+    Validates both 'npu' and 'a_processor_nputops' data for processors found in the JSON.
+    
+    This function uses a JSON file where each processor name maps to its expected
+    'npu' type and 'a_processor_nputops' value. If a processor from the report
+    is found in the JSON, the function checks if its corresponding 'npu' and
+    'a_processor_nputops' rows are present and correct. If the processor is not
+    in the JSON, its rows are skipped entirely.
     """
-    print("\n--- [NPU CHECK] Starting NPU Validation (Skip Logic Version) ---")
+    print("\n--- [NPU CHECK] Starting NPU & NPU TOPS Validation ---")
     
     try:
         with open(npu_json_path, 'r', encoding='utf-8') as f:
             npu_data = json.load(f).get("processor", {})
     except (FileNotFoundError, json.JSONDecodeError) as e:
         print(f"❌ [NPU CHECK] ERROR: Failed to load or parse NPU JSON: {e}")
-        # We only mark an error for rows that *would* have been checked.
-        df.loc[df['ContainerName'].isin(['processorname', 'npu']), 'Additional Information'] = 'NPU FAIL - JSON Error'
+        error_mask = df['ContainerName'].isin(['processorname', 'npu', 'a_processor_nputops'])
+        df.loc[error_mask, 'Additional Information'] = 'NPU FAIL - JSON Error'
         return df
 
     if not npu_data:
-        print("⚠️ [NPU CHECK] WARNING: 'processor' key not found in NPU JSON.")
+        print("⚠️ [NPU CHECK] WARNING: 'processor' key not found or empty in NPU JSON.")
         return df
 
-    # Create a reverse map for efficient lookup
-    processor_to_npu_map = {
-        proc_string: npu_type
+    processor_map = {
+        proc_obj['processorname']: {
+            'npu': npu_type,
+            'a_processor_nputops': proc_obj['a_processor_nputops']
+        }
         for npu_type, proc_list in npu_data.items()
-        for proc_string in proc_list
+        for proc_obj in proc_list
     }
 
-    # --- Core Logic: Group by SKU ---
     for sku, group in df.groupby('SKU'):
         
         processor_rows = group[group['ContainerName'] == 'processorname']
-
         if processor_rows.empty:
             continue
 
-        processor_value = processor_rows['ContainerValue'].iloc[0]
+        # Corrected line: Added .strip() to remove whitespace
+        processor_value = processor_rows['ContainerValue'].iloc[0].strip()
         
-        # Determine if the processor from the report is in our JSON map
-        expected_npu_type = None
-        for valid_proc, npu_type in processor_to_npu_map.items():
-            if valid_proc in processor_value:
-                expected_npu_type = npu_type
-                break
+        expected_values = processor_map.get(processor_value)
         
-        # --- Main "Skip" Logic ---
-        if expected_npu_type:
-            # The processor was found in our list, so we proceed with validation.
-            processor_row_index = processor_rows.index[0]
+        if expected_values:
+            # The processor was found. Now, we MUST validate its related fields.
             npu_rows = group[group['ContainerName'] == 'npu']
-            
-            # Default to FAIL for the found processor; it must now prove its 'npu' row is correct.
-            status = "NPU FAIL"
+            a_proc_tops_rows = group[group['ContainerName'] == 'a_processor_nputops']
 
-            if not npu_rows.empty:
-                npu_value = npu_rows['ContainerValue'].iloc[0].strip()
-                if npu_value == expected_npu_type:
-                    # The processor is correct AND the NPU row is present with the correct value.
-                    status = "NPU OK"
+            actual_npu_value = npu_rows['ContainerValue'].iloc[0].strip() if not npu_rows.empty else None
+            actual_a_proc_tops_value = a_proc_tops_rows['ContainerValue'].iloc[0].strip() if not a_proc_tops_rows.empty else None
+
+            npu_ok = actual_npu_value == expected_values['npu']
+            a_proc_tops_ok = actual_a_proc_tops_value == expected_values['a_processor_nputops']
             
-            # Update the status ONLY for the rows we intended to check.
-            df.loc[processor_row_index, 'Additional Information'] = status
-            if not npu_rows.empty:
-                npu_row_index = npu_rows.index[0]
-                df.loc[npu_row_index, 'Additional Information'] = status
+            status = "NPU OK" if npu_ok and a_proc_tops_ok else "NPU FAIL"
+            
+            indices_to_update = processor_rows.index.union(npu_rows.index).union(a_proc_tops_rows.index)
+            df.loc[indices_to_update, 'Additional Information'] = status
+        
         else:
-            # The processor was NOT found in our list, so we do nothing and skip to the next SKU.
+            # This block now helps debug which processors are not being found.
+            print(f"ℹ️ [NPU CHECK] Skipping SKU {sku}: Processor '{processor_value[:40]}...' not found in validation list.")
             continue
 
     print("\n--- [NPU CHECK] Finished Processing ---")
