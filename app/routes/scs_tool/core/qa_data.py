@@ -50,10 +50,7 @@ def clean_report(file):
             json_file_path = os.path.join(SCS_JSON_PATH, json_file)
             df = process_data(json_file_path, container_name, df)
 
-        # --- 4. NEW: NPU Validation Step ---
-        # Call the dedicated function to perform the NPU check.
-        # This is clean and keeps the logic separated.
-        # Assuming NPU_JSON_PATH is defined in your config.py
+        # --- 4. NPU Validation Step ---
         df = npu_check(df, NPU_JSON_PATH)
         
         # --- 5. Save Output ---
